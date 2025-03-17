@@ -1,3 +1,7 @@
 = ci0116_25a_b96804: Analisis de Algoritmos y Estructuras de Datos
 
 Repositorio creado para la entrega de tareas del curso CI0116 Analisis de Algoritmos y Estructuras de Datos
+
+== Contacto
+
+Jeremy Andrey Rojas Cerna, B96804, <jeremy.rojascerna@ucr.ac.cr>
