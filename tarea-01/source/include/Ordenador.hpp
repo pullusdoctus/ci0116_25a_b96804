@@ -14,6 +14,8 @@ class Ordenador {
   private:
   // Metodos auxiliares
   void intercambiar(uint32_t* A, uint32_t i, uint32_t j) const;
+  void mergeSort(uint32_t* A, uint32_t p, uint32_t r) const;
+  void merge(uint32_t* A, uint32_t p, uint32_t q, uint32_t r) const;
   public:
   Ordenador() = default;
   ~Ordenador() = default;
