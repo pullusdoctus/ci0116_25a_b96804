@@ -14,9 +14,15 @@ void Ordenador::ordenamientoPorSeleccion(uint32_t *A, uint32_t n) const {
   }
 }
 void Ordenador::ordenamientoPorInserccion(uint32_t *A, uint32_t n) const {
-  (void)A;
-  (void)n;
-  std::cout << "insercion" << std::endl;
+  for (uint32_t i = 1; i < n; ++i) {
+    uint32_t key = A[i];
+    int j = i - 1;
+    while (j >= 0 && A[j] > key) {
+      A[j + 1] = A[j];
+      --j;
+    }
+    A[j + 1] = key;
+  }
 }
 void Ordenador::ordenamientoPorMezcla(uint32_t *A, uint32_t n) const {
   (void)A;
