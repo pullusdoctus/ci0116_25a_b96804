@@ -1,24 +1,6 @@
 #include "./include/Ordenador.hpp"
 #include "./include/Utilidades.hpp"
-int main() {
-  Ordenador ordenador;
-  Utilidades utilidades;
-  uint32_t A[7] = {7, 3, 4, 76, 2, 53, 22};
-  uint32_t B[7];
-  utilidades.copiarArreglo(A, B, 7);
-  ordenador.ordenamientoRapido(B, 7);
-  std::cout << "A: ";
-  for (int i = 0; i < 7; ++i) {
-    std::cout << A[i] << " ";
-  }
-  std::cout << std::endl;
-  std::cout << "B: ";
-  for (int i = 0; i < 7; ++i) {
-    std::cout << B[i] << " ";
-  }
-  std::cout << std::endl;
-}
-/*
+
 int main() {
   // Instanciar objetos
   Ordenador ordenador;
@@ -69,11 +51,10 @@ int main() {
                 << std::fixed << std::setprecision(6) 
                 << tiempo << " segundos" << std::endl;
     }
-    // Liberar memoria
     delete[] A;
     delete[] B;
   }
   std::cout << "\n-------------------------------------------------------------" << std::endl;
   std::cout << "Fin del programa" << std::endl;
   return 0;
-}*/
+}

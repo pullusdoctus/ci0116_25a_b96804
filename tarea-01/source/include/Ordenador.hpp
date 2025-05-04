@@ -11,35 +11,102 @@ Modified by: Prof. Allan Berrocal, Universidad de Costa Rica
 #include <string>
 
 
+/**
+ * @brief Clase que implementa diversos algoritmos de ordenamiento.
+ */
 class Ordenador {
   private:
-  // Metodos auxiliares
-  // Merge Sort
+  // Métodos auxiliares para Merge Sort
+  /**
+   * @brief Implementa el algoritmo de ordenamiento por mezcla de forma recursiva.
+   *
+   * @param A Arreglo a ordenar.
+   * @param p Índice inicial del subarreglo.
+   * @param r Índice final del subarreglo.
+   */
   void mergeSort(uint32_t* A, uint32_t p, uint32_t r) const;
+  /**
+   * @brief Combina dos subarreglos ordenados en uno solo.
+   *
+   * @param A Arreglo principal.
+   * @param p Índice inicial del primer subarreglo.
+   * @param q Índice final del primer subarreglo.
+   * @param r Índice final del segundo subarreglo.
+   */
   void merge(uint32_t* A, uint32_t p, uint32_t q, uint32_t r) const;
-  // Quicksort
+  // Métodos auxiliares para Quicksort
+  /**
+   * @brief Ordena un subarreglo usando el algoritmo rápido (quicksort).
+   *
+   * @param A Arreglo a ordenar.
+   * @param p Índice inicial del subarreglo.
+   * @param r Índice final del subarreglo.
+   */
   void quicksort(uint32_t* A, int32_t p, int32_t r) const;
+  /**
+   * @brief Particiona el arreglo alrededor de un pivote.
+   *
+   * @param A Arreglo a particionar.
+   * @param p Índice inicial del subarreglo.
+   * @param r Índice final del subarreglo (pivote).
+   * @return uint32_t Índice del pivote después de la partición.
+   */
   uint32_t partition(uint32_t* A, int32_t p, int32_t r) const;
-  // Radix Sort
+  // Métodos auxiliares para Radix Sort
+  /**
+   * @brief Ordena un arreglo usando counting sort para un dígito específico.
+   * 
+   * @param A Arreglo a ordenar.
+   * @param n Tamaño del arreglo.
+   * @param r Número de bits por dígito.
+   * @param exp Dígito actual a considerar.
+   */
   void countingSort(uint32_t* A, uint32_t n, uint32_t r, uint32_t exp) const;
   public:
   Ordenador() = default;
   ~Ordenador() = default;
-  /* Nota:
-   - Si no planea implementar algunos de los métodos de ordenamiento, no los borre.
-   - Simplemente déjelos con el cuerpo vacío para evitar errores de compilación, ya
-     que se ejecutará el mismo main para todas las tareas.
-   - Recuerde hacer uso de programación defensiva y documentar los métodos con formato Doxygen, por ejemplo.
-   - No cambié la firma de los métodos de la clase Ordenador.
-   - No lance excepciones para el manejo de errores.
-     Ante un error, basta con que el método no modifique el arreglo original y que no cause la caída del programa.
-  */ 
 
+  /**
+   * @brief Ordena un arreglo usando el algoritmo de Selection Sort.
+   *
+   * @param A Arreglo a ordenar.
+   * @param n Tamaño del arreglo.
+   */
   void ordenamientoPorSeleccion(uint32_t *A, uint32_t n) const;
+  /**
+   * @brief Ordena un arreglo usando el algoritmo de Insertion Sort.
+   *
+   * @param A Arreglo a ordenar.
+   * @param n Tamaño del arreglo.
+   */
   void ordenamientoPorInserccion(uint32_t *A, uint32_t n) const;
+  /**
+   * @brief Ordena un arreglo usando el algoritmo de Merge Sort.
+   *
+   * @param A Arreglo a ordenar.
+   * @param n Tamaño del arreglo.
+   */
   void ordenamientoPorMezcla(uint32_t *A, uint32_t n) const;
+  /**
+   * @brief Ordena un arreglo usando el algoritmo de Heap Sort.
+   *
+   * @param A Arreglo a ordenar.
+   * @param n Tamaño del arreglo.
+   */
   void ordenamientoPorMonticulos(uint32_t *A, uint32_t n) const;
+  /**
+   * @brief Ordena un arreglo usando el algoritmo de Quicksort.
+   *
+   * @param A Arreglo a ordenar.
+   * @param n Tamaño del arreglo.
+   */
   void ordenamientoRapido(uint32_t *A, uint32_t n) const;
+  /**
+   * @brief Ordena un arreglo usando el algoritmo de Radix Sort.
+   * 
+   * @param A Arreglo a ordenar.
+   * @param n Tamaño del arreglo.
+   */
   void ordenamientoPorResiduos(uint32_t *A, uint32_t n) const;
 
   /**

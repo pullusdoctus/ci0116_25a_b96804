@@ -102,8 +102,8 @@ void Ordenador::quicksort(uint32_t* A, int32_t p, int32_t r) const {
   }
 }
 uint32_t Ordenador::partition(uint32_t* A, int32_t p, int32_t r) const {
-  uint32_t q = A[r];
-  uint32_t i = p - 1;
+  uint32_t q = A[r];  // Indice de pivote
+  uint32_t i = p - 1;  // Indice de elementos menores al pivote
   Utilidades utilidades;
   for (int32_t j = p; j < r; ++j) {
     if (A[j] <= q) {
@@ -116,31 +116,36 @@ uint32_t Ordenador::partition(uint32_t* A, int32_t p, int32_t r) const {
 }
 // Radix Sort
 void Ordenador::ordenamientoPorResiduos(uint32_t *A, uint32_t n) const {
-  const uint32_t bits = sizeof(uint32_t) * 8;
-  const uint32_t r = (uint32_t) log2(n);
-  const uint32_t d = (uint32_t) std::ceil(bits / r);
+  const uint32_t bits = sizeof(uint32_t) * 8;  // cantidad de bits para representar un uin32_t
+  const uint32_t r = (uint32_t) log2(n);  // cantidad de bits por digito
+  const uint32_t d = (uint32_t) std::ceil(bits / r);  // numero de digitos
+  // por cada digito
   for (uint32_t i = 0; i < d; ++i) {
     countingSort(A, n, r, i);
   }
 }
 void Ordenador::countingSort(uint32_t* A, uint32_t n, uint32_t r, uint32_t exp) const {
-  uint32_t k = 1u << r;
-  uint32_t B[k];
-  uint32_t C[n];
+  uint32_t k = 1u << r;  // 2^r dentro del rango de digitos
+  uint32_t B[k];  // Arreglo de conteo
+  uint32_t C[n];  // Arreglo ordenado
   for (uint32_t i = 0; i < k; ++i) {
     B[i] = 0;
   }
+  // Contar veces que aparece un digito en 2^exp
   for (uint32_t i = 0; i < n; ++i) {
-    uint32_t digit = (A[i] >> (r * exp)) & (k - 1);
+    uint32_t digit = (A[i] >> (r * exp)) & (k - 1);  // Extrae el digito especifico aplicandole una mascara AND y un shift a la derecha
     ++B[digit];
   }
+  // Acumular veces
   for (uint32_t i = 1; i < k; ++i) {
     B[i] += B[i - 1];
   }
+  // Construir arreglo ordenado
   for (int i = n - 1; i >= 0 ; --i) {
     uint32_t digit = (A[i] >> (r * exp )) & (k - 1);
     C[--B[digit]] = A[i];
   }
+  // Copiar arreglo ordenado al original
   for (uint32_t i = 0; i < n; ++i) {
     A[i] = C[i];
   }
