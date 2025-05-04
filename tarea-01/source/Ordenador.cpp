@@ -4,6 +4,7 @@
 #include "./include/Heap.hpp"
 #include "./include/Utilidades.hpp"
 
+// Selection Sort
 void Ordenador::ordenamientoPorSeleccion(uint32_t *A, uint32_t n) const {
   for (uint32_t i = 0; i < n; ++i) {
   uint32_t m = i;
@@ -16,6 +17,7 @@ void Ordenador::ordenamientoPorSeleccion(uint32_t *A, uint32_t n) const {
     utilidades.intercambiar(A, i, m);
   }
 }
+// Insertion Sort
 void Ordenador::ordenamientoPorInserccion(uint32_t *A, uint32_t n) const {
   for (uint32_t i = 1; i < n; ++i) {
     uint32_t key = A[i];
@@ -27,33 +29,10 @@ void Ordenador::ordenamientoPorInserccion(uint32_t *A, uint32_t n) const {
     A[j + 1] = key;
   }
 }
+// Merge Sort
 void Ordenador::ordenamientoPorMezcla(uint32_t *A, uint32_t n) const {
   mergeSort(A, 0, n);
 }
-void Ordenador::ordenamientoPorMonticulos(uint32_t *A, uint32_t n) const {
-  // Construir Max Heap
-  Heap* heap = new Heap(A, n);
-  for (uint32_t i = n - 1; i > 0; --i) {
-    Utilidades utilidades;
-    utilidades.intercambiar(A, 0, i);
-    heap->decreaseHeapSize();
-    heap->maxHeapify(A, 0);
-  }
-  delete heap;
-}
-void Ordenador::ordenamientoRapido(uint32_t *A, uint32_t n) const {
-  (void)A;
-  (void)n;
-  std::cout << "rapido" << std::endl;
-}
-void Ordenador::ordenamientoPorResiduos(uint32_t *A, uint32_t n) const {
-  (void)A;
-  (void)n;
-  std::cout << "residuos" << std::endl;
-}
-
-// Metodos auxiliares
-
 void Ordenador::mergeSort(uint32_t* A, uint32_t p, uint32_t r) const {
   if (p >= r) {
     return;
@@ -63,7 +42,6 @@ void Ordenador::mergeSort(uint32_t* A, uint32_t p, uint32_t r) const {
   mergeSort(A, q + 1, r);
   merge(A, p, q, r);
 }
-
 void Ordenador::merge(uint32_t* A, uint32_t p, uint32_t q, uint32_t r) const {
   uint32_t a = q - p + 1;
   uint32_t b = r - q;
@@ -98,4 +76,46 @@ void Ordenador::merge(uint32_t* A, uint32_t p, uint32_t q, uint32_t r) const {
     ++j;
     ++k;
   }
+}
+// Heap Sort
+void Ordenador::ordenamientoPorMonticulos(uint32_t *A, uint32_t n) const {
+  // Construir Max Heap
+  Heap* heap = new Heap(A, n);
+  for (uint32_t i = n - 1; i > 0; --i) {
+    Utilidades utilidades;
+    utilidades.intercambiar(A, 0, i);
+    heap->decreaseHeapSize();
+    heap->maxHeapify(A, 0);
+  }
+  delete heap;
+}
+// Quicksort
+void Ordenador::ordenamientoRapido(uint32_t *A, uint32_t n) const {
+  quicksort(A, 0, n - 1);
+}
+void Ordenador::quicksort(uint32_t* A, int32_t p, int32_t r) const {
+  if (p < r) {
+    uint32_t q = partition(A, p, r);
+    quicksort(A, p, q - 1);
+    quicksort(A, q + 1, r);
+  }
+}
+uint32_t Ordenador::partition(uint32_t* A, int32_t p, int32_t r) const {
+  uint32_t q = A[r];
+  uint32_t i = p - 1;
+  Utilidades utilidades;
+  for (int32_t j = p; j < r; ++j) {
+    if (A[j] <= q) {
+      ++i;
+      utilidades.intercambiar(A, i, j);
+    }
+  }
+  utilidades.intercambiar(A, i + 1, r);
+  return i + 1;
+}
+// Radix Sort
+void Ordenador::ordenamientoPorResiduos(uint32_t *A, uint32_t n) const {
+  (void)A;
+  (void)n;
+  std::cout << "residuos" << std::endl;
 }
