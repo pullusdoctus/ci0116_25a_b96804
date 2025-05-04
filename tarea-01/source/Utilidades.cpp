@@ -1,5 +1,11 @@
 #include "Utilidades.hpp"
 
+void Utilidades::intercambiar(uint32_t* A, uint32_t i, uint32_t j) const {
+  uint32_t temp = A[i];
+  A[i] = A[j];
+  A[j] = temp;
+}
+
 // Función para generar números aleatorios uint32_t
 void Utilidades::generarArreglo(uint32_t* A, uint32_t n) {
   // Configuración del generador de números aleatorios

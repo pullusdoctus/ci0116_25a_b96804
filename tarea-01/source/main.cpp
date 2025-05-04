@@ -6,7 +6,7 @@ int main() {
   uint32_t A[7] = {7, 3, 4, 76, 2, 53, 22};
   uint32_t B[7];
   utilidades.copiarArreglo(A, B, 7);
-  ordenador.ordenamientoPorMezcla(B, 7);
+  ordenador.ordenamientoPorMonticulos(B, 7);
   std::cout << "A: ";
   for (int i = 0; i < 7; ++i) {
     std::cout << A[i] << " ";

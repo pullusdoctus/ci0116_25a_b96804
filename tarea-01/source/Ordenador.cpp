@@ -1,6 +1,8 @@
-#include "./include/Ordenador.hpp"
-
 #include <iostream>
+
+#include "./include/Ordenador.hpp"
+#include "./include/Heap.hpp"
+#include "./include/Utilidades.hpp"
 
 void Ordenador::ordenamientoPorSeleccion(uint32_t *A, uint32_t n) const {
   for (uint32_t i = 0; i < n; ++i) {
@@ -10,7 +12,8 @@ void Ordenador::ordenamientoPorSeleccion(uint32_t *A, uint32_t n) const {
         m = j;
       }
     }
-    this->intercambiar(A, i, m);
+    Utilidades utilidades;
+    utilidades.intercambiar(A, i, m);
   }
 }
 void Ordenador::ordenamientoPorInserccion(uint32_t *A, uint32_t n) const {
@@ -28,9 +31,15 @@ void Ordenador::ordenamientoPorMezcla(uint32_t *A, uint32_t n) const {
   mergeSort(A, 0, n);
 }
 void Ordenador::ordenamientoPorMonticulos(uint32_t *A, uint32_t n) const {
-  (void)A;
-  (void)n;
-  std::cout << "monticulos" << std::endl;
+  // Construir Max Heap
+  Heap* heap = new Heap(A, n);
+  for (uint32_t i = n - 1; i > 0; --i) {
+    Utilidades utilidades;
+    utilidades.intercambiar(A, 0, i);
+    heap->decreaseHeapSize();
+    heap->maxHeapify(A, 0);
+  }
+  delete heap;
 }
 void Ordenador::ordenamientoRapido(uint32_t *A, uint32_t n) const {
   (void)A;
@@ -44,11 +53,6 @@ void Ordenador::ordenamientoPorResiduos(uint32_t *A, uint32_t n) const {
 }
 
 // Metodos auxiliares
-void Ordenador::intercambiar(uint32_t* A, uint32_t i, uint32_t j) const {
-  uint32_t temp = A[i];
-  A[i] = A[j];
-  A[j] = temp;
-}
 
 void Ordenador::mergeSort(uint32_t* A, uint32_t p, uint32_t r) const {
   if (p >= r) {
