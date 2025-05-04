@@ -20,6 +20,8 @@ class Ordenador {
   // Quicksort
   void quicksort(uint32_t* A, int32_t p, int32_t r) const;
   uint32_t partition(uint32_t* A, int32_t p, int32_t r) const;
+  // Radix Sort
+  void countingSort(uint32_t* A, uint32_t n, uint32_t r, uint32_t exp) const;
   public:
   Ordenador() = default;
   ~Ordenador() = default;

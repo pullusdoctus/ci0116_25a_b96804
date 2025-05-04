@@ -1,3 +1,4 @@
+#include <cmath>
 #include <iostream>
 
 #include "./include/Ordenador.hpp"
@@ -115,7 +116,32 @@ uint32_t Ordenador::partition(uint32_t* A, int32_t p, int32_t r) const {
 }
 // Radix Sort
 void Ordenador::ordenamientoPorResiduos(uint32_t *A, uint32_t n) const {
-  (void)A;
-  (void)n;
-  std::cout << "residuos" << std::endl;
+  const uint32_t bits = sizeof(uint32_t) * 8;
+  const uint32_t r = (uint32_t) log2(n);
+  const uint32_t d = (uint32_t) std::ceil(bits / r);
+  for (uint32_t i = 0; i < d; ++i) {
+    countingSort(A, n, r, i);
+  }
+}
+void Ordenador::countingSort(uint32_t* A, uint32_t n, uint32_t r, uint32_t exp) const {
+  uint32_t k = 1u << r;
+  uint32_t B[k];
+  uint32_t C[n];
+  for (uint32_t i = 0; i < k; ++i) {
+    B[i] = 0;
+  }
+  for (uint32_t i = 0; i < n; ++i) {
+    uint32_t digit = (A[i] >> (r * exp)) & (k - 1);
+    ++B[digit];
+  }
+  for (uint32_t i = 1; i < k; ++i) {
+    B[i] += B[i - 1];
+  }
+  for (int i = n - 1; i >= 0 ; --i) {
+    uint32_t digit = (A[i] >> (r * exp )) & (k - 1);
+    C[--B[digit]] = A[i];
+  }
+  for (uint32_t i = 0; i < n; ++i) {
+    A[i] = C[i];
+  }
 }
