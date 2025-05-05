@@ -49,7 +49,7 @@ int main() {
       // Mostrar el tiempo
       std::cout << "Ejecución " << (j + 1) << ": " 
                 << std::fixed << std::setprecision(6) 
-                << tiempo << " segundos" << std::endl;
+                << tiempo << " milisegundos" << std::endl;
     }
     delete[] A;
     delete[] B;

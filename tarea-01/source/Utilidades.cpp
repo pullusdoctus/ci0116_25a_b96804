@@ -55,8 +55,8 @@ double Utilidades::ordenar(const Ordenador& ordenador, uint32_t* A, uint32_t n, 
   }
   // Detener cronómetro
   auto fin = std::chrono::high_resolution_clock::now();
-  // Calcular duración en segundos
-  std::chrono::duration<double> duracion = fin - inicio;
+  // Calcular duración en milisegundos
+  std::chrono::duration<double, std::milli> duracion = fin - inicio;
   return duracion.count();
 }
 
