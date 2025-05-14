@@ -1,7 +1,12 @@
+#include <ctime>
 #include <iostream>
+#include <random>
+
+#include <SinglyLinkedList.hpp>
+#include <Timer.hpp>
 
 void printMenu() {
-  std::cout << "Choose a data structure to test:" << std::endl;
+  std::cout << "\nChoose a data structure to test:" << std::endl;
   std::cout << "\t1. Singly Linked List" << std::endl;
   std::cout << "\t2. Binary Search Tree" << std::endl;
   std::cout << "\t3. Red and Black Tree" << std::endl;
@@ -9,10 +14,71 @@ void printMenu() {
   std::cout << "\nPress '0' to exit" << std::endl;
 }
 
-void printExit() {
-  std::cout << "Cleaning everything up and closing the program..."
-    << std::endl;
-  std::cout << "Goodbye!" << std::endl;
+int genRandomInt(int min, int max) {
+  static std::mt19937 generator(static_cast<unsigned int>(std::time(nullptr)));
+  std::uniform_int_distribution<int> distribution(min, max - 1);
+  return distribution(generator);
+}
+
+void singlyLinkedList() {
+  std::cout << "=== Singly Linked List Tests ===" << std::endl;
+
+  SLList<int>* randomInsertionList = new SLList<int>();
+  std::cout << "-- Random Insertion --" << std::endl;
+  Timer timer;
+  std::cout << "Inserting a million nodes..." << std::endl;
+  timer.start();
+  for (long long counter = 1000000; counter > 0; --counter) {
+    int value = genRandomInt(0, 3000000);
+    randomInsertionList->insert(value);
+  }
+  timer.stop();
+  timer.reportDuration();
+  std::cout << "Searching for ten thousand random nodes..." << std::endl;
+  timer.start();
+  for (long long counter = 10000; counter > 0; --counter) {
+    int value = genRandomInt(0, 3000000);
+    randomInsertionList->search(value);
+  }
+  timer.stop();
+  timer.reportDuration();
+  std::cout << "Deleting ten thousand random nodes..." << std::endl;
+  timer.start();
+  for (long long counter = 10000; counter > 0; --counter) {
+    int value = genRandomInt(0, 3000000);
+    randomInsertionList->remove(value);
+  }
+  timer.stop();
+  timer.reportDuration();
+  delete randomInsertionList;
+
+  SLList<int>* orderedInsertionList = new SLList<int>();
+  std::cout << "\n-- Ordered Insertion --" << std::endl;
+  std::cout << "Inserting a million nodes, in order..." << std::endl;
+  timer.start();
+  for (long long counter = 1000000; counter > 0; --counter) {
+    int value = 1000000 - counter;
+    orderedInsertionList->insert(value);
+  }
+  timer.stop();
+  timer.reportDuration();
+  std::cout << "Searching for ten thousand random nodes..." << std::endl;
+  timer.start();
+  for (long long counter = 10000; counter > 0; --counter) {
+    int value = genRandomInt(0, 3000000);
+    orderedInsertionList->search(value);
+  }
+  timer.stop();
+  timer.reportDuration();
+  std::cout << "Deleting ten thousand random nodes..." << std::endl;
+  timer.start();
+  for (long long counter = 10000; counter > 0; --counter) {
+    int value = genRandomInt(0, 3000000);
+    orderedInsertionList->remove(value);
+  }
+  timer.stop();
+  timer.reportDuration();
+  delete orderedInsertionList;
 }
 
 int main() {
@@ -32,8 +98,7 @@ int main() {
     while ((c = std::cin.get()) != '\n' && c != EOF);
     switch (choice) {
       case 1:
-        // TODO:
-        std::cout << "SLL" << std::endl;
+        singlyLinkedList();
         break;
       case 2:
         // TODO:
@@ -48,7 +113,7 @@ int main() {
         std::cout << "CHT" << std::endl;
         break;
       case 0:
-        printExit();
+        std::cout << "\nGoodbye!" << std::endl;
         break;
       default:
         std::cout << "Please make sure to choose a valid option (0 to 4)"
