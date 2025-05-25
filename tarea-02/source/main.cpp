@@ -3,6 +3,7 @@
 #include <random>
 
 #include <BinarySearchTree.hpp>
+#include <RedBlackTree.hpp>
 #include <SinglyLinkedList.hpp>
 #include <Timer.hpp>
 
@@ -140,6 +141,67 @@ void binarySearchTree() {
   delete orderedInsertionBSTree;
 }
 
+void redBlackTree() {
+  std::cout << "=== Red-Black Tree Tests ===" << std::endl;
+
+  RBTree<int>* randomInsertionRBTree = new RBTree<int>();
+  std::cout << "-- Random Insertion --" << std::endl;
+  Timer timer;
+  std::cout << "Inserting a million nodes..." << std::endl;
+  timer.start();
+  for (long long counter = 1000000; counter > 0; --counter) {
+    int value = genRandomInt(0, 3000000);
+    randomInsertionRBTree->insert(value);
+  }
+  timer.stop();
+  timer.reportDuration();
+  std::cout << "Searching for ten thousand random nodes..." << std::endl;
+  timer.start();
+  for (long long counter = 10000; counter > 0; --counter) {
+    int value = genRandomInt(0, 3000000);
+    randomInsertionRBTree->search(randomInsertionRBTree->getRoot(), value);
+  }
+  timer.stop();
+  timer.reportDuration();
+  std::cout << "Deleting ten thousand random nodes..." << std::endl;
+  timer.start();
+  for (long long counter = 10000; counter > 0; --counter) {
+    int value = genRandomInt(0, 3000000);
+    randomInsertionRBTree->remove(value);
+  }
+  timer.stop();
+  timer.reportDuration();
+  delete randomInsertionRBTree;
+
+  RBTree<int>* orderedInsertionRBTree = new RBTree<int>();
+  std::cout << "\n-- Ordered Insertion --" << std::endl;
+  std::cout << "Inserting a million nodes, in order..." << std::endl;
+  timer.start();
+  for (long long counter = 1000000; counter > 0; --counter) {
+    int value = 1000000 - counter;
+    orderedInsertionRBTree->insert(value);
+  }
+  timer.stop();
+  timer.reportDuration();
+  std::cout << "Searching for ten thousand random nodes..." << std::endl;
+  timer.start();
+  for (long long counter = 10000; counter > 0; --counter) {
+    int value = genRandomInt(0, 3000000);
+    orderedInsertionRBTree->search(orderedInsertionRBTree->getRoot(), value);
+  }
+  timer.stop();
+  timer.reportDuration();
+  std::cout << "Deleting ten thousand random nodes..." << std::endl;
+  timer.start();
+  for (long long counter = 10000; counter > 0; --counter) {
+    int value = genRandomInt(0, 3000000);
+    orderedInsertionRBTree->remove(value);
+  }
+  timer.stop();
+  timer.reportDuration();
+  delete orderedInsertionRBTree;
+}
+
 int main() {
   std::cout << "Welcome!" << std::endl;
   int choice = -1;
@@ -163,8 +225,7 @@ int main() {
         binarySearchTree();
         break;
       case 3:
-        // TODO:
-        std::cout << "RBT" << std::endl;
+        redBlackTree();
         break;
       case 4:
         // TODO:
