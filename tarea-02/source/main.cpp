@@ -3,6 +3,7 @@
 #include <random>
 
 #include <BinarySearchTree.hpp>
+#include <ChainedHashTable.hpp>
 #include <RedBlackTree.hpp>
 #include <SinglyLinkedList.hpp>
 #include <Timer.hpp>
@@ -202,6 +203,67 @@ void redBlackTree() {
   delete orderedInsertionRBTree;
 }
 
+void hashTable() {
+  std::cout << "=== Hash Table Tests ===" << std::endl;
+
+  ChainedHashTable<int>* randomTable = new ChainedHashTable<int>(1000000);
+  std::cout << "-- Random Insertion --" << std::endl;
+  Timer timer;
+  std::cout << "Inserting a million nodes..." << std::endl;
+  timer.start();
+  for (long long counter = 1000000; counter > 0; --counter) {
+    int value = genRandomInt(0, 3000000);
+    randomTable->insert(value);
+  }
+  timer.stop();
+  timer.reportDuration();
+  std::cout << "Searching for ten thousand random nodes..." << std::endl;
+  timer.start();
+  for (long long counter = 10000; counter > 0; --counter) {
+    int value = genRandomInt(0, 3000000);
+    randomTable->search(value);
+  }
+  timer.stop();
+  timer.reportDuration();
+  std::cout << "Deleting ten thousand random nodes..." << std::endl;
+  timer.start();
+  for (long long counter = 10000; counter > 0; --counter) {
+    int value = genRandomInt(0, 3000000);
+    randomTable->remove(value);
+  }
+  timer.stop();
+  timer.reportDuration();
+  delete randomTable;
+
+  ChainedHashTable<int>* orderedTable = new ChainedHashTable<int>(1000000);
+  std::cout << "\n-- Ordered Insertion --" << std::endl;
+  std::cout << "Inserting a million nodes, in order..." << std::endl;
+  timer.start();
+  for (long long counter = 1000000; counter > 0; --counter) {
+    int value = 1000000 - counter;
+    orderedTable->insert(value);
+  }
+  timer.stop();
+  timer.reportDuration();
+  std::cout << "Searching for ten thousand random nodes..." << std::endl;
+  timer.start();
+  for (long long counter = 10000; counter > 0; --counter) {
+    int value = genRandomInt(0, 3000000);
+    orderedTable->search(value);
+  }
+  timer.stop();
+  timer.reportDuration();
+  std::cout << "Deleting ten thousand random nodes..." << std::endl;
+  timer.start();
+  for (long long counter = 10000; counter > 0; --counter) {
+    int value = genRandomInt(0, 3000000);
+    orderedTable->remove(value);
+  }
+  timer.stop();
+  timer.reportDuration();
+  delete orderedTable;
+}
+
 int main() {
   std::cout << "Welcome!" << std::endl;
   int choice = -1;
@@ -228,8 +290,7 @@ int main() {
         redBlackTree();
         break;
       case 4:
-        // TODO:
-        std::cout << "CHT" << std::endl;
+        hashTable();
         break;
       case 0:
         std::cout << "\nGoodbye!" << std::endl;
