@@ -18,20 +18,11 @@ class ChainedHashTable {
 
   ~ChainedHashTable() { this->table.clear(); }
 
-  void insert(const DataType& value) {
-    size_t index = this->hash(value);
-    this->table[index].insert(value);
-  }
+  void insert(const DataType& value);
 
-  DLListNode<DataType>* search(const DataType& value) const {
-    size_t index = this->hash(value);
-    return this->table[index].search(value);
-  }
+  DLListNode<DataType>* search(const DataType& value) const;
 
-  void remove(const DataType& value) {
-    size_t index = this->hash(value);
-    this->table[index].remove(value);
-  }
+  void remove(const DataType& value);
 
   size_t hash(const DataType& value) const
     { return (size_t)(value % this->size); }
