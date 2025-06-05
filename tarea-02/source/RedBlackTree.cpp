@@ -130,6 +130,7 @@ void RBTree<DataType>::rightRotate(RBTreeNode<DataType>* x) {
 template <typename DataType>
 void RBTree<DataType>::remove(const DataType &value) {
   RBTreeNode<DataType>* z = this->search(this->root, value);
+  if (z == this->nil) return;
   RBTreeNode<DataType>* y = z;
   RBTreeNode<DataType>* x = nullptr;
   enum colors yOriginalColor = y->color;
@@ -163,6 +164,7 @@ void RBTree<DataType>::remove(const DataType &value) {
   }
   // if any red-black violations occured, correc them
   if (yOriginalColor == BLACK) this->removeFixup(x);
+  delete z;
 }
 
 template <typename DataType>
@@ -209,7 +211,7 @@ void RBTree<DataType>::removeFixup(RBTreeNode<DataType>* x) {
       }
     } else {  // x is a right child
       // x's sibling
-      RBTreeNode<DataType>* w = x->parent->right;
+      RBTreeNode<DataType>* w = x->parent->left;
       if (w->color == RED) {
         // case 1
         w->color = BLACK;

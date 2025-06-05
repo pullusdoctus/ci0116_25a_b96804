@@ -45,6 +45,8 @@ class RBTreeNode {
 
   void setRight(RBTreeNode<DataType> *right) { this->right = right; }
 
+  void setColor(enum colors newColor) { this->color = newColor; }
+
  private:
   DataType key;
 
