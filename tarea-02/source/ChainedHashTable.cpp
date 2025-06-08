@@ -3,7 +3,8 @@
 template <typename DataType>
 void ChainedHashTable<DataType>::insert(const DataType& value) {
   size_t index = this->hash(value);
-  this->table[index].insert(value);
+  if (this->table[index].search(value) != this->table[index].getNil())
+    this->table[index].insert(value);
 }
 
 template <typename DataType>

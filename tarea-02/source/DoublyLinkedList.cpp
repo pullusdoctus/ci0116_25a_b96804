@@ -23,10 +23,12 @@ DLList<DataType>::DLList() {
 template <typename DataType>
 void DLList<DataType>::insert(const DataType& value) {
   // newNode has the old head as next, nil as prev
+  DLListNode<DataType>* oldHead = this->nil->next;
   DLListNode<DataType>* newNode
     = new DLListNode<DataType>(value, this->nil->next, this->nil);
   // newNode is the head
   this->nil->next = newNode;
+  if (oldHead != this->nil) oldHead->prev = newNode;
 }
 
 template <typename DataType>
