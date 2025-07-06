@@ -157,6 +157,17 @@ std::vector<int> Pathfinder::reconstructPath(int origin, int destiny) {
   return path;
 }
 
+int Pathfinder::findClosest(int origin) {
+  int closest = -1, n = this->distances.size();
+  // for every adjacent city
+  for (int i = 0; i < n; ++i) {
+    // find the one that's closest to the origin city
+    if (this->distances[origin][i] > closest)
+      closest = i;
+  }
+  return closest;
+}
+
 void Pathfinder::printData() {
   this->printDistances();
   this->printParents();
@@ -273,4 +284,39 @@ void Pathfinder::printPath(const std::vector<int>& path) {
     if (i < path.size() - 1) std:: cout << " -> ";
   }
   std::cout << std::endl;
+}
+
+void Pathfinder::promptFindHelpToCity() {
+  std::cout << "\n== Find Helper City ==" << std::endl;
+  std::cout << "Choose a city (by number) that you wish to find"
+    " the closest city to it, in order to send help:" << std::endl;
+  while (true) {
+    std::cout << "0. Exit" << std::endl;
+    this->printCities();
+    long unsigned int choice = 0;
+    std::cin >> choice;
+    if (choice > this->cities.size()) {
+      std::cout << "\nInvalid choice. Please make sure you entered a valid number"
+        << std::endl;
+      std::cout << "Press Enter to continue..." << std::endl;
+      std::cin.ignore();
+      std::cin.get();
+    }
+    else if (choice == 0) return;
+    else {
+      int closest = this->findClosest(--choice);
+      std::cout << "\nThe closest city to " << this->cities[choice]
+        << " is " << this->cities[closest] << std::endl;
+      std::cout << "Press Enter to continue..." << std::endl;
+      std::cin.ignore();
+      std::cin.get();
+    }
+  }
+}
+
+void Pathfinder::printCities() {
+  int n = this->cities.size();
+  for (int i = 0; i < n; ++i) {
+    std::cout << i + 1 << ". " << this->cities[i] << std::endl;
+  }
 }

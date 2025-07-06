@@ -37,9 +37,10 @@ class Pathfinder {
   std::vector<int> mostDistantPair(int& origin, int& destiny, int& time);
   /// Finds the pair of cities which are the closest from each other
   std::vector<int> closestPair(int& origin, int& destiny, int& time);
-
   /// Reconstructs a path from an origin city to a destiny city
   std::vector<int> reconstructPath(int origin, int destiny);
+  /// Finds the closest city from the origin city
+  int findClosest(int origin);
 
   /// Prints all data related to the functionalities needed
   /// Underneath, calls every other print method in this class
@@ -52,6 +53,10 @@ class Pathfinder {
   void printByAverage();
   /// Prints a path from an origin city to a destiny city
   void printPath(const std::vector<int>& path);
+  /// Prompts the user to select a city, then finds and displays the closest city to send help from
+  void promptFindHelpToCity();
+  /// Prints the list of loaded cities
+  void printCities();
 
   // Getters
   std::vector<std::string>& getCities() { return this->cities; }

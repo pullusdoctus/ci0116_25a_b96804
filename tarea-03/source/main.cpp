@@ -38,6 +38,7 @@ int main() {
   pf.floydWarshall();
 
   pf.printData();
+  pf.promptFindHelpToCity();
 
   return 0;
 }
