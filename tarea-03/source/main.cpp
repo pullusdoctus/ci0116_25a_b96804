@@ -30,35 +30,18 @@ int main() {
   }
 
   std::vector<std::vector<int>> matrix;
-  csvToMatrix(csv, matrix);
-  std::cout << "== Matrix data ==" << std::endl;
-  printMatrix(matrix);
+  std::vector<std::string> cities;
+  csvToMatrix(csv, matrix, cities);
 
-  Pathfinder pf = Pathfinder(filenames, matrix);
-  std::cout << "\nAdjacency Matrix before Floyd-Warshall:" << std::endl;
-  printMatrix(pf.getDistances());
-  std::cout << "\nParents' Matrix before Floyd-Warshall:" << std::endl;
-  printMatrix(pf.getParents());
+  Pathfinder pf = Pathfinder(cities, matrix);
+  std::cout << "\nBefore Floyd-Warshall:" << std::endl;
+  pf.printDistances();
+  pf.printParents();
 
   pf.floydWarshall();
-  std::cout << "\nAdjacency Matrix after Floyd-Warshall:" << std::endl;
-  printMatrix(pf.getDistances());
-  std::cout << "\nParents' Matrix after Floyd-Warshall:" << std::endl;
-  printMatrix(pf.getParents());
+  std::cout << "\nAfter Floyd-Warshall:" << std::endl;
+  pf.printDistances();
+  pf.printParents();
 
   return 0;
-}
-
-void printMatrix(const std::vector<std::vector<int>>& matrix) {
-  int n = matrix.size();
-  std::cout << "Matrix (" << n << "x" << n << "):" << std::endl;
-  for (const auto& row : matrix) {
-    for (int value : row) {
-      std::cout << "[ ";
-      if (value == -1) std::cout << "∞";
-      else std::cout << value;
-      std::cout << " ]\t";
-    }
-    std::cout << std::endl;
-  }
 }

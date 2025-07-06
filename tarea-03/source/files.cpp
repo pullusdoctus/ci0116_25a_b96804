@@ -34,13 +34,14 @@ std::ifstream openCSV(const std::string& filename) {
 }
 
 void csvToMatrix(std::ifstream& file, std::vector<std::vector<int>>& matrix,
-                 int defaultValue) {
+                 std::vector<std::string>& cities, int defaultValue) {
   std::string line;
   // skip header
   if (!std::getline(file, line)) {
     throw std::runtime_error("CSV is empty or has no header");
   }
   int maxID = -1;
+  std::unordered_map<int, std::string> idToName;
   std::vector<std::tuple<int, int, int>> edges;  // source_id, target_id, weight
   // read a line from the file
   while (std::getline(file, line)) {
@@ -58,6 +59,9 @@ void csvToMatrix(std::ifstream& file, std::vector<std::vector<int>>& matrix,
     int weight = std::stoi(weightStr);
     // find biggest ID to size matrix
     maxID = std::max(std::max(maxID, sourceID), targetID);
+    // store the names
+    idToName[sourceID] = sourceName;
+    idToName[targetID] = targetName;
     // store the edges
     edges.emplace_back(sourceID, targetID, weight);
   }
@@ -72,5 +76,10 @@ void csvToMatrix(std::ifstream& file, std::vector<std::vector<int>>& matrix,
   // set distances from weights gathered from file
   for (const auto& [u, v, w] : edges) {
     matrix[u][v] = w;
+  }
+  // fill city names array
+  cities.assign(n, "");
+  for (const auto& [id, name] : idToName) {
+    cities[id] = name;
   }
 }

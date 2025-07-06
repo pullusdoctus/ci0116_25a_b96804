@@ -1,10 +1,17 @@
 #include "pathfinder.hpp"
+#include <iostream>
+#include <iomanip>
 
 Pathfinder::Pathfinder(std::vector<std::string>& cities,
                        std::vector<std::vector<int>>& distances)
-  : cities(cities), distances(distances) {
+  : cities(cities), distances(distances), cityNameMaxLength(0) {
   this->parents.resize(distances.size(), std::vector<int>(distances.size()));
   this->populateParents();
+  // find the maximum length for city names
+  for (const std::string& name : this->cities) {
+    if (name.length() > this->cityNameMaxLength)
+      this->cityNameMaxLength = name.length();
+  }
 }
 
 Pathfinder::~Pathfinder() {
@@ -41,4 +48,57 @@ void Pathfinder::floydWarshall() {
       }
     }
   }
+}
+
+void Pathfinder::dijkstra() {  // TODO:
+}
+
+void Pathfinder::printDistances() {
+  int n = this->distances.size();
+  int fieldWidth = this->cityNameMaxLength + 4;
+  std::cout << "Distance Matrix (" << n << "x" << n << "):" << std::endl;
+  // top header
+  std::cout << std::setw(fieldWidth) << "";  // empty top left
+  for (const auto& name : this->cities) {
+    std::cout << std::setw(fieldWidth) << name;
+  }
+  std::cout << std::endl;
+  // rows
+  for (int i = 0; i < n; ++i) {
+    std::cout << std::setw(fieldWidth) << cities[i];  // row label
+    for (int j = 0; j < n; ++j) {
+      if (this->distances[i][j] == -1)
+        std::cout << std::setw(fieldWidth) << "[∞]";
+      else
+        std::cout << std::setw(fieldWidth)
+          << ('[' + std::to_string(this->distances[i][j]) + ']');
+    }
+    std::cout << std::endl;
+  }
+  std::cout << std::endl;
+}
+
+void Pathfinder::printParents() {
+  int n = this->distances.size();
+  int fieldWidth = this->cityNameMaxLength + 4;
+  std::cout << "Parent Matrix (" << n << "x" << n << "):" << std::endl;
+  // top header
+  std::cout << std::setw(fieldWidth) << "";  // empty top left
+  for (const auto& name : this->cities) {
+    std::cout << std::setw(fieldWidth) << name;
+  }
+  std::cout << std::endl;
+  // rows
+  for (int i = 0; i < n; ++i) {
+    std::cout << std::setw(fieldWidth) << cities[i];  // row label
+    for (int j = 0; j < n; ++j) {
+      if (this->parents[i][j] == -1)
+        std::cout << std::setw(fieldWidth) << "[-]";
+      else
+        std::cout << std::setw(fieldWidth)
+          << ('[' + std::to_string(this->parents[i][j]) + ']');
+    }
+    std::cout << std::endl;
+  }
+  std::cout << std::endl;
 }
