@@ -14,8 +14,21 @@ Esta última tarea programada resuelve un problema de logística utilizando algo
 
 ## Compilación y ejecución
 
-TODO
+Para su facilidad, se provee un archivo Makefile con los siguientes comandos:
+
+```bash
+# compila el programa en caso de ser necesario
+make
+
+# ejecuta el programa
+make run
+
+# elimina archivos binarios generados durante la compilación
+make clean
+```
+
+Además de ejecutar el programa con `make run`, también se puede ejecutar directamente desde la terminal. El binario ejecutable se encuentra en el directorio 'bin', generado durante la compilación. Desde `ci0116-25a-b96804/tarea-03`, el comando de ejecución es `bin/executable`.
 
 ## Resultados
 
-TODO
+Para un reporte detallado de los resultados, ver el directorio [doc](./doc/).
