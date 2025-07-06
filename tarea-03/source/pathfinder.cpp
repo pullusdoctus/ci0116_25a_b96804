@@ -162,13 +162,24 @@ std::vector<int> Pathfinder::reconstructPath(int origin, int destiny) {
   return path;
 }
 
-int Pathfinder::findClosest(int origin) {
-  int closest = -1, n = this->distances.size();
+std::vector<int> Pathfinder::findClosest(int origin) {
+  int min = INT_MAX, n = this->distances.size();
+  std::vector<int> closest;
   // for every adjacent city
   for (int i = 0; i < n; ++i) {
-    // find the one that's closest to the origin city
-    if (this->distances[origin][i] > closest)
-      closest = i;
+    // skip the origin city and invalid connections
+    if (i != origin && this->distances[origin][i] > -i) {
+      int distance = this->distances[origin][i];
+      // find the one that's closest to the origin city
+      if (distance < min) {
+        min = distance;
+        closest.clear();
+        closest.push_back(i);
+      } else if (distance == min) {
+        // if another candidate is found
+        closest.push_back(i);
+      }
+    }
   }
   return closest;
 }
@@ -333,9 +344,21 @@ void Pathfinder::promptFindHelpToCity() {
     }
     else if (choice == 0) return;
     else {
-      int closest = this->findClosest(--choice);
-      std::cout << "\nThe closest city to " << this->cities[choice]
-        << " is " << this->cities[closest] << std::endl;
+      std::vector<int> closest = this->findClosest(--choice);
+      if (closest.empty()) {
+        std::cout << "\nNo helper city found from " << this->cities[choice]
+          << std::endl;
+      } else if (closest.size() == 1) {
+        std::cout << "\nThe closest city to " << this->cities[choice]
+          << " is " << this->cities[closest[0]] << std::endl;
+      } else {
+        std::cout << "\nThe closest cities to " << this->cities[choice]
+          << " are: " << std::endl;
+        int n = closest.size();
+        for (int i = 0; i < n; ++i) {
+          std::cout << " " << this->cities[closest[i]] << std::endl;
+        }
+      }
       std::cout << "Press Enter to continue..." << std::endl;
       std::cin.ignore();
       std::cin.get();

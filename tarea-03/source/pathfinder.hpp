@@ -40,8 +40,8 @@ class Pathfinder {
   std::vector<int> closestPair(int& origin, int& destiny, int& time);
   /// Reconstructs a path from an origin city to a destiny city
   std::vector<int> reconstructPath(int origin, int destiny);
-  /// Finds the closest city from the origin city
-  int findClosest(int origin);
+  /// Finds the closest cities from the origin city
+  std::vector<int> findClosest(int origin);
 
   /// Prints the distances matrix labeled with the city names
   void printDistances();
