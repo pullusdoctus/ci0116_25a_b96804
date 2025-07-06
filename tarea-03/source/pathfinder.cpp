@@ -229,14 +229,29 @@ void Pathfinder::printHub() {
     std::cout << "\nNo valid hubs found." << std::endl;
     return;
   }
-  if (hubs.size() == 1)
+  if (hubs.size() == 1) {
     std::cout << "\nThe best city to use as a hub is " << this->cities[hubs[0]]
       << std::endl;
-  else {
+    int n = hubs.size();
+    int total = 0;
+    for (int i = 0; i < n; ++i) {
+      if (i != hubs[0] && this->distances[hubs[0]][i] != -1)
+        total += this->distances[hubs[0]][i];
+    }
+    std::cout << "\nThe total distance from this city is " << total
+      << std::endl;
+  } else {
     std::cout << "\nThe best cities to use as hubs are:" << std::endl;
     int n = hubs.size();
     for (int i = 0; i < n; ++i) {
       std::cout << " " << this->cities[hubs[i]] << std::endl;
+      int total = 0;
+      for (int j = 0; j < n; ++j) {
+        if (i != j && this->distances[i][j] != -1)
+          total += this->distances[i][j];
+      }
+      std::cout << "The total distance from this city is " << total
+        << std::endl;
     }
   }
 }
