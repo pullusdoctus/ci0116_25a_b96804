@@ -3,6 +3,13 @@
 #include <string>
 #include <vector>
 
+struct CityPair {
+  int origin;
+  int destiny;
+  int time;
+  std::vector<int> path;
+};
+
 class Pathfinder {
  private:
   /// Array containing city names
@@ -34,10 +41,10 @@ class Pathfinder {
   std::vector<int> bestHubs();
   /// Find the closest city to send help to another, target city
   int bestCityToHelp(int target);
-  /// Finds the pair of cities which are the furthest from each other
-  std::vector<int> mostDistantPair(int& origin, int& destiny, int& time);
-  /// Finds the pair of cities which are the closest from each other
-  std::vector<int> closestPair(int& origin, int& destiny, int& time);
+  /// Finds the pairs of cities which are the furthest from each other
+  std::vector<CityPair> mostDistantPairs();
+  /// Finds the pairs of cities which are the closest from each other
+  std::vector<CityPair> closestPairs();
   /// Reconstructs a path from an origin city to a destiny city
   std::vector<int> reconstructPath(int origin, int destiny);
   /// Finds the closest cities from the origin city
