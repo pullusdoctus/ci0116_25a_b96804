@@ -1,3 +1,4 @@
+#include "pathfinder.hpp"
 #include "files.hpp"
 #include <iostream>
 
@@ -32,12 +33,25 @@ int main() {
   csvToMatrix(csv, matrix);
   std::cout << "== Matrix data ==" << std::endl;
   printMatrix(matrix);
+
+  Pathfinder pf = Pathfinder(filenames, matrix);
+  std::cout << "\nAdjacency Matrix before Floyd-Warshall:" << std::endl;
+  printMatrix(pf.getDistances());
+  std::cout << "\nParents' Matrix before Floyd-Warshall:" << std::endl;
+  printMatrix(pf.getParents());
+
+  pf.floydWarshall();
+  std::cout << "\nAdjacency Matrix after Floyd-Warshall:" << std::endl;
+  printMatrix(pf.getDistances());
+  std::cout << "\nParents' Matrix after Floyd-Warshall:" << std::endl;
+  printMatrix(pf.getParents());
+
   return 0;
 }
 
 void printMatrix(const std::vector<std::vector<int>>& matrix) {
   int n = matrix.size();
-  std::cout << "Adjacency Matrix (" << n << "x" << n << "):" << std::endl;
+  std::cout << "Matrix (" << n << "x" << n << "):" << std::endl;
   for (const auto& row : matrix) {
     for (int value : row) {
       std::cout << "[ ";
