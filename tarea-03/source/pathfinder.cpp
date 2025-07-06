@@ -184,6 +184,28 @@ std::vector<int> Pathfinder::findClosest(int origin) {
   return closest;
 }
 
+std::vector<int> Pathfinder::findHelpers(int destination) {
+  int n = this->distances.size(), min = INT_MAX;
+  std::vector<int> helpers;
+  // for every city
+  for (int i = 0; i < n; ++i) {
+    // skip the destination city and invalid connections
+    if (i != destination && this->distances[i][destination] != -1) {
+      int distance = this->distances[i][destination];
+      // find the one that's closest to the destination city
+      if (distance < min) {
+        min = distance;
+        helpers.clear();
+        helpers.push_back(i);
+      } else if (distance == min) {
+        // if another candidate is found
+        helpers.push_back(i);
+      }
+    }
+  }
+  return helpers;
+}
+
 void Pathfinder::printDistances() {
   int n = this->distances.size();
   int fieldWidth = this->cityNameMaxLength + 4;
@@ -249,7 +271,7 @@ void Pathfinder::printHub() {
       if (i != hubs[0] && this->distances[hubs[0]][i] != -1)
         total += this->distances[hubs[0]][i];
     }
-    std::cout << "\nThe total distance from this city is " << total
+    std::cout << "The total distance from this city is " << total
       << std::endl;
   } else {
     std::cout << "\nThe best cities to use as hubs are:" << std::endl;
@@ -344,19 +366,31 @@ void Pathfinder::promptFindHelpToCity() {
     }
     else if (choice == 0) return;
     else {
-      std::vector<int> closest = this->findClosest(--choice);
+      std::vector<int> closest = this->findHelpers(--choice);
       if (closest.empty()) {
-        std::cout << "\nNo helper city found from " << this->cities[choice]
+        std::cout << "\nNo helper city found for " << this->cities[choice]
           << std::endl;
       } else if (closest.size() == 1) {
         std::cout << "\nThe closest city to " << this->cities[choice]
           << " is " << this->cities[closest[0]] << std::endl;
+        std::cout << "The time taken from " << this->cities[closest[0]]
+          << " to " << this->cities[choice] << " is "
+          << this->distances[closest[0]][choice]
+          << ", and the route is:" << std::endl;
+        std::vector<int> path = this->reconstructPath(closest[0], choice);
+        this->printPath(path);
       } else {
         std::cout << "\nThe closest cities to " << this->cities[choice]
           << " are: " << std::endl;
         int n = closest.size();
         for (int i = 0; i < n; ++i) {
           std::cout << " " << this->cities[closest[i]] << std::endl;
+          std::cout << "The time taken from " << this->cities[closest[i]]
+            << " to " << this->cities[choice] << " is "
+            << this->distances[closest[i]][choice] << ", and the route is:"
+            << std::endl;
+          std::vector<int> path = this->reconstructPath(closest[i], choice);
+          this->printPath(path);
         }
       }
       std::cout << "Press Enter to continue..." << std::endl;

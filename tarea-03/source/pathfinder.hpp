@@ -42,6 +42,8 @@ class Pathfinder {
   std::vector<int> reconstructPath(int origin, int destiny);
   /// Finds the closest cities from the origin city
   std::vector<int> findClosest(int origin);
+  /// Finds helper cities to the destination city
+  std::vector<int> findHelpers(int destination);
 
   /// Prints the distances matrix labeled with the city names
   void printDistances();
