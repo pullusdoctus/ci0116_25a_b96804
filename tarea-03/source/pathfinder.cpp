@@ -55,10 +55,10 @@ void Pathfinder::floydWarshall() {
 void Pathfinder::dijkstra() {  // TODO:
 }
 
-int Pathfinder::bestHub() {
+std::vector<int> Pathfinder::bestHubs() {
   int n = this->distances.size();
-  int best = -1;
   int min = INT_MAX;
+  std::vector<int> bestHubs;
   // for every city
   for (int i = 0; i < n; ++i) {
     // find the total distance to every other city
@@ -71,10 +71,15 @@ int Pathfinder::bestHub() {
     if (total < min) {
       // this city is the new best hub
       min = total;
-      best = i;
+      bestHubs.clear();
+      bestHubs.push_back(i);
+    } else if (total == min) {
+      // add this other city as a candidate if its total equals the
+      // minimum distance found
+      bestHubs.push_back(i);
     }
   }
-  return best;
+  return bestHubs;
 }
 
 int Pathfinder::bestCityToHelp(int target) {
@@ -219,9 +224,21 @@ void Pathfinder::printParents() {
 }
 
 void Pathfinder::printHub() {
-  int hub = this->bestHub();
-  std::cout << "\nThe best city to use as a hub is " << this->cities[hub]
-    << std::endl;
+  std::vector<int> hubs = this->bestHubs();
+  if (hubs.empty()) {
+    std::cout << "\nNo valid hubs found." << std::endl;
+    return;
+  }
+  if (hubs.size() == 1)
+    std::cout << "\nThe best city to use as a hub is " << this->cities[hubs[0]]
+      << std::endl;
+  else {
+    std::cout << "\nThe best cities to use as hubs are:" << std::endl;
+    int n = hubs.size();
+    for (int i = 0; i < n; ++i) {
+      std::cout << " " << this->cities[hubs[i]] << std::endl;
+    }
+  }
 }
 
 void Pathfinder::printMostDistantPair() {

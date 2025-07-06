@@ -30,8 +30,8 @@ class Pathfinder {
   /// NOTE: was not needed; is not implemented
   void dijkstra();
 
-  /// Finds the best city to assign as a distribution hub
-  int bestHub();
+  /// Finds the best cities to assign as distribution hubs
+  std::vector<int> bestHubs();
   /// Find the closest city to send help to another, target city
   int bestCityToHelp(int target);
   /// Finds the pair of cities which are the furthest from each other
