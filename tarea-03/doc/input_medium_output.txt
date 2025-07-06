@@ -1,0 +1,5609 @@
+=== List of CSV files in input directory ===
+ - input_large.csv
+ - input_medium.csv
+ - input_small.csv
+Enter filename to load (must be inside input directory): input_medium.csv
+Loading, please wait...
+== Requests ==
+Choose an option:
+0. Exit
+1. Find Hub City
+2. Find Helper City
+3. Find Most Distant Pair
+4. Find Closest Pair
+5. List Cities by Average Distance
+
+1
+The best city to use as a hub is Paquera
+The total distance from this city is 3
+0. Exit
+1. Find Hub City
+2. Find Helper City
+3. Find Most Distant Pair
+4. Find Closest Pair
+5. List Cities by Average Distance
+
+== Find Helper City ==
+Choose a city (by number) that you wish to find the closest city to it, in order to send help:
+0. Exit
+1. Pocora
+2. Hojancha
+3. Golfito
+4. Bahía Ballena
+5. Tambor
+6. Patio de Agua
+7. San Rafael Piedades
+8. San Rafael Parrita
+9. San Miguel Viejo
+10. San Juan Arriba
+11. Cañas Dulces
+12. Turrúcares
+13. Isla del Coco
+14. Monte Romo
+15. Río Blanco
+16. Grifo Alto
+17. Acapulco
+18. Hacienda Vieja
+19. Dos Ríos
+20. Tobosi
+21. Candelaria
+22. Zapotal
+23. Duacarí
+24. Sarapiquí
+25. Bolsón
+26. Pavas
+27. Rancho Redondo
+28. Atenas
+29. Quebrada Honda
+30. Bijagua
+31. Los Guido
+32. Patarrá
+33. Granadilla
+34. Santiago Poás
+35. Catedral
+36. Piedras Negras
+37. Santa Rosa Viejo
+38. Nosara
+39. Chomes
+40. Garita
+41. San José Norte
+42. Santa Rosa Abajo
+43. Veintisiete de Abril
+44. Florida
+45. Jesús Piedad
+46. San Rafael Viejo
+47. Daniel Flores
+48. Palmitos
+49. Patalillo
+50. Sabalito
+51. San Isidro Labrador
+52. Guacimal
+53. Matambú
+54. San Isidro de El General
+55. Germania
+56. Llanuras del Gaspar
+57. Manzanillo
+58. Aguas Claras
+59. Cabo Velas
+60. Santiago Nuevo
+61. Río Azul
+62. San Jerónimo Arriba
+63. Bebedero
+64. Limón
+65. Palmares
+66. Cartagena
+67. Chirripó
+68. Puerto Carrillo
+69. Capellades
+70. San Marcos
+71. Lagunillas
+72. La Unión
+73. Las Horquetas
+74. Santiago
+75. La Suiza
+76. Palmiralito
+77. Cutris
+78. Tres Equis
+79. Santiago Puriscal
+80. Reventazón
+81. Buenavista
+82. Dulce Nombre de Jesús
+83. San Francisco Abajo
+84. Guácimo
+85. Cirrí Sur
+86. Volcán
+87. Tempate
+88. Pitahaya
+89. Peñas Blancas
+90. Los Chiles
+91. Cabeceras
+92. El Ángel
+93. San Pedro Sur
+94. Bolívar
+95. La Trinidad
+96. Juan Viñas
+97. Río Cuarto
+98. Palmira
+99. San Isidro Abajo
+100. Laguna
+101. San Pablo Arriba
+102. Roxana
+103. Pará
+104. Mercedes Abajo
+105. San Pedro Antiguo
+106. Dulce Nombre Oeste
+107. Santa Cruz
+108. Los Ángeles
+109. Biolley
+110. Naranjo
+111. Mata Redonda
+112. Santa Rosa Nuevo
+113. Quepos
+114. Telire
+115. Colorado
+116. Tirrases
+117. Canalete
+118. Desamparados Sur
+119. Puntarenas
+120. Heredia
+121. Pilas
+122. Picagres
+123. Frailes
+124. Barranca
+125. Varablanca
+126. San Felipe
+127. Chira
+128. Tucurrique
+129. San Pablo Este
+130. Tures
+131. El Roble
+132. Ulloa
+133. Oriental
+134. San Gabriel
+135. Santo Domingo
+136. Delicias
+137. Savegre
+138. El Cairo
+139. Porvenir
+140. Paquera
+141. San Carlos
+142. Candelarita
+143. San Roque
+144. Monterrey Abajo
+145. Caldera
+146. Esquipulas
+147. Mayorga
+148. Pavón
+149. Tabarcia
+150. Carrillos
+151. Palmar
+152. Yolillal
+153. Matama
+154. Labrador
+155. Cuajiniquil
+156. Santa Isabel
+157. Pejibayes
+158. San Rafael Nuevo
+159. Liberia
+160. Barbacoas
+161. San José Este
+162. Quesada
+163. Legua
+164. Buenos Aires
+165. Turrialba
+166. San Vicente Norte
+167. San Nicolás
+168. La Buenavista
+169. La Asunción
+170. San Ignacio
+171. Guadalupe Este
+172. Chires
+173. Pacuarito
+174. Birrisito
+175. San Juan Norte
+176. Uruca
+177. Zapote
+178. San Francisco de Dos Ríos
+179. Escazú
+180. Aserrí
+181. San Lorenzo
+182. Sabana Redonda
+183. Paracito
+184. Santa Bárbara
+185. Zapote Norte
+186. Pittier
+187. La Victoria
+188. Río Jiménez
+189. Sierpe
+190. San Sebastián
+191. Jesús
+192. Jesús María
+193. Limoncito
+194. Tarbaca
+195. Salitral
+196. Santa Cruz Sur
+197. San Rafael Oeste
+198. Santa Elena
+199. Santo Tomás
+200. Venado
+201. Rivas
+202. San Isidro Este
+203. San Juan Grande
+204. Concepción Este
+205. San Rafael Norte
+206. Batán
+207. San Francisco Arriba
+208. Cinco Esquinas
+209. Aguas Zarcas
+210. Puerto Jiménez
+211. Aguabuena
+212. Laurel
+213. Florencia
+214. Dulce Nombre Este
+215. Brisas
+216. Siquirres
+217. Tuis
+218. Rita
+219. San Rafael Abajo
+220. La Cuesta
+221. Corralillo
+222. Concepción Arriba
+223. Guadalupe Oeste
+224. Sabanillal
+225. Diriá
+226. Santiago Oeste
+227. Puerto Viejo
+228. Aguacaliente
+229. San Rafael Sur
+230. Piedades Norte
+231. San Vicente
+232. Zaragoza
+233. Pocosol
+234. Sarchí Norte
+235. San Rafael Arriba
+236. Monte Verde
+237. La Colonia
+238. San Francisco Norte
+239. El Mastate
+240. Rincón de Sabanilla
+241. Monterrey Arriba
+242. San José Abajo
+243. Tacares
+244. Matina
+
+109
+The closest cities to Biolley are: 
+ Las Horquetas
+The time taken from Las Horquetas to Biolley is 1, and the route is:
+Las Horquetas -> Biolley
+ Quepos
+The time taken from Quepos to Biolley is 1, and the route is:
+Quepos -> Biolley
+ Colorado
+The time taken from Colorado to Biolley is 1, and the route is:
+Colorado -> Biolley
+ Oriental
+The time taken from Oriental to Biolley is 1, and the route is:
+Oriental -> Biolley
+Press Enter to continue...
+0. Exit
+1. Pocora
+2. Hojancha
+3. Golfito
+4. Bahía Ballena
+5. Tambor
+6. Patio de Agua
+7. San Rafael Piedades
+8. San Rafael Parrita
+9. San Miguel Viejo
+10. San Juan Arriba
+11. Cañas Dulces
+12. Turrúcares
+13. Isla del Coco
+14. Monte Romo
+15. Río Blanco
+16. Grifo Alto
+17. Acapulco
+18. Hacienda Vieja
+19. Dos Ríos
+20. Tobosi
+21. Candelaria
+22. Zapotal
+23. Duacarí
+24. Sarapiquí
+25. Bolsón
+26. Pavas
+27. Rancho Redondo
+28. Atenas
+29. Quebrada Honda
+30. Bijagua
+31. Los Guido
+32. Patarrá
+33. Granadilla
+34. Santiago Poás
+35. Catedral
+36. Piedras Negras
+37. Santa Rosa Viejo
+38. Nosara
+39. Chomes
+40. Garita
+41. San José Norte
+42. Santa Rosa Abajo
+43. Veintisiete de Abril
+44. Florida
+45. Jesús Piedad
+46. San Rafael Viejo
+47. Daniel Flores
+48. Palmitos
+49. Patalillo
+50. Sabalito
+51. San Isidro Labrador
+52. Guacimal
+53. Matambú
+54. San Isidro de El General
+55. Germania
+56. Llanuras del Gaspar
+57. Manzanillo
+58. Aguas Claras
+59. Cabo Velas
+60. Santiago Nuevo
+61. Río Azul
+62. San Jerónimo Arriba
+63. Bebedero
+64. Limón
+65. Palmares
+66. Cartagena
+67. Chirripó
+68. Puerto Carrillo
+69. Capellades
+70. San Marcos
+71. Lagunillas
+72. La Unión
+73. Las Horquetas
+74. Santiago
+75. La Suiza
+76. Palmiralito
+77. Cutris
+78. Tres Equis
+79. Santiago Puriscal
+80. Reventazón
+81. Buenavista
+82. Dulce Nombre de Jesús
+83. San Francisco Abajo
+84. Guácimo
+85. Cirrí Sur
+86. Volcán
+87. Tempate
+88. Pitahaya
+89. Peñas Blancas
+90. Los Chiles
+91. Cabeceras
+92. El Ángel
+93. San Pedro Sur
+94. Bolívar
+95. La Trinidad
+96. Juan Viñas
+97. Río Cuarto
+98. Palmira
+99. San Isidro Abajo
+100. Laguna
+101. San Pablo Arriba
+102. Roxana
+103. Pará
+104. Mercedes Abajo
+105. San Pedro Antiguo
+106. Dulce Nombre Oeste
+107. Santa Cruz
+108. Los Ángeles
+109. Biolley
+110. Naranjo
+111. Mata Redonda
+112. Santa Rosa Nuevo
+113. Quepos
+114. Telire
+115. Colorado
+116. Tirrases
+117. Canalete
+118. Desamparados Sur
+119. Puntarenas
+120. Heredia
+121. Pilas
+122. Picagres
+123. Frailes
+124. Barranca
+125. Varablanca
+126. San Felipe
+127. Chira
+128. Tucurrique
+129. San Pablo Este
+130. Tures
+131. El Roble
+132. Ulloa
+133. Oriental
+134. San Gabriel
+135. Santo Domingo
+136. Delicias
+137. Savegre
+138. El Cairo
+139. Porvenir
+140. Paquera
+141. San Carlos
+142. Candelarita
+143. San Roque
+144. Monterrey Abajo
+145. Caldera
+146. Esquipulas
+147. Mayorga
+148. Pavón
+149. Tabarcia
+150. Carrillos
+151. Palmar
+152. Yolillal
+153. Matama
+154. Labrador
+155. Cuajiniquil
+156. Santa Isabel
+157. Pejibayes
+158. San Rafael Nuevo
+159. Liberia
+160. Barbacoas
+161. San José Este
+162. Quesada
+163. Legua
+164. Buenos Aires
+165. Turrialba
+166. San Vicente Norte
+167. San Nicolás
+168. La Buenavista
+169. La Asunción
+170. San Ignacio
+171. Guadalupe Este
+172. Chires
+173. Pacuarito
+174. Birrisito
+175. San Juan Norte
+176. Uruca
+177. Zapote
+178. San Francisco de Dos Ríos
+179. Escazú
+180. Aserrí
+181. San Lorenzo
+182. Sabana Redonda
+183. Paracito
+184. Santa Bárbara
+185. Zapote Norte
+186. Pittier
+187. La Victoria
+188. Río Jiménez
+189. Sierpe
+190. San Sebastián
+191. Jesús
+192. Jesús María
+193. Limoncito
+194. Tarbaca
+195. Salitral
+196. Santa Cruz Sur
+197. San Rafael Oeste
+198. Santa Elena
+199. Santo Tomás
+200. Venado
+201. Rivas
+202. San Isidro Este
+203. San Juan Grande
+204. Concepción Este
+205. San Rafael Norte
+206. Batán
+207. San Francisco Arriba
+208. Cinco Esquinas
+209. Aguas Zarcas
+210. Puerto Jiménez
+211. Aguabuena
+212. Laurel
+213. Florencia
+214. Dulce Nombre Este
+215. Brisas
+216. Siquirres
+217. Tuis
+218. Rita
+219. San Rafael Abajo
+220. La Cuesta
+221. Corralillo
+222. Concepción Arriba
+223. Guadalupe Oeste
+224. Sabanillal
+225. Diriá
+226. Santiago Oeste
+227. Puerto Viejo
+228. Aguacaliente
+229. San Rafael Sur
+230. Piedades Norte
+231. San Vicente
+232. Zaragoza
+233. Pocosol
+234. Sarchí Norte
+235. San Rafael Arriba
+236. Monte Verde
+237. La Colonia
+238. San Francisco Norte
+239. El Mastate
+240. Rincón de Sabanilla
+241. Monterrey Arriba
+242. San José Abajo
+243. Tacares
+244. Matina
+0
+0. Exit
+1. Find Hub City
+2. Find Helper City
+3. Find Most Distant Pair
+4. Find Closest Pair
+5. List Cities by Average Distance
+
+3
+The city pairs with the greates distance between them are:
+
+1. Matina to Pocora, with a time of 12
+    Path: Matina -> Hojancha -> Santiago Nuevo -> Acapulco -> San Juan Arriba -> Pocora
+
+2. Matina to Bahía Ballena, with a time of 12
+    Path: Matina -> Hojancha -> Pavas -> Veintisiete de Abril -> Barbacoas -> Bahía Ballena
+
+3. Matina to Turrúcares, with a time of 12
+    Path: Matina -> Hojancha -> San Rafael Viejo -> Turrúcares
+
+4. Matina to Duacarí, with a time of 12
+    Path: Matina -> Hojancha -> Río Blanco -> Sarapiquí -> Santa Rosa Viejo -> Duacarí
+
+5. Matina to San Isidro Labrador, with a time of 12
+    Path: Matina -> Hojancha -> Santiago Nuevo -> San Isidro Labrador
+
+6. Matina to Germania, with a time of 12
+    Path: Matina -> Hojancha -> Pejibayes -> Jesús Piedad -> Ulloa -> Germania
+
+7. Matina to Cabo Velas, with a time of 12
+    Path: Matina -> Hojancha -> Santiago Puriscal -> Santa Rosa Nuevo -> Cabo Velas
+
+8. Matina to Las Horquetas, with a time of 12
+    Path: Matina -> Hojancha -> Pavas -> Veintisiete de Abril -> Santa Rosa Abajo -> Las Horquetas
+
+9. Matina to Tres Equis, with a time of 12
+    Path: Matina -> Hojancha -> Santiago Nuevo -> San Jerónimo Arriba -> San José Norte -> Tres Equis
+
+10. Matina to Volcán, with a time of 12
+    Path: Matina -> Hojancha -> Guacimal -> San Rafael Parrita -> Volcán
+
+11. Matina to Puntarenas, with a time of 12
+    Path: Matina -> Hojancha -> Santiago Puriscal -> Puntarenas
+
+12. Matina to Varablanca, with a time of 12
+    Path: Matina -> Hojancha -> Pavas -> Isla del Coco -> La Suiza -> Varablanca
+
+13. Matina to Santo Domingo, with a time of 12
+    Path: Matina -> Hojancha -> Pavas -> Veintisiete de Abril -> Santo Domingo
+
+14. Matina to El Cairo, with a time of 12
+    Path: Matina -> Hojancha -> Pavas -> Veintisiete de Abril -> Santa Rosa Abajo -> El Cairo
+
+15. Matina to Porvenir, with a time of 12
+    Path: Matina -> Hojancha -> Santiago Nuevo -> San Jerónimo Arriba -> San José Norte -> Porvenir
+
+16. Matina to Paquera, with a time of 12
+    Path: Matina -> Hojancha -> Pavas -> Paquera
+
+17. Matina to San Carlos, with a time of 12
+    Path: Matina -> Hojancha -> Pavas -> Isla del Coco -> San Carlos
+
+18. Matina to Legua, with a time of 12
+    Path: Matina -> Hojancha -> Pavas -> Veintisiete de Abril -> Santiago -> Legua
+
+19. Matina to Chires, with a time of 12
+    Path: Matina -> Hojancha -> Santiago Nuevo -> Aguas Claras -> Río Azul -> Chires
+
+20. Matina to La Victoria, with a time of 12
+    Path: Matina -> Hojancha -> Río Blanco -> Granadilla -> La Victoria
+
+21. Matina to San Rafael Oeste, with a time of 12
+    Path: Matina -> Hojancha -> Río Blanco -> Los Guido -> Chomes -> San Rafael Oeste
+
+22. Matina to Venado, with a time of 12
+    Path: Matina -> Hojancha -> Pavas -> Isla del Coco -> Puerto Carrillo -> Venado
+
+23. Matina to San Rafael Norte, with a time of 12
+    Path: Matina -> Hojancha -> Hacienda Vieja -> San Rafael Norte
+
+24. Matina to Aguas Zarcas, with a time of 12
+    Path: Matina -> Hojancha -> Santiago Nuevo -> Acapulco -> San Juan Arriba -> Aguas Zarcas
+
+25. Matina to Siquirres, with a time of 12
+    Path: Matina -> Hojancha -> Santiago Nuevo -> Palmiralito -> Cirrí Sur -> Siquirres
+
+26. Matina to Diriá, with a time of 12
+    Path: Matina -> Hojancha -> Santiago Nuevo -> Laguna -> Nosara -> Diriá
+
+27. Matina to San Rafael Sur, with a time of 12
+    Path: Matina -> Hojancha -> Río Blanco -> Los Guido -> San Rafael Sur
+
+28. Matina to Pocosol, with a time of 12
+    Path: Matina -> Hojancha -> Río Blanco -> Canalete -> Pocosol
+
+29. Matina to La Colonia, with a time of 12
+    Path: Matina -> Hojancha -> Río Blanco -> La Colonia
+0. Exit
+1. Find Hub City
+2. Find Helper City
+3. Find Most Distant Pair
+4. Find Closest Pair
+5. List Cities by Average Distance
+
+4
+The city pairs with the shortest distance between them are:
+
+1. Pocora to Hojancha, with a time of 1
+    Path: Pocora -> Hojancha
+
+2. Pocora to Isla del Coco, with a time of 1
+    Path: Pocora -> Isla del Coco
+
+3. Pocora to Garita, with a time of 1
+    Path: Pocora -> Garita
+
+4. Pocora to Daniel Flores, with a time of 1
+    Path: Pocora -> Daniel Flores
+
+5. Pocora to Juan Viñas, with a time of 1
+    Path: Pocora -> Juan Viñas
+
+6. Pocora to Savegre, with a time of 1
+    Path: Pocora -> Savegre
+
+7. Pocora to Barbacoas, with a time of 1
+    Path: Pocora -> Barbacoas
+
+8. Pocora to San Ignacio, with a time of 1
+    Path: Pocora -> San Ignacio
+
+9. Hojancha to Río Blanco, with a time of 1
+    Path: Hojancha -> Río Blanco
+
+10. Hojancha to Pavas, with a time of 1
+    Path: Hojancha -> Pavas
+
+11. Hojancha to Santiago Nuevo, with a time of 1
+    Path: Hojancha -> Santiago Nuevo
+
+12. Hojancha to Santiago Puriscal, with a time of 1
+    Path: Hojancha -> Santiago Puriscal
+
+13. Hojancha to Tabarcia, with a time of 1
+    Path: Hojancha -> Tabarcia
+
+14. Hojancha to Pejibayes, with a time of 1
+    Path: Hojancha -> Pejibayes
+
+15. Hojancha to Liberia, with a time of 1
+    Path: Hojancha -> Liberia
+
+16. Hojancha to Río Jiménez, with a time of 1
+    Path: Hojancha -> Río Jiménez
+
+17. Golfito to Isla del Coco, with a time of 1
+    Path: Golfito -> Isla del Coco
+
+18. Golfito to Palmares, with a time of 1
+    Path: Golfito -> Palmares
+
+19. Golfito to Frailes, with a time of 1
+    Path: Golfito -> Frailes
+
+20. Golfito to Tuis, with a time of 1
+    Path: Golfito -> Tuis
+
+21. Golfito to Tacares, with a time of 1
+    Path: Golfito -> Tacares
+
+22. Bahía Ballena to Dos Ríos, with a time of 1
+    Path: Bahía Ballena -> Dos Ríos
+
+23. Bahía Ballena to Santiago Poás, with a time of 1
+    Path: Bahía Ballena -> Santiago Poás
+
+24. Bahía Ballena to Matambú, with a time of 1
+    Path: Bahía Ballena -> Matambú
+
+25. Bahía Ballena to Manzanillo, with a time of 1
+    Path: Bahía Ballena -> Manzanillo
+
+26. Bahía Ballena to Quepos, with a time of 1
+    Path: Bahía Ballena -> Quepos
+
+27. Bahía Ballena to El Cairo, with a time of 1
+    Path: Bahía Ballena -> El Cairo
+
+28. Bahía Ballena to Rincón de Sabanilla, with a time of 1
+    Path: Bahía Ballena -> Rincón de Sabanilla
+
+29. Tambor to Monte Romo, with a time of 1
+    Path: Tambor -> Monte Romo
+
+30. Tambor to Bolsón, with a time of 1
+    Path: Tambor -> Bolsón
+
+31. Tambor to Sabalito, with a time of 1
+    Path: Tambor -> Sabalito
+
+32. Tambor to Cartagena, with a time of 1
+    Path: Tambor -> Cartagena
+
+33. Tambor to San Isidro Abajo, with a time of 1
+    Path: Tambor -> San Isidro Abajo
+
+34. Tambor to Puntarenas, with a time of 1
+    Path: Tambor -> Puntarenas
+
+35. Tambor to Legua, with a time of 1
+    Path: Tambor -> Legua
+
+36. Tambor to Aguacaliente, with a time of 1
+    Path: Tambor -> Aguacaliente
+
+37. Patio de Agua to Monte Romo, with a time of 1
+    Path: Patio de Agua -> Monte Romo
+
+38. Patio de Agua to Juan Viñas, with a time of 1
+    Path: Patio de Agua -> Juan Viñas
+
+39. Patio de Agua to Heredia, with a time of 1
+    Path: Patio de Agua -> Heredia
+
+40. San Rafael Piedades to Tobosi, with a time of 1
+    Path: San Rafael Piedades -> Tobosi
+
+41. San Rafael Piedades to Palmitos, with a time of 1
+    Path: San Rafael Piedades -> Palmitos
+
+42. San Rafael Piedades to Aguas Claras, with a time of 1
+    Path: San Rafael Piedades -> Aguas Claras
+
+43. San Rafael Piedades to Santiago Nuevo, with a time of 1
+    Path: San Rafael Piedades -> Santiago Nuevo
+
+44. San Rafael Piedades to Telire, with a time of 1
+    Path: San Rafael Piedades -> Telire
+
+45. San Rafael Piedades to San Ignacio, with a time of 1
+    Path: San Rafael Piedades -> San Ignacio
+
+46. San Rafael Piedades to San Juan Norte, with a time of 1
+    Path: San Rafael Piedades -> San Juan Norte
+
+47. San Rafael Piedades to Dulce Nombre Este, with a time of 1
+    Path: San Rafael Piedades -> Dulce Nombre Este
+
+48. San Rafael Parrita to La Unión, with a time of 1
+    Path: San Rafael Parrita -> La Unión
+
+49. San Rafael Parrita to Palmiralito, with a time of 1
+    Path: San Rafael Parrita -> Palmiralito
+
+50. San Rafael Parrita to Volcán, with a time of 1
+    Path: San Rafael Parrita -> Volcán
+
+51. San Rafael Parrita to Barranca, with a time of 1
+    Path: San Rafael Parrita -> Barranca
+
+52. San Rafael Parrita to Cuajiniquil, with a time of 1
+    Path: San Rafael Parrita -> Cuajiniquil
+
+53. San Rafael Parrita to Río Jiménez, with a time of 1
+    Path: San Rafael Parrita -> Río Jiménez
+
+54. San Rafael Parrita to San Juan Grande, with a time of 1
+    Path: San Rafael Parrita -> San Juan Grande
+
+55. San Rafael Parrita to Florencia, with a time of 1
+    Path: San Rafael Parrita -> Florencia
+
+56. San Rafael Parrita to Santiago Oeste, with a time of 1
+    Path: San Rafael Parrita -> Santiago Oeste
+
+57. San Rafael Parrita to Tacares, with a time of 1
+    Path: San Rafael Parrita -> Tacares
+
+58. San Miguel Viejo to Dulce Nombre de Jesús, with a time of 1
+    Path: San Miguel Viejo -> Dulce Nombre de Jesús
+
+59. San Miguel Viejo to Bolívar, with a time of 1
+    Path: San Miguel Viejo -> Bolívar
+
+60. San Miguel Viejo to Mercedes Abajo, with a time of 1
+    Path: San Miguel Viejo -> Mercedes Abajo
+
+61. San Miguel Viejo to San Felipe, with a time of 1
+    Path: San Miguel Viejo -> San Felipe
+
+62. San Miguel Viejo to Paracito, with a time of 1
+    Path: San Miguel Viejo -> Paracito
+
+63. San Miguel Viejo to San Isidro Este, with a time of 1
+    Path: San Miguel Viejo -> San Isidro Este
+
+64. San Miguel Viejo to Santiago Oeste, with a time of 1
+    Path: San Miguel Viejo -> Santiago Oeste
+
+65. San Miguel Viejo to Piedades Norte, with a time of 1
+    Path: San Miguel Viejo -> Piedades Norte
+
+66. San Miguel Viejo to Monte Verde, with a time of 1
+    Path: San Miguel Viejo -> Monte Verde
+
+67. San Juan Arriba to Pocora, with a time of 1
+    Path: San Juan Arriba -> Pocora
+
+68. San Juan Arriba to San Rafael Parrita, with a time of 1
+    Path: San Juan Arriba -> San Rafael Parrita
+
+69. San Juan Arriba to Patarrá, with a time of 1
+    Path: San Juan Arriba -> Patarrá
+
+70. San Juan Arriba to Chomes, with a time of 1
+    Path: San Juan Arriba -> Chomes
+
+71. San Juan Arriba to Mercedes Abajo, with a time of 1
+    Path: San Juan Arriba -> Mercedes Abajo
+
+72. San Juan Arriba to Barbacoas, with a time of 1
+    Path: San Juan Arriba -> Barbacoas
+
+73. San Juan Arriba to La Buenavista, with a time of 1
+    Path: San Juan Arriba -> La Buenavista
+
+74. San Juan Arriba to San Rafael Norte, with a time of 1
+    Path: San Juan Arriba -> San Rafael Norte
+
+75. San Juan Arriba to Aguas Zarcas, with a time of 1
+    Path: San Juan Arriba -> Aguas Zarcas
+
+76. Cañas Dulces to San Rafael Parrita, with a time of 1
+    Path: Cañas Dulces -> San Rafael Parrita
+
+77. Cañas Dulces to Cirrí Sur, with a time of 1
+    Path: Cañas Dulces -> Cirrí Sur
+
+78. Cañas Dulces to San Pablo Arriba, with a time of 1
+    Path: Cañas Dulces -> San Pablo Arriba
+
+79. Cañas Dulces to Guadalupe Este, with a time of 1
+    Path: Cañas Dulces -> Guadalupe Este
+
+80. Cañas Dulces to Santa Elena, with a time of 1
+    Path: Cañas Dulces -> Santa Elena
+
+81. Cañas Dulces to Sarchí Norte, with a time of 1
+    Path: Cañas Dulces -> Sarchí Norte
+
+82. Turrúcares to Isla del Coco, with a time of 1
+    Path: Turrúcares -> Isla del Coco
+
+83. Turrúcares to Monte Romo, with a time of 1
+    Path: Turrúcares -> Monte Romo
+
+84. Turrúcares to Jesús Piedad, with a time of 1
+    Path: Turrúcares -> Jesús Piedad
+
+85. Turrúcares to Llanuras del Gaspar, with a time of 1
+    Path: Turrúcares -> Llanuras del Gaspar
+
+86. Turrúcares to Dulce Nombre de Jesús, with a time of 1
+    Path: Turrúcares -> Dulce Nombre de Jesús
+
+87. Turrúcares to Paquera, with a time of 1
+    Path: Turrúcares -> Paquera
+
+88. Turrúcares to San Isidro Este, with a time of 1
+    Path: Turrúcares -> San Isidro Este
+
+89. Turrúcares to La Cuesta, with a time of 1
+    Path: Turrúcares -> La Cuesta
+
+90. Turrúcares to Piedades Norte, with a time of 1
+    Path: Turrúcares -> Piedades Norte
+
+91. Isla del Coco to Puerto Carrillo, with a time of 1
+    Path: Isla del Coco -> Puerto Carrillo
+
+92. Isla del Coco to La Suiza, with a time of 1
+    Path: Isla del Coco -> La Suiza
+
+93. Isla del Coco to Colorado, with a time of 1
+    Path: Isla del Coco -> Colorado
+
+94. Isla del Coco to San José Este, with a time of 1
+    Path: Isla del Coco -> San José Este
+
+95. Isla del Coco to San Francisco Arriba, with a time of 1
+    Path: Isla del Coco -> San Francisco Arriba
+
+96. Isla del Coco to Corralillo, with a time of 1
+    Path: Isla del Coco -> Corralillo
+
+97. Monte Romo to Golfito, with a time of 1
+    Path: Monte Romo -> Golfito
+
+98. Monte Romo to Tambor, with a time of 1
+    Path: Monte Romo -> Tambor
+
+99. Monte Romo to Atenas, with a time of 1
+    Path: Monte Romo -> Atenas
+
+100. Monte Romo to Heredia, with a time of 1
+    Path: Monte Romo -> Heredia
+
+101. Monte Romo to Tabarcia, with a time of 1
+    Path: Monte Romo -> Tabarcia
+
+102. Monte Romo to Cuajiniquil, with a time of 1
+    Path: Monte Romo -> Cuajiniquil
+
+103. Monte Romo to Sierpe, with a time of 1
+    Path: Monte Romo -> Sierpe
+
+104. Río Blanco to San Rafael Piedades, with a time of 1
+    Path: Río Blanco -> San Rafael Piedades
+
+105. Río Blanco to Grifo Alto, with a time of 1
+    Path: Río Blanco -> Grifo Alto
+
+106. Río Blanco to Sarapiquí, with a time of 1
+    Path: Río Blanco -> Sarapiquí
+
+107. Río Blanco to Los Guido, with a time of 1
+    Path: Río Blanco -> Los Guido
+
+108. Río Blanco to Dulce Nombre de Jesús, with a time of 1
+    Path: Río Blanco -> Dulce Nombre de Jesús
+
+109. Río Blanco to Canalete, with a time of 1
+    Path: Río Blanco -> Canalete
+
+110. Río Blanco to Tures, with a time of 1
+    Path: Río Blanco -> Tures
+
+111. Río Blanco to Delicias, with a time of 1
+    Path: Río Blanco -> Delicias
+
+112. Río Blanco to Santa Isabel, with a time of 1
+    Path: Río Blanco -> Santa Isabel
+
+113. Río Blanco to Piedades Norte, with a time of 1
+    Path: Río Blanco -> Piedades Norte
+
+114. Grifo Alto to Hojancha, with a time of 1
+    Path: Grifo Alto -> Hojancha
+
+115. Grifo Alto to Santiago Oeste, with a time of 1
+    Path: Grifo Alto -> Santiago Oeste
+
+116. Grifo Alto to San Rafael Arriba, with a time of 1
+    Path: Grifo Alto -> San Rafael Arriba
+
+117. Acapulco to San Juan Arriba, with a time of 1
+    Path: Acapulco -> San Juan Arriba
+
+118. Acapulco to San Pedro Antiguo, with a time of 1
+    Path: Acapulco -> San Pedro Antiguo
+
+119. Acapulco to Mayorga, with a time of 1
+    Path: Acapulco -> Mayorga
+
+120. Hacienda Vieja to Santiago Puriscal, with a time of 1
+    Path: Hacienda Vieja -> Santiago Puriscal
+
+121. Hacienda Vieja to Dulce Nombre Oeste, with a time of 1
+    Path: Hacienda Vieja -> Dulce Nombre Oeste
+
+122. Hacienda Vieja to Mayorga, with a time of 1
+    Path: Hacienda Vieja -> Mayorga
+
+123. Hacienda Vieja to Pittier, with a time of 1
+    Path: Hacienda Vieja -> Pittier
+
+124. Hacienda Vieja to Santa Cruz Sur, with a time of 1
+    Path: Hacienda Vieja -> Santa Cruz Sur
+
+125. Hacienda Vieja to Florencia, with a time of 1
+    Path: Hacienda Vieja -> Florencia
+
+126. Hacienda Vieja to Monterrey Arriba, with a time of 1
+    Path: Hacienda Vieja -> Monterrey Arriba
+
+127. Dos Ríos to Golfito, with a time of 1
+    Path: Dos Ríos -> Golfito
+
+128. Dos Ríos to Catedral, with a time of 1
+    Path: Dos Ríos -> Catedral
+
+129. Dos Ríos to Santa Rosa Nuevo, with a time of 1
+    Path: Dos Ríos -> Santa Rosa Nuevo
+
+130. Dos Ríos to San Roque, with a time of 1
+    Path: Dos Ríos -> San Roque
+
+131. Dos Ríos to La Buenavista, with a time of 1
+    Path: Dos Ríos -> La Buenavista
+
+132. Dos Ríos to Guadalupe Este, with a time of 1
+    Path: Dos Ríos -> Guadalupe Este
+
+133. Dos Ríos to Siquirres, with a time of 1
+    Path: Dos Ríos -> Siquirres
+
+134. Tobosi to Cabeceras, with a time of 1
+    Path: Tobosi -> Cabeceras
+
+135. Tobosi to San Isidro Abajo, with a time of 1
+    Path: Tobosi -> San Isidro Abajo
+
+136. Tobosi to Pilas, with a time of 1
+    Path: Tobosi -> Pilas
+
+137. Tobosi to Delicias, with a time of 1
+    Path: Tobosi -> Delicias
+
+138. Tobosi to Savegre, with a time of 1
+    Path: Tobosi -> Savegre
+
+139. Candelaria to San Rafael Piedades, with a time of 1
+    Path: Candelaria -> San Rafael Piedades
+
+140. Candelaria to Chomes, with a time of 1
+    Path: Candelaria -> Chomes
+
+141. Candelaria to Quepos, with a time of 1
+    Path: Candelaria -> Quepos
+
+142. Candelaria to Tabarcia, with a time of 1
+    Path: Candelaria -> Tabarcia
+
+143. Candelaria to San Rafael Nuevo, with a time of 1
+    Path: Candelaria -> San Rafael Nuevo
+
+144. Candelaria to Santa Bárbara, with a time of 1
+    Path: Candelaria -> Santa Bárbara
+
+145. Candelaria to Cinco Esquinas, with a time of 1
+    Path: Candelaria -> Cinco Esquinas
+
+146. Candelaria to Corralillo, with a time of 1
+    Path: Candelaria -> Corralillo
+
+147. Zapotal to Pavas, with a time of 1
+    Path: Zapotal -> Pavas
+
+148. Zapotal to Bijagua, with a time of 1
+    Path: Zapotal -> Bijagua
+
+149. Zapotal to San Pablo Arriba, with a time of 1
+    Path: Zapotal -> San Pablo Arriba
+
+150. Zapotal to Mayorga, with a time of 1
+    Path: Zapotal -> Mayorga
+
+151. Zapotal to Cuajiniquil, with a time of 1
+    Path: Zapotal -> Cuajiniquil
+
+152. Zapotal to Santa Elena, with a time of 1
+    Path: Zapotal -> Santa Elena
+
+153. Zapotal to Monte Verde, with a time of 1
+    Path: Zapotal -> Monte Verde
+
+154. Duacarí to Cañas Dulces, with a time of 1
+    Path: Duacarí -> Cañas Dulces
+
+155. Duacarí to Rancho Redondo, with a time of 1
+    Path: Duacarí -> Rancho Redondo
+
+156. Duacarí to San Isidro de El General, with a time of 1
+    Path: Duacarí -> San Isidro de El General
+
+157. Duacarí to Santiago Nuevo, with a time of 1
+    Path: Duacarí -> Santiago Nuevo
+
+158. Duacarí to Río Azul, with a time of 1
+    Path: Duacarí -> Río Azul
+
+159. Duacarí to Esquipulas, with a time of 1
+    Path: Duacarí -> Esquipulas
+
+160. Duacarí to Santa Isabel, with a time of 1
+    Path: Duacarí -> Santa Isabel
+
+161. Duacarí to San Francisco de Dos Ríos, with a time of 1
+    Path: Duacarí -> San Francisco de Dos Ríos
+
+162. Duacarí to Laurel, with a time of 1
+    Path: Duacarí -> Laurel
+
+163. Duacarí to Dulce Nombre Este, with a time of 1
+    Path: Duacarí -> Dulce Nombre Este
+
+164. Duacarí to Monterrey Arriba, with a time of 1
+    Path: Duacarí -> Monterrey Arriba
+
+165. Sarapiquí to Cañas Dulces, with a time of 1
+    Path: Sarapiquí -> Cañas Dulces
+
+166. Sarapiquí to Santa Rosa Viejo, with a time of 1
+    Path: Sarapiquí -> Santa Rosa Viejo
+
+167. Sarapiquí to Tempate, with a time of 1
+    Path: Sarapiquí -> Tempate
+
+168. Sarapiquí to La Trinidad, with a time of 1
+    Path: Sarapiquí -> La Trinidad
+
+169. Sarapiquí to Mercedes Abajo, with a time of 1
+    Path: Sarapiquí -> Mercedes Abajo
+
+170. Sarapiquí to Frailes, with a time of 1
+    Path: Sarapiquí -> Frailes
+
+171. Sarapiquí to Tucurrique, with a time of 1
+    Path: Sarapiquí -> Tucurrique
+
+172. Sarapiquí to Laurel, with a time of 1
+    Path: Sarapiquí -> Laurel
+
+173. Sarapiquí to Rita, with a time of 1
+    Path: Sarapiquí -> Rita
+
+174. Sarapiquí to Zaragoza, with a time of 1
+    Path: Sarapiquí -> Zaragoza
+
+175. Bolsón to Santiago Nuevo, with a time of 1
+    Path: Bolsón -> Santiago Nuevo
+
+176. Bolsón to Chirripó, with a time of 1
+    Path: Bolsón -> Chirripó
+
+177. Bolsón to Juan Viñas, with a time of 1
+    Path: Bolsón -> Juan Viñas
+
+178. Bolsón to Dulce Nombre Oeste, with a time of 1
+    Path: Bolsón -> Dulce Nombre Oeste
+
+179. Bolsón to La Buenavista, with a time of 1
+    Path: Bolsón -> La Buenavista
+
+180. Pavas to Isla del Coco, with a time of 1
+    Path: Pavas -> Isla del Coco
+
+181. Pavas to Veintisiete de Abril, with a time of 1
+    Path: Pavas -> Veintisiete de Abril
+
+182. Pavas to Pará, with a time of 1
+    Path: Pavas -> Pará
+
+183. Pavas to El Mastate, with a time of 1
+    Path: Pavas -> El Mastate
+
+184. Rancho Redondo to San Rafael Piedades, with a time of 1
+    Path: Rancho Redondo -> San Rafael Piedades
+
+185. Rancho Redondo to Acapulco, with a time of 1
+    Path: Rancho Redondo -> Acapulco
+
+186. Rancho Redondo to Matama, with a time of 1
+    Path: Rancho Redondo -> Matama
+
+187. Rancho Redondo to San Rafael Nuevo, with a time of 1
+    Path: Rancho Redondo -> San Rafael Nuevo
+
+188. Rancho Redondo to La Victoria, with a time of 1
+    Path: Rancho Redondo -> La Victoria
+
+189. Rancho Redondo to Concepción Arriba, with a time of 1
+    Path: Rancho Redondo -> Concepción Arriba
+
+190. Atenas to Bebedero, with a time of 1
+    Path: Atenas -> Bebedero
+
+191. Atenas to Lagunillas, with a time of 1
+    Path: Atenas -> Lagunillas
+
+192. Atenas to Paquera, with a time of 1
+    Path: Atenas -> Paquera
+
+193. Atenas to La Buenavista, with a time of 1
+    Path: Atenas -> La Buenavista
+
+194. Quebrada Honda to Tobosi, with a time of 1
+    Path: Quebrada Honda -> Tobosi
+
+195. Bijagua to Pavas, with a time of 1
+    Path: Bijagua -> Pavas
+
+196. Bijagua to Germania, with a time of 1
+    Path: Bijagua -> Germania
+
+197. Bijagua to Santiago Puriscal, with a time of 1
+    Path: Bijagua -> Santiago Puriscal
+
+198. Bijagua to Guácimo, with a time of 1
+    Path: Bijagua -> Guácimo
+
+199. Bijagua to Puntarenas, with a time of 1
+    Path: Bijagua -> Puntarenas
+
+200. Bijagua to San Rafael Nuevo, with a time of 1
+    Path: Bijagua -> San Rafael Nuevo
+
+201. Bijagua to Chires, with a time of 1
+    Path: Bijagua -> Chires
+
+202. Bijagua to San Sebastián, with a time of 1
+    Path: Bijagua -> San Sebastián
+
+203. Los Guido to Chomes, with a time of 1
+    Path: Los Guido -> Chomes
+
+204. Los Guido to La Trinidad, with a time of 1
+    Path: Los Guido -> La Trinidad
+
+205. Los Guido to Escazú, with a time of 1
+    Path: Los Guido -> Escazú
+
+206. Los Guido to Santa Bárbara, with a time of 1
+    Path: Los Guido -> Santa Bárbara
+
+207. Patarrá to Aguas Claras, with a time of 1
+    Path: Patarrá -> Aguas Claras
+
+208. Patarrá to San Pablo Este, with a time of 1
+    Path: Patarrá -> San Pablo Este
+
+209. Patarrá to Puerto Jiménez, with a time of 1
+    Path: Patarrá -> Puerto Jiménez
+
+210. Granadilla to Dos Ríos, with a time of 1
+    Path: Granadilla -> Dos Ríos
+
+211. Granadilla to Buenos Aires, with a time of 1
+    Path: Granadilla -> Buenos Aires
+
+212. Granadilla to La Victoria, with a time of 1
+    Path: Granadilla -> La Victoria
+
+213. Santiago Poás to Atenas, with a time of 1
+    Path: Santiago Poás -> Atenas
+
+214. Santiago Poás to Santa Rosa Abajo, with a time of 1
+    Path: Santiago Poás -> Santa Rosa Abajo
+
+215. Santiago Poás to Palmares, with a time of 1
+    Path: Santiago Poás -> Palmares
+
+216. Santiago Poás to Dulce Nombre de Jesús, with a time of 1
+    Path: Santiago Poás -> Dulce Nombre de Jesús
+
+217. Santiago Poás to Naranjo, with a time of 1
+    Path: Santiago Poás -> Naranjo
+
+218. Santiago Poás to Esquipulas, with a time of 1
+    Path: Santiago Poás -> Esquipulas
+
+219. Santiago Poás to Birrisito, with a time of 1
+    Path: Santiago Poás -> Birrisito
+
+220. Santiago Poás to Florencia, with a time of 1
+    Path: Santiago Poás -> Florencia
+
+221. Santiago Poás to La Cuesta, with a time of 1
+    Path: Santiago Poás -> La Cuesta
+
+222. Santiago Poás to Monterrey Arriba, with a time of 1
+    Path: Santiago Poás -> Monterrey Arriba
+
+223. Catedral to Patalillo, with a time of 1
+    Path: Catedral -> Patalillo
+
+224. Catedral to Bebedero, with a time of 1
+    Path: Catedral -> Bebedero
+
+225. Catedral to Buenos Aires, with a time of 1
+    Path: Catedral -> Buenos Aires
+
+226. Catedral to San Ignacio, with a time of 1
+    Path: Catedral -> San Ignacio
+
+227. Piedras Negras to Atenas, with a time of 1
+    Path: Piedras Negras -> Atenas
+
+228. Piedras Negras to Guacimal, with a time of 1
+    Path: Piedras Negras -> Guacimal
+
+229. Piedras Negras to San Isidro de El General, with a time of 1
+    Path: Piedras Negras -> San Isidro de El General
+
+230. Piedras Negras to Los Ángeles, with a time of 1
+    Path: Piedras Negras -> Los Ángeles
+
+231. Santa Rosa Viejo to Duacarí, with a time of 1
+    Path: Santa Rosa Viejo -> Duacarí
+
+232. Santa Rosa Viejo to Granadilla, with a time of 1
+    Path: Santa Rosa Viejo -> Granadilla
+
+233. Santa Rosa Viejo to Tucurrique, with a time of 1
+    Path: Santa Rosa Viejo -> Tucurrique
+
+234. Santa Rosa Viejo to Uruca, with a time of 1
+    Path: Santa Rosa Viejo -> Uruca
+
+235. Santa Rosa Viejo to Zapote, with a time of 1
+    Path: Santa Rosa Viejo -> Zapote
+
+236. Santa Rosa Viejo to Limoncito, with a time of 1
+    Path: Santa Rosa Viejo -> Limoncito
+
+237. Santa Rosa Viejo to Laurel, with a time of 1
+    Path: Santa Rosa Viejo -> Laurel
+
+238. Santa Rosa Viejo to Sarchí Norte, with a time of 1
+    Path: Santa Rosa Viejo -> Sarchí Norte
+
+239. Santa Rosa Viejo to San Rafael Arriba, with a time of 1
+    Path: Santa Rosa Viejo -> San Rafael Arriba
+
+240. Nosara to Isla del Coco, with a time of 1
+    Path: Nosara -> Isla del Coco
+
+241. Nosara to Candelaria, with a time of 1
+    Path: Nosara -> Candelaria
+
+242. Nosara to Palmares, with a time of 1
+    Path: Nosara -> Palmares
+
+243. Nosara to Dulce Nombre Oeste, with a time of 1
+    Path: Nosara -> Dulce Nombre Oeste
+
+244. Nosara to Varablanca, with a time of 1
+    Path: Nosara -> Varablanca
+
+245. Nosara to El Roble, with a time of 1
+    Path: Nosara -> El Roble
+
+246. Nosara to San Nicolás, with a time of 1
+    Path: Nosara -> San Nicolás
+
+247. Nosara to Pacuarito, with a time of 1
+    Path: Nosara -> Pacuarito
+
+248. Nosara to Diriá, with a time of 1
+    Path: Nosara -> Diriá
+
+249. Nosara to San Rafael Arriba, with a time of 1
+    Path: Nosara -> San Rafael Arriba
+
+250. Chomes to Aguas Claras, with a time of 1
+    Path: Chomes -> Aguas Claras
+
+251. Chomes to Santa Cruz, with a time of 1
+    Path: Chomes -> Santa Cruz
+
+252. Chomes to La Asunción, with a time of 1
+    Path: Chomes -> La Asunción
+
+253. Chomes to Guadalupe Este, with a time of 1
+    Path: Chomes -> Guadalupe Este
+
+254. Chomes to San Rafael Oeste, with a time of 1
+    Path: Chomes -> San Rafael Oeste
+
+255. Garita to Duacarí, with a time of 1
+    Path: Garita -> Duacarí
+
+256. Garita to Palmitos, with a time of 1
+    Path: Garita -> Palmitos
+
+257. Garita to Chirripó, with a time of 1
+    Path: Garita -> Chirripó
+
+258. Garita to Canalete, with a time of 1
+    Path: Garita -> Canalete
+
+259. Garita to La Victoria, with a time of 1
+    Path: Garita -> La Victoria
+
+260. San José Norte to San Rafael Parrita, with a time of 1
+    Path: San José Norte -> San Rafael Parrita
+
+261. San José Norte to Veintisiete de Abril, with a time of 1
+    Path: San José Norte -> Veintisiete de Abril
+
+262. San José Norte to Río Azul, with a time of 1
+    Path: San José Norte -> Río Azul
+
+263. San José Norte to Tres Equis, with a time of 1
+    Path: San José Norte -> Tres Equis
+
+264. San José Norte to Porvenir, with a time of 1
+    Path: San José Norte -> Porvenir
+
+265. San José Norte to La Asunción, with a time of 1
+    Path: San José Norte -> La Asunción
+
+266. San José Norte to Puerto Viejo, with a time of 1
+    Path: San José Norte -> Puerto Viejo
+
+267. Santa Rosa Abajo to Hacienda Vieja, with a time of 1
+    Path: Santa Rosa Abajo -> Hacienda Vieja
+
+268. Santa Rosa Abajo to Veintisiete de Abril, with a time of 1
+    Path: Santa Rosa Abajo -> Veintisiete de Abril
+
+269. Santa Rosa Abajo to Guacimal, with a time of 1
+    Path: Santa Rosa Abajo -> Guacimal
+
+270. Santa Rosa Abajo to Las Horquetas, with a time of 1
+    Path: Santa Rosa Abajo -> Las Horquetas
+
+271. Santa Rosa Abajo to San Pablo Arriba, with a time of 1
+    Path: Santa Rosa Abajo -> San Pablo Arriba
+
+272. Santa Rosa Abajo to Santa Rosa Nuevo, with a time of 1
+    Path: Santa Rosa Abajo -> Santa Rosa Nuevo
+
+273. Santa Rosa Abajo to El Cairo, with a time of 1
+    Path: Santa Rosa Abajo -> El Cairo
+
+274. Santa Rosa Abajo to Pacuarito, with a time of 1
+    Path: Santa Rosa Abajo -> Pacuarito
+
+275. Santa Rosa Abajo to Jesús, with a time of 1
+    Path: Santa Rosa Abajo -> Jesús
+
+276. Santa Rosa Abajo to Sabanillal, with a time of 1
+    Path: Santa Rosa Abajo -> Sabanillal
+
+277. Santa Rosa Abajo to San Vicente, with a time of 1
+    Path: Santa Rosa Abajo -> San Vicente
+
+278. Veintisiete de Abril to Santa Rosa Viejo, with a time of 1
+    Path: Veintisiete de Abril -> Santa Rosa Viejo
+
+279. Veintisiete de Abril to Santa Rosa Abajo, with a time of 1
+    Path: Veintisiete de Abril -> Santa Rosa Abajo
+
+280. Veintisiete de Abril to Santiago, with a time of 1
+    Path: Veintisiete de Abril -> Santiago
+
+281. Veintisiete de Abril to La Suiza, with a time of 1
+    Path: Veintisiete de Abril -> La Suiza
+
+282. Veintisiete de Abril to Roxana, with a time of 1
+    Path: Veintisiete de Abril -> Roxana
+
+283. Veintisiete de Abril to Barbacoas, with a time of 1
+    Path: Veintisiete de Abril -> Barbacoas
+
+284. Florida to Ulloa, with a time of 1
+    Path: Florida -> Ulloa
+
+285. Florida to San Gabriel, with a time of 1
+    Path: Florida -> San Gabriel
+
+286. Florida to Santa Isabel, with a time of 1
+    Path: Florida -> Santa Isabel
+
+287. Florida to San Vicente Norte, with a time of 1
+    Path: Florida -> San Vicente Norte
+
+288. Florida to Sierpe, with a time of 1
+    Path: Florida -> Sierpe
+
+289. Florida to Venado, with a time of 1
+    Path: Florida -> Venado
+
+290. Florida to Siquirres, with a time of 1
+    Path: Florida -> Siquirres
+
+291. Jesús Piedad to San Miguel Viejo, with a time of 1
+    Path: Jesús Piedad -> San Miguel Viejo
+
+292. Jesús Piedad to Sabalito, with a time of 1
+    Path: Jesús Piedad -> Sabalito
+
+293. Jesús Piedad to Guácimo, with a time of 1
+    Path: Jesús Piedad -> Guácimo
+
+294. Jesús Piedad to Ulloa, with a time of 1
+    Path: Jesús Piedad -> Ulloa
+
+295. San Rafael Viejo to Hojancha, with a time of 1
+    Path: San Rafael Viejo -> Hojancha
+
+296. San Rafael Viejo to Golfito, with a time of 1
+    Path: San Rafael Viejo -> Golfito
+
+297. San Rafael Viejo to Turrúcares, with a time of 1
+    Path: San Rafael Viejo -> Turrúcares
+
+298. San Rafael Viejo to Patarrá, with a time of 1
+    Path: San Rafael Viejo -> Patarrá
+
+299. San Rafael Viejo to Bolívar, with a time of 1
+    Path: San Rafael Viejo -> Bolívar
+
+300. San Rafael Viejo to San Rafael Nuevo, with a time of 1
+    Path: San Rafael Viejo -> San Rafael Nuevo
+
+301. Daniel Flores to Patio de Agua, with a time of 1
+    Path: Daniel Flores -> Patio de Agua
+
+302. Daniel Flores to Isla del Coco, with a time of 1
+    Path: Daniel Flores -> Isla del Coco
+
+303. Daniel Flores to El Ángel, with a time of 1
+    Path: Daniel Flores -> El Ángel
+
+304. Daniel Flores to San Pablo Este, with a time of 1
+    Path: Daniel Flores -> San Pablo Este
+
+305. Daniel Flores to San Ignacio, with a time of 1
+    Path: Daniel Flores -> San Ignacio
+
+306. Daniel Flores to Guadalupe Oeste, with a time of 1
+    Path: Daniel Flores -> Guadalupe Oeste
+
+307. Palmitos to Caldera, with a time of 1
+    Path: Palmitos -> Caldera
+
+308. Palmitos to Sierpe, with a time of 1
+    Path: Palmitos -> Sierpe
+
+309. Patalillo to San Rafael Parrita, with a time of 1
+    Path: Patalillo -> San Rafael Parrita
+
+310. Patalillo to Santiago Puriscal, with a time of 1
+    Path: Patalillo -> Santiago Puriscal
+
+311. Patalillo to Juan Viñas, with a time of 1
+    Path: Patalillo -> Juan Viñas
+
+312. Patalillo to San Nicolás, with a time of 1
+    Path: Patalillo -> San Nicolás
+
+313. Patalillo to Santa Elena, with a time of 1
+    Path: Patalillo -> Santa Elena
+
+314. Patalillo to Puerto Viejo, with a time of 1
+    Path: Patalillo -> Puerto Viejo
+
+315. Sabalito to Yolillal, with a time of 1
+    Path: Sabalito -> Yolillal
+
+316. Sabalito to Laurel, with a time of 1
+    Path: Sabalito -> Laurel
+
+317. Sabalito to Siquirres, with a time of 1
+    Path: Sabalito -> Siquirres
+
+318. Sabalito to Aguacaliente, with a time of 1
+    Path: Sabalito -> Aguacaliente
+
+319. San Isidro Labrador to Duacarí, with a time of 1
+    Path: San Isidro Labrador -> Duacarí
+
+320. San Isidro Labrador to Atenas, with a time of 1
+    Path: San Isidro Labrador -> Atenas
+
+321. San Isidro Labrador to Quebrada Honda, with a time of 1
+    Path: San Isidro Labrador -> Quebrada Honda
+
+322. San Isidro Labrador to Nosara, with a time of 1
+    Path: San Isidro Labrador -> Nosara
+
+323. San Isidro Labrador to Guacimal, with a time of 1
+    Path: San Isidro Labrador -> Guacimal
+
+324. San Isidro Labrador to Tres Equis, with a time of 1
+    Path: San Isidro Labrador -> Tres Equis
+
+325. San Isidro Labrador to Frailes, with a time of 1
+    Path: San Isidro Labrador -> Frailes
+
+326. San Isidro Labrador to San Felipe, with a time of 1
+    Path: San Isidro Labrador -> San Felipe
+
+327. San Isidro Labrador to Palmar, with a time of 1
+    Path: San Isidro Labrador -> Palmar
+
+328. San Isidro Labrador to Buenos Aires, with a time of 1
+    Path: San Isidro Labrador -> Buenos Aires
+
+329. San Isidro Labrador to Sierpe, with a time of 1
+    Path: San Isidro Labrador -> Sierpe
+
+330. San Isidro Labrador to Santo Tomás, with a time of 1
+    Path: San Isidro Labrador -> Santo Tomás
+
+331. Guacimal to San Rafael Parrita, with a time of 1
+    Path: Guacimal -> San Rafael Parrita
+
+332. Guacimal to Zapotal, with a time of 1
+    Path: Guacimal -> Zapotal
+
+333. Guacimal to San Isidro Abajo, with a time of 1
+    Path: Guacimal -> San Isidro Abajo
+
+334. Guacimal to Pará, with a time of 1
+    Path: Guacimal -> Pará
+
+335. Guacimal to San Pablo Este, with a time of 1
+    Path: Guacimal -> San Pablo Este
+
+336. Guacimal to Candelarita, with a time of 1
+    Path: Guacimal -> Candelarita
+
+337. Guacimal to Turrialba, with a time of 1
+    Path: Guacimal -> Turrialba
+
+338. Guacimal to Limoncito, with a time of 1
+    Path: Guacimal -> Limoncito
+
+339. Guacimal to Tarbaca, with a time of 1
+    Path: Guacimal -> Tarbaca
+
+340. Guacimal to Rivas, with a time of 1
+    Path: Guacimal -> Rivas
+
+341. Guacimal to San Francisco Norte, with a time of 1
+    Path: Guacimal -> San Francisco Norte
+
+342. Matambú to Piedras Negras, with a time of 1
+    Path: Matambú -> Piedras Negras
+
+343. Matambú to Santa Rosa Abajo, with a time of 1
+    Path: Matambú -> Santa Rosa Abajo
+
+344. Matambú to La Buenavista, with a time of 1
+    Path: Matambú -> La Buenavista
+
+345. Matambú to Paracito, with a time of 1
+    Path: Matambú -> Paracito
+
+346. Matambú to San Rafael Abajo, with a time of 1
+    Path: Matambú -> San Rafael Abajo
+
+347. San Isidro de El General to Quebrada Honda, with a time of 1
+    Path: San Isidro de El General -> Quebrada Honda
+
+348. San Isidro de El General to Daniel Flores, with a time of 1
+    Path: San Isidro de El General -> Daniel Flores
+
+349. San Isidro de El General to La Unión, with a time of 1
+    Path: San Isidro de El General -> La Unión
+
+350. San Isidro de El General to Cutris, with a time of 1
+    Path: San Isidro de El General -> Cutris
+
+351. San Isidro de El General to Palmira, with a time of 1
+    Path: San Isidro de El General -> Palmira
+
+352. San Isidro de El General to Sarchí Norte, with a time of 1
+    Path: San Isidro de El General -> Sarchí Norte
+
+353. San Isidro de El General to San Rafael Arriba, with a time of 1
+    Path: San Isidro de El General -> San Rafael Arriba
+
+354. Germania to Laguna, with a time of 1
+    Path: Germania -> Laguna
+
+355. Germania to Escazú, with a time of 1
+    Path: Germania -> Escazú
+
+356. Germania to Sierpe, with a time of 1
+    Path: Germania -> Sierpe
+
+357. Germania to Florencia, with a time of 1
+    Path: Germania -> Florencia
+
+358. Germania to Tuis, with a time of 1
+    Path: Germania -> Tuis
+
+359. Llanuras del Gaspar to San Juan Arriba, with a time of 1
+    Path: Llanuras del Gaspar -> San Juan Arriba
+
+360. Llanuras del Gaspar to Garita, with a time of 1
+    Path: Llanuras del Gaspar -> Garita
+
+361. Llanuras del Gaspar to Bebedero, with a time of 1
+    Path: Llanuras del Gaspar -> Bebedero
+
+362. Llanuras del Gaspar to Pitahaya, with a time of 1
+    Path: Llanuras del Gaspar -> Pitahaya
+
+363. Llanuras del Gaspar to San Vicente Norte, with a time of 1
+    Path: Llanuras del Gaspar -> San Vicente Norte
+
+364. Llanuras del Gaspar to San Lorenzo, with a time of 1
+    Path: Llanuras del Gaspar -> San Lorenzo
+
+365. Llanuras del Gaspar to Santa Cruz Sur, with a time of 1
+    Path: Llanuras del Gaspar -> Santa Cruz Sur
+
+366. Llanuras del Gaspar to Rita, with a time of 1
+    Path: Llanuras del Gaspar -> Rita
+
+367. Llanuras del Gaspar to Guadalupe Oeste, with a time of 1
+    Path: Llanuras del Gaspar -> Guadalupe Oeste
+
+368. Llanuras del Gaspar to Sarchí Norte, with a time of 1
+    Path: Llanuras del Gaspar -> Sarchí Norte
+
+369. Llanuras del Gaspar to San José Abajo, with a time of 1
+    Path: Llanuras del Gaspar -> San José Abajo
+
+370. Manzanillo to Río Cuarto, with a time of 1
+    Path: Manzanillo -> Río Cuarto
+
+371. Manzanillo to Tuis, with a time of 1
+    Path: Manzanillo -> Tuis
+
+372. Manzanillo to El Mastate, with a time of 1
+    Path: Manzanillo -> El Mastate
+
+373. Aguas Claras to Catedral, with a time of 1
+    Path: Aguas Claras -> Catedral
+
+374. Aguas Claras to Manzanillo, with a time of 1
+    Path: Aguas Claras -> Manzanillo
+
+375. Aguas Claras to Río Azul, with a time of 1
+    Path: Aguas Claras -> Río Azul
+
+376. Aguas Claras to Pitahaya, with a time of 1
+    Path: Aguas Claras -> Pitahaya
+
+377. Aguas Claras to El Roble, with a time of 1
+    Path: Aguas Claras -> El Roble
+
+378. Aguas Claras to Labrador, with a time of 1
+    Path: Aguas Claras -> Labrador
+
+379. Aguas Claras to Brisas, with a time of 1
+    Path: Aguas Claras -> Brisas
+
+380. Cabo Velas to Esquipulas, with a time of 1
+    Path: Cabo Velas -> Esquipulas
+
+381. Cabo Velas to Corralillo, with a time of 1
+    Path: Cabo Velas -> Corralillo
+
+382. Cabo Velas to Monterrey Arriba, with a time of 1
+    Path: Cabo Velas -> Monterrey Arriba
+
+383. Santiago Nuevo to Acapulco, with a time of 1
+    Path: Santiago Nuevo -> Acapulco
+
+384. Santiago Nuevo to Patalillo, with a time of 1
+    Path: Santiago Nuevo -> Patalillo
+
+385. Santiago Nuevo to Aguas Claras, with a time of 1
+    Path: Santiago Nuevo -> Aguas Claras
+
+386. Santiago Nuevo to San Jerónimo Arriba, with a time of 1
+    Path: Santiago Nuevo -> San Jerónimo Arriba
+
+387. Santiago Nuevo to Palmiralito, with a time of 1
+    Path: Santiago Nuevo -> Palmiralito
+
+388. Santiago Nuevo to Cutris, with a time of 1
+    Path: Santiago Nuevo -> Cutris
+
+389. Santiago Nuevo to Laguna, with a time of 1
+    Path: Santiago Nuevo -> Laguna
+
+390. Santiago Nuevo to Salitral, with a time of 1
+    Path: Santiago Nuevo -> Salitral
+
+391. Santiago Nuevo to San Rafael Abajo, with a time of 1
+    Path: Santiago Nuevo -> San Rafael Abajo
+
+392. Río Azul to Zapotal, with a time of 1
+    Path: Río Azul -> Zapotal
+
+393. Río Azul to San Marcos, with a time of 1
+    Path: Río Azul -> San Marcos
+
+394. Río Azul to La Trinidad, with a time of 1
+    Path: Río Azul -> La Trinidad
+
+395. Río Azul to Telire, with a time of 1
+    Path: Río Azul -> Telire
+
+396. Río Azul to Matama, with a time of 1
+    Path: Río Azul -> Matama
+
+397. Río Azul to San Rafael Nuevo, with a time of 1
+    Path: Río Azul -> San Rafael Nuevo
+
+398. Río Azul to Chires, with a time of 1
+    Path: Río Azul -> Chires
+
+399. Río Azul to Escazú, with a time of 1
+    Path: Río Azul -> Escazú
+
+400. Río Azul to Paracito, with a time of 1
+    Path: Río Azul -> Paracito
+
+401. Río Azul to San Rafael Arriba, with a time of 1
+    Path: Río Azul -> San Rafael Arriba
+
+402. Río Azul to Monterrey Arriba, with a time of 1
+    Path: Río Azul -> Monterrey Arriba
+
+403. San Jerónimo Arriba to Candelaria, with a time of 1
+    Path: San Jerónimo Arriba -> Candelaria
+
+404. San Jerónimo Arriba to Santiago Poás, with a time of 1
+    Path: San Jerónimo Arriba -> Santiago Poás
+
+405. San Jerónimo Arriba to Santa Rosa Viejo, with a time of 1
+    Path: San Jerónimo Arriba -> Santa Rosa Viejo
+
+406. San Jerónimo Arriba to San José Norte, with a time of 1
+    Path: San Jerónimo Arriba -> San José Norte
+
+407. San Jerónimo Arriba to Cartagena, with a time of 1
+    Path: San Jerónimo Arriba -> Cartagena
+
+408. San Jerónimo Arriba to Los Chiles, with a time of 1
+    Path: San Jerónimo Arriba -> Los Chiles
+
+409. San Jerónimo Arriba to San Roque, with a time of 1
+    Path: San Jerónimo Arriba -> San Roque
+
+410. San Jerónimo Arriba to Carrillos, with a time of 1
+    Path: San Jerónimo Arriba -> Carrillos
+
+411. San Jerónimo Arriba to Tarbaca, with a time of 1
+    Path: San Jerónimo Arriba -> Tarbaca
+
+412. Bebedero to Tres Equis, with a time of 1
+    Path: Bebedero -> Tres Equis
+
+413. Bebedero to Cuajiniquil, with a time of 1
+    Path: Bebedero -> Cuajiniquil
+
+414. Bebedero to Rita, with a time of 1
+    Path: Bebedero -> Rita
+
+415. Limón to Pavas, with a time of 1
+    Path: Limón -> Pavas
+
+416. Limón to Santa Rosa Viejo, with a time of 1
+    Path: Limón -> Santa Rosa Viejo
+
+417. Limón to Matambú, with a time of 1
+    Path: Limón -> Matambú
+
+418. Limón to Cartagena, with a time of 1
+    Path: Limón -> Cartagena
+
+419. Limón to Cirrí Sur, with a time of 1
+    Path: Limón -> Cirrí Sur
+
+420. Limón to Pitahaya, with a time of 1
+    Path: Limón -> Pitahaya
+
+421. Limón to Santo Domingo, with a time of 1
+    Path: Limón -> Santo Domingo
+
+422. Limón to Aguacaliente, with a time of 1
+    Path: Limón -> Aguacaliente
+
+423. Palmares to Santiago Poás, with a time of 1
+    Path: Palmares -> Santiago Poás
+
+424. Palmares to San Ignacio, with a time of 1
+    Path: Palmares -> San Ignacio
+
+425. Palmares to Jesús María, with a time of 1
+    Path: Palmares -> Jesús María
+
+426. Cartagena to San Juan Arriba, with a time of 1
+    Path: Cartagena -> San Juan Arriba
+
+427. Cartagena to Río Cuarto, with a time of 1
+    Path: Cartagena -> Río Cuarto
+
+428. Cartagena to Los Ángeles, with a time of 1
+    Path: Cartagena -> Los Ángeles
+
+429. Cartagena to Zapote, with a time of 1
+    Path: Cartagena -> Zapote
+
+430. Cartagena to Aguacaliente, with a time of 1
+    Path: Cartagena -> Aguacaliente
+
+431. Chirripó to Patio de Agua, with a time of 1
+    Path: Chirripó -> Patio de Agua
+
+432. Chirripó to Zapotal, with a time of 1
+    Path: Chirripó -> Zapotal
+
+433. Chirripó to Dulce Nombre Oeste, with a time of 1
+    Path: Chirripó -> Dulce Nombre Oeste
+
+434. Chirripó to Labrador, with a time of 1
+    Path: Chirripó -> Labrador
+
+435. Chirripó to Santa Isabel, with a time of 1
+    Path: Chirripó -> Santa Isabel
+
+436. Chirripó to Jesús, with a time of 1
+    Path: Chirripó -> Jesús
+
+437. Chirripó to La Colonia, with a time of 1
+    Path: Chirripó -> La Colonia
+
+438. Puerto Carrillo to Grifo Alto, with a time of 1
+    Path: Puerto Carrillo -> Grifo Alto
+
+439. Puerto Carrillo to Daniel Flores, with a time of 1
+    Path: Puerto Carrillo -> Daniel Flores
+
+440. Puerto Carrillo to Quepos, with a time of 1
+    Path: Puerto Carrillo -> Quepos
+
+441. Puerto Carrillo to Venado, with a time of 1
+    Path: Puerto Carrillo -> Venado
+
+442. Puerto Carrillo to Puerto Viejo, with a time of 1
+    Path: Puerto Carrillo -> Puerto Viejo
+
+443. Capellades to Tambor, with a time of 1
+    Path: Capellades -> Tambor
+
+444. Capellades to Chomes, with a time of 1
+    Path: Capellades -> Chomes
+
+445. Capellades to San Nicolás, with a time of 1
+    Path: Capellades -> San Nicolás
+
+446. Capellades to Pittier, with a time of 1
+    Path: Capellades -> Pittier
+
+447. Capellades to Puerto Jiménez, with a time of 1
+    Path: Capellades -> Puerto Jiménez
+
+448. Capellades to Rita, with a time of 1
+    Path: Capellades -> Rita
+
+449. San Marcos to Sabalito, with a time of 1
+    Path: San Marcos -> Sabalito
+
+450. San Marcos to Laguna, with a time of 1
+    Path: San Marcos -> Laguna
+
+451. San Marcos to Mata Redonda, with a time of 1
+    Path: San Marcos -> Mata Redonda
+
+452. San Marcos to Picagres, with a time of 1
+    Path: San Marcos -> Picagres
+
+453. San Marcos to San Rafael Nuevo, with a time of 1
+    Path: San Marcos -> San Rafael Nuevo
+
+454. San Marcos to Liberia, with a time of 1
+    Path: San Marcos -> Liberia
+
+455. San Marcos to Zapote, with a time of 1
+    Path: San Marcos -> Zapote
+
+456. San Marcos to Concepción Este, with a time of 1
+    Path: San Marcos -> Concepción Este
+
+457. San Marcos to Rita, with a time of 1
+    Path: San Marcos -> Rita
+
+458. San Marcos to Zaragoza, with a time of 1
+    Path: San Marcos -> Zaragoza
+
+459. Lagunillas to San Pedro Sur, with a time of 1
+    Path: Lagunillas -> San Pedro Sur
+
+460. Lagunillas to Quesada, with a time of 1
+    Path: Lagunillas -> Quesada
+
+461. Lagunillas to La Victoria, with a time of 1
+    Path: Lagunillas -> La Victoria
+
+462. Lagunillas to Santa Elena, with a time of 1
+    Path: Lagunillas -> Santa Elena
+
+463. La Unión to Zapotal, with a time of 1
+    Path: La Unión -> Zapotal
+
+464. La Unión to Limón, with a time of 1
+    Path: La Unión -> Limón
+
+465. La Unión to Mercedes Abajo, with a time of 1
+    Path: La Unión -> Mercedes Abajo
+
+466. La Unión to Chira, with a time of 1
+    Path: La Unión -> Chira
+
+467. La Unión to Jesús, with a time of 1
+    Path: La Unión -> Jesús
+
+468. Las Horquetas to San Rafael Viejo, with a time of 1
+    Path: Las Horquetas -> San Rafael Viejo
+
+469. Las Horquetas to Cabo Velas, with a time of 1
+    Path: Las Horquetas -> Cabo Velas
+
+470. Las Horquetas to Juan Viñas, with a time of 1
+    Path: Las Horquetas -> Juan Viñas
+
+471. Las Horquetas to Biolley, with a time of 1
+    Path: Las Horquetas -> Biolley
+
+472. Las Horquetas to San Francisco Norte, with a time of 1
+    Path: Las Horquetas -> San Francisco Norte
+
+473. Santiago to San Miguel Viejo, with a time of 1
+    Path: Santiago -> San Miguel Viejo
+
+474. Santiago to Llanuras del Gaspar, with a time of 1
+    Path: Santiago -> Llanuras del Gaspar
+
+475. Santiago to Capellades, with a time of 1
+    Path: Santiago -> Capellades
+
+476. Santiago to Juan Viñas, with a time of 1
+    Path: Santiago -> Juan Viñas
+
+477. Santiago to Santo Domingo, with a time of 1
+    Path: Santiago -> Santo Domingo
+
+478. Santiago to Legua, with a time of 1
+    Path: Santiago -> Legua
+
+479. La Suiza to Santiago Nuevo, with a time of 1
+    Path: La Suiza -> Santiago Nuevo
+
+480. La Suiza to Varablanca, with a time of 1
+    Path: La Suiza -> Varablanca
+
+481. La Suiza to Concepción Arriba, with a time of 1
+    Path: La Suiza -> Concepción Arriba
+
+482. La Suiza to Sabanillal, with a time of 1
+    Path: La Suiza -> Sabanillal
+
+483. La Suiza to La Colonia, with a time of 1
+    Path: La Suiza -> La Colonia
+
+484. Palmiralito to Monte Romo, with a time of 1
+    Path: Palmiralito -> Monte Romo
+
+485. Palmiralito to Candelaria, with a time of 1
+    Path: Palmiralito -> Candelaria
+
+486. Palmiralito to Cirrí Sur, with a time of 1
+    Path: Palmiralito -> Cirrí Sur
+
+487. Palmiralito to Tucurrique, with a time of 1
+    Path: Palmiralito -> Tucurrique
+
+488. Palmiralito to El Roble, with a time of 1
+    Path: Palmiralito -> El Roble
+
+489. Palmiralito to San Gabriel, with a time of 1
+    Path: Palmiralito -> San Gabriel
+
+490. Palmiralito to Pittier, with a time of 1
+    Path: Palmiralito -> Pittier
+
+491. Cutris to Tobosi, with a time of 1
+    Path: Cutris -> Tobosi
+
+492. Cutris to Santa Rosa Viejo, with a time of 1
+    Path: Cutris -> Santa Rosa Viejo
+
+493. Cutris to Jesús Piedad, with a time of 1
+    Path: Cutris -> Jesús Piedad
+
+494. Cutris to Manzanillo, with a time of 1
+    Path: Cutris -> Manzanillo
+
+495. Cutris to Santiago Nuevo, with a time of 1
+    Path: Cutris -> Santiago Nuevo
+
+496. Cutris to Lagunillas, with a time of 1
+    Path: Cutris -> Lagunillas
+
+497. Cutris to Pilas, with a time of 1
+    Path: Cutris -> Pilas
+
+498. Cutris to La Asunción, with a time of 1
+    Path: Cutris -> La Asunción
+
+499. Cutris to Santa Bárbara, with a time of 1
+    Path: Cutris -> Santa Bárbara
+
+500. Tres Equis to San Rafael Parrita, with a time of 1
+    Path: Tres Equis -> San Rafael Parrita
+
+501. Tres Equis to Turrúcares, with a time of 1
+    Path: Tres Equis -> Turrúcares
+
+502. Tres Equis to Germania, with a time of 1
+    Path: Tres Equis -> Germania
+
+503. Tres Equis to Cartagena, with a time of 1
+    Path: Tres Equis -> Cartagena
+
+504. Tres Equis to San Rafael Nuevo, with a time of 1
+    Path: Tres Equis -> San Rafael Nuevo
+
+505. Tres Equis to San Vicente, with a time of 1
+    Path: Tres Equis -> San Vicente
+
+506. Santiago Puriscal to Tobosi, with a time of 1
+    Path: Santiago Puriscal -> Tobosi
+
+507. Santiago Puriscal to Cartagena, with a time of 1
+    Path: Santiago Puriscal -> Cartagena
+
+508. Santiago Puriscal to Desamparados Sur, with a time of 1
+    Path: Santiago Puriscal -> Desamparados Sur
+
+509. Santiago Puriscal to Palmar, with a time of 1
+    Path: Santiago Puriscal -> Palmar
+
+510. Santiago Puriscal to Yolillal, with a time of 1
+    Path: Santiago Puriscal -> Yolillal
+
+511. Santiago Puriscal to San Rafael Nuevo, with a time of 1
+    Path: Santiago Puriscal -> San Rafael Nuevo
+
+512. Reventazón to Monte Romo, with a time of 1
+    Path: Reventazón -> Monte Romo
+
+513. Reventazón to San Rafael Viejo, with a time of 1
+    Path: Reventazón -> San Rafael Viejo
+
+514. Reventazón to Daniel Flores, with a time of 1
+    Path: Reventazón -> Daniel Flores
+
+515. Reventazón to Tirrases, with a time of 1
+    Path: Reventazón -> Tirrases
+
+516. Reventazón to Venado, with a time of 1
+    Path: Reventazón -> Venado
+
+517. Buenavista to Rancho Redondo, with a time of 1
+    Path: Buenavista -> Rancho Redondo
+
+518. Buenavista to Santa Rosa Viejo, with a time of 1
+    Path: Buenavista -> Santa Rosa Viejo
+
+519. Buenavista to Santa Rosa Abajo, with a time of 1
+    Path: Buenavista -> Santa Rosa Abajo
+
+520. Buenavista to Santiago, with a time of 1
+    Path: Buenavista -> Santiago
+
+521. Buenavista to San Pablo Este, with a time of 1
+    Path: Buenavista -> San Pablo Este
+
+522. Buenavista to Carrillos, with a time of 1
+    Path: Buenavista -> Carrillos
+
+523. Buenavista to San Rafael Nuevo, with a time of 1
+    Path: Buenavista -> San Rafael Nuevo
+
+524. Buenavista to Rivas, with a time of 1
+    Path: Buenavista -> Rivas
+
+525. Buenavista to Concepción Este, with a time of 1
+    Path: Buenavista -> Concepción Este
+
+526. Buenavista to Piedades Norte, with a time of 1
+    Path: Buenavista -> Piedades Norte
+
+527. Buenavista to Monterrey Arriba, with a time of 1
+    Path: Buenavista -> Monterrey Arriba
+
+528. Dulce Nombre de Jesús to Palmitos, with a time of 1
+    Path: Dulce Nombre de Jesús -> Palmitos
+
+529. Dulce Nombre de Jesús to San Pablo Este, with a time of 1
+    Path: Dulce Nombre de Jesús -> San Pablo Este
+
+530. Dulce Nombre de Jesús to Labrador, with a time of 1
+    Path: Dulce Nombre de Jesús -> Labrador
+
+531. Dulce Nombre de Jesús to La Cuesta, with a time of 1
+    Path: Dulce Nombre de Jesús -> La Cuesta
+
+532. San Francisco Abajo to Golfito, with a time of 1
+    Path: San Francisco Abajo -> Golfito
+
+533. San Francisco Abajo to Río Blanco, with a time of 1
+    Path: San Francisco Abajo -> Río Blanco
+
+534. San Francisco Abajo to Granadilla, with a time of 1
+    Path: San Francisco Abajo -> Granadilla
+
+535. San Francisco Abajo to Cutris, with a time of 1
+    Path: San Francisco Abajo -> Cutris
+
+536. San Francisco Abajo to Tempate, with a time of 1
+    Path: San Francisco Abajo -> Tempate
+
+537. San Francisco Abajo to El Ángel, with a time of 1
+    Path: San Francisco Abajo -> El Ángel
+
+538. San Francisco Abajo to San Nicolás, with a time of 1
+    Path: San Francisco Abajo -> San Nicolás
+
+539. San Francisco Abajo to Aserrí, with a time of 1
+    Path: San Francisco Abajo -> Aserrí
+
+540. San Francisco Abajo to Dulce Nombre Este, with a time of 1
+    Path: San Francisco Abajo -> Dulce Nombre Este
+
+541. Guácimo to San Rafael Piedades, with a time of 1
+    Path: Guácimo -> San Rafael Piedades
+
+542. Guácimo to Laguna, with a time of 1
+    Path: Guácimo -> Laguna
+
+543. Guácimo to San Nicolás, with a time of 1
+    Path: Guácimo -> San Nicolás
+
+544. Guácimo to San Juan Norte, with a time of 1
+    Path: Guácimo -> San Juan Norte
+
+545. Guácimo to San Rafael Oeste, with a time of 1
+    Path: Guácimo -> San Rafael Oeste
+
+546. Guácimo to Laurel, with a time of 1
+    Path: Guácimo -> Laurel
+
+547. Cirrí Sur to Zapotal, with a time of 1
+    Path: Cirrí Sur -> Zapotal
+
+548. Cirrí Sur to Los Chiles, with a time of 1
+    Path: Cirrí Sur -> Los Chiles
+
+549. Cirrí Sur to Delicias, with a time of 1
+    Path: Cirrí Sur -> Delicias
+
+550. Cirrí Sur to Liberia, with a time of 1
+    Path: Cirrí Sur -> Liberia
+
+551. Cirrí Sur to Barbacoas, with a time of 1
+    Path: Cirrí Sur -> Barbacoas
+
+552. Cirrí Sur to Jesús, with a time of 1
+    Path: Cirrí Sur -> Jesús
+
+553. Cirrí Sur to Siquirres, with a time of 1
+    Path: Cirrí Sur -> Siquirres
+
+554. Volcán to Pocora, with a time of 1
+    Path: Volcán -> Pocora
+
+555. Volcán to Santiago Nuevo, with a time of 1
+    Path: Volcán -> Santiago Nuevo
+
+556. Volcán to Quepos, with a time of 1
+    Path: Volcán -> Quepos
+
+557. Volcán to Canalete, with a time of 1
+    Path: Volcán -> Canalete
+
+558. Volcán to Caldera, with a time of 1
+    Path: Volcán -> Caldera
+
+559. Volcán to Pavón, with a time of 1
+    Path: Volcán -> Pavón
+
+560. Volcán to Barbacoas, with a time of 1
+    Path: Volcán -> Barbacoas
+
+561. Volcán to La Buenavista, with a time of 1
+    Path: Volcán -> La Buenavista
+
+562. Volcán to Monte Verde, with a time of 1
+    Path: Volcán -> Monte Verde
+
+563. Tempate to Cañas Dulces, with a time of 1
+    Path: Tempate -> Cañas Dulces
+
+564. Tempate to Palmiralito, with a time of 1
+    Path: Tempate -> Palmiralito
+
+565. Tempate to San Isidro Abajo, with a time of 1
+    Path: Tempate -> San Isidro Abajo
+
+566. Tempate to Salitral, with a time of 1
+    Path: Tempate -> Salitral
+
+567. Tempate to San Rafael Sur, with a time of 1
+    Path: Tempate -> San Rafael Sur
+
+568. Tempate to Zaragoza, with a time of 1
+    Path: Tempate -> Zaragoza
+
+569. Pitahaya to Santa Rosa Abajo, with a time of 1
+    Path: Pitahaya -> Santa Rosa Abajo
+
+570. Pitahaya to Sabalito, with a time of 1
+    Path: Pitahaya -> Sabalito
+
+571. Pitahaya to San Isidro de El General, with a time of 1
+    Path: Pitahaya -> San Isidro de El General
+
+572. Pitahaya to Los Ángeles, with a time of 1
+    Path: Pitahaya -> Los Ángeles
+
+573. Pitahaya to San Gabriel, with a time of 1
+    Path: Pitahaya -> San Gabriel
+
+574. Peñas Blancas to Manzanillo, with a time of 1
+    Path: Peñas Blancas -> Manzanillo
+
+575. Peñas Blancas to Mata Redonda, with a time of 1
+    Path: Peñas Blancas -> Mata Redonda
+
+576. Peñas Blancas to Caldera, with a time of 1
+    Path: Peñas Blancas -> Caldera
+
+577. Peñas Blancas to San Ignacio, with a time of 1
+    Path: Peñas Blancas -> San Ignacio
+
+578. Peñas Blancas to Jesús, with a time of 1
+    Path: Peñas Blancas -> Jesús
+
+579. Peñas Blancas to Brisas, with a time of 1
+    Path: Peñas Blancas -> Brisas
+
+580. Los Chiles to Lagunillas, with a time of 1
+    Path: Los Chiles -> Lagunillas
+
+581. Los Chiles to Palmira, with a time of 1
+    Path: Los Chiles -> Palmira
+
+582. Los Chiles to Santa Rosa Nuevo, with a time of 1
+    Path: Los Chiles -> Santa Rosa Nuevo
+
+583. Los Chiles to Barranca, with a time of 1
+    Path: Los Chiles -> Barranca
+
+584. Los Chiles to Tures, with a time of 1
+    Path: Los Chiles -> Tures
+
+585. Los Chiles to Labrador, with a time of 1
+    Path: Los Chiles -> Labrador
+
+586. Los Chiles to Jesús María, with a time of 1
+    Path: Los Chiles -> Jesús María
+
+587. Los Chiles to San Rafael Abajo, with a time of 1
+    Path: Los Chiles -> San Rafael Abajo
+
+588. Cabeceras to Bolsón, with a time of 1
+    Path: Cabeceras -> Bolsón
+
+589. Cabeceras to Santiago Poás, with a time of 1
+    Path: Cabeceras -> Santiago Poás
+
+590. Cabeceras to Veintisiete de Abril, with a time of 1
+    Path: Cabeceras -> Veintisiete de Abril
+
+591. Cabeceras to Guacimal, with a time of 1
+    Path: Cabeceras -> Guacimal
+
+592. Cabeceras to Palmiralito, with a time of 1
+    Path: Cabeceras -> Palmiralito
+
+593. Cabeceras to Telire, with a time of 1
+    Path: Cabeceras -> Telire
+
+594. Cabeceras to Tirrases, with a time of 1
+    Path: Cabeceras -> Tirrases
+
+595. Cabeceras to Birrisito, with a time of 1
+    Path: Cabeceras -> Birrisito
+
+596. Cabeceras to San Sebastián, with a time of 1
+    Path: Cabeceras -> San Sebastián
+
+597. Cabeceras to Limoncito, with a time of 1
+    Path: Cabeceras -> Limoncito
+
+598. El Ángel to Pitahaya, with a time of 1
+    Path: El Ángel -> Pitahaya
+
+599. El Ángel to Dulce Nombre Oeste, with a time of 1
+    Path: El Ángel -> Dulce Nombre Oeste
+
+600. El Ángel to Carrillos, with a time of 1
+    Path: El Ángel -> Carrillos
+
+601. El Ángel to San Nicolás, with a time of 1
+    Path: El Ángel -> San Nicolás
+
+602. El Ángel to La Victoria, with a time of 1
+    Path: El Ángel -> La Victoria
+
+603. El Ángel to Jesús, with a time of 1
+    Path: El Ángel -> Jesús
+
+604. El Ángel to San Juan Grande, with a time of 1
+    Path: El Ángel -> San Juan Grande
+
+605. San Pedro Sur to Daniel Flores, with a time of 1
+    Path: San Pedro Sur -> Daniel Flores
+
+606. San Pedro Sur to La Suiza, with a time of 1
+    Path: San Pedro Sur -> La Suiza
+
+607. Bolívar to Golfito, with a time of 1
+    Path: Bolívar -> Golfito
+
+608. Bolívar to Catedral, with a time of 1
+    Path: Bolívar -> Catedral
+
+609. Bolívar to San José Norte, with a time of 1
+    Path: Bolívar -> San José Norte
+
+610. Bolívar to Yolillal, with a time of 1
+    Path: Bolívar -> Yolillal
+
+611. Bolívar to Pejibayes, with a time of 1
+    Path: Bolívar -> Pejibayes
+
+612. Bolívar to Batán, with a time of 1
+    Path: Bolívar -> Batán
+
+613. La Trinidad to Isla del Coco, with a time of 1
+    Path: La Trinidad -> Isla del Coco
+
+614. La Trinidad to Piedras Negras, with a time of 1
+    Path: La Trinidad -> Piedras Negras
+
+615. La Trinidad to Florida, with a time of 1
+    Path: La Trinidad -> Florida
+
+616. La Trinidad to La Unión, with a time of 1
+    Path: La Trinidad -> La Unión
+
+617. La Trinidad to Frailes, with a time of 1
+    Path: La Trinidad -> Frailes
+
+618. La Trinidad to Mayorga, with a time of 1
+    Path: La Trinidad -> Mayorga
+
+619. La Trinidad to Buenos Aires, with a time of 1
+    Path: La Trinidad -> Buenos Aires
+
+620. La Trinidad to Aserrí, with a time of 1
+    Path: La Trinidad -> Aserrí
+
+621. La Trinidad to San Sebastián, with a time of 1
+    Path: La Trinidad -> San Sebastián
+
+622. La Trinidad to Batán, with a time of 1
+    Path: La Trinidad -> Batán
+
+623. La Trinidad to El Mastate, with a time of 1
+    Path: La Trinidad -> El Mastate
+
+624. Juan Viñas to Limón, with a time of 1
+    Path: Juan Viñas -> Limón
+
+625. Juan Viñas to Buenavista, with a time of 1
+    Path: Juan Viñas -> Buenavista
+
+626. Juan Viñas to Río Cuarto, with a time of 1
+    Path: Juan Viñas -> Río Cuarto
+
+627. Juan Viñas to San Roque, with a time of 1
+    Path: Juan Viñas -> San Roque
+
+628. Juan Viñas to Birrisito, with a time of 1
+    Path: Juan Viñas -> Birrisito
+
+629. Río Cuarto to San José Norte, with a time of 1
+    Path: Río Cuarto -> San José Norte
+
+630. Río Cuarto to Patalillo, with a time of 1
+    Path: Río Cuarto -> Patalillo
+
+631. Río Cuarto to San Isidro de El General, with a time of 1
+    Path: Río Cuarto -> San Isidro de El General
+
+632. Río Cuarto to Canalete, with a time of 1
+    Path: Río Cuarto -> Canalete
+
+633. Río Cuarto to Picagres, with a time of 1
+    Path: Río Cuarto -> Picagres
+
+634. Río Cuarto to Palmar, with a time of 1
+    Path: Río Cuarto -> Palmar
+
+635. Río Cuarto to San Juan Norte, with a time of 1
+    Path: Río Cuarto -> San Juan Norte
+
+636. Palmira to San Rafael Parrita, with a time of 1
+    Path: Palmira -> San Rafael Parrita
+
+637. Palmira to Río Azul, with a time of 1
+    Path: Palmira -> Río Azul
+
+638. Palmira to El Roble, with a time of 1
+    Path: Palmira -> El Roble
+
+639. Palmira to Santo Domingo, with a time of 1
+    Path: Palmira -> Santo Domingo
+
+640. Palmira to Zapote, with a time of 1
+    Path: Palmira -> Zapote
+
+641. Palmira to Santo Tomás, with a time of 1
+    Path: Palmira -> Santo Tomás
+
+642. Palmira to Rita, with a time of 1
+    Path: Palmira -> Rita
+
+643. Palmira to San José Abajo, with a time of 1
+    Path: Palmira -> San José Abajo
+
+644. San Isidro Abajo to Matambú, with a time of 1
+    Path: San Isidro Abajo -> Matambú
+
+645. San Isidro Abajo to San Pedro Antiguo, with a time of 1
+    Path: San Isidro Abajo -> San Pedro Antiguo
+
+646. San Isidro Abajo to Ulloa, with a time of 1
+    Path: San Isidro Abajo -> Ulloa
+
+647. San Isidro Abajo to Santa Isabel, with a time of 1
+    Path: San Isidro Abajo -> Santa Isabel
+
+648. San Isidro Abajo to La Buenavista, with a time of 1
+    Path: San Isidro Abajo -> La Buenavista
+
+649. Laguna to Nosara, with a time of 1
+    Path: Laguna -> Nosara
+
+650. Laguna to Los Ángeles, with a time of 1
+    Path: Laguna -> Los Ángeles
+
+651. Laguna to Pilas, with a time of 1
+    Path: Laguna -> Pilas
+
+652. Laguna to Frailes, with a time of 1
+    Path: Laguna -> Frailes
+
+653. Laguna to San Vicente Norte, with a time of 1
+    Path: Laguna -> San Vicente Norte
+
+654. Laguna to San Isidro Este, with a time of 1
+    Path: Laguna -> San Isidro Este
+
+655. San Pablo Arriba to San Juan Arriba, with a time of 1
+    Path: San Pablo Arriba -> San Juan Arriba
+
+656. San Pablo Arriba to Dos Ríos, with a time of 1
+    Path: San Pablo Arriba -> Dos Ríos
+
+657. San Pablo Arriba to Cartagena, with a time of 1
+    Path: San Pablo Arriba -> Cartagena
+
+658. San Pablo Arriba to Cutris, with a time of 1
+    Path: San Pablo Arriba -> Cutris
+
+659. San Pablo Arriba to Santa Bárbara, with a time of 1
+    Path: San Pablo Arriba -> Santa Bárbara
+
+660. San Pablo Arriba to Santa Elena, with a time of 1
+    Path: San Pablo Arriba -> Santa Elena
+
+661. San Pablo Arriba to San Rafael Arriba, with a time of 1
+    Path: San Pablo Arriba -> San Rafael Arriba
+
+662. Roxana to San Pablo Este, with a time of 1
+    Path: Roxana -> San Pablo Este
+
+663. Roxana to Guadalupe Este, with a time of 1
+    Path: Roxana -> Guadalupe Este
+
+664. Roxana to Santiago Oeste, with a time of 1
+    Path: Roxana -> Santiago Oeste
+
+665. Pará to Veintisiete de Abril, with a time of 1
+    Path: Pará -> Veintisiete de Abril
+
+666. Pará to Santiago, with a time of 1
+    Path: Pará -> Santiago
+
+667. Pará to Mercedes Abajo, with a time of 1
+    Path: Pará -> Mercedes Abajo
+
+668. Pará to San Roque, with a time of 1
+    Path: Pará -> San Roque
+
+669. Pará to Guadalupe Este, with a time of 1
+    Path: Pará -> Guadalupe Este
+
+670. Mercedes Abajo to Grifo Alto, with a time of 1
+    Path: Mercedes Abajo -> Grifo Alto
+
+671. Mercedes Abajo to Piedras Negras, with a time of 1
+    Path: Mercedes Abajo -> Piedras Negras
+
+672. Mercedes Abajo to San Isidro de El General, with a time of 1
+    Path: Mercedes Abajo -> San Isidro de El General
+
+673. Mercedes Abajo to Manzanillo, with a time of 1
+    Path: Mercedes Abajo -> Manzanillo
+
+674. Mercedes Abajo to San Pedro Antiguo, with a time of 1
+    Path: Mercedes Abajo -> San Pedro Antiguo
+
+675. Mercedes Abajo to Pacuarito, with a time of 1
+    Path: Mercedes Abajo -> Pacuarito
+
+676. Mercedes Abajo to Cinco Esquinas, with a time of 1
+    Path: Mercedes Abajo -> Cinco Esquinas
+
+677. Mercedes Abajo to La Cuesta, with a time of 1
+    Path: Mercedes Abajo -> La Cuesta
+
+678. San Pedro Antiguo to Patarrá, with a time of 1
+    Path: San Pedro Antiguo -> Patarrá
+
+679. San Pedro Antiguo to Santiago Poás, with a time of 1
+    Path: San Pedro Antiguo -> Santiago Poás
+
+680. San Pedro Antiguo to Veintisiete de Abril, with a time of 1
+    Path: San Pedro Antiguo -> Veintisiete de Abril
+
+681. San Pedro Antiguo to Río Cuarto, with a time of 1
+    Path: San Pedro Antiguo -> Río Cuarto
+
+682. San Pedro Antiguo to La Buenavista, with a time of 1
+    Path: San Pedro Antiguo -> La Buenavista
+
+683. San Pedro Antiguo to Sierpe, with a time of 1
+    Path: San Pedro Antiguo -> Sierpe
+
+684. San Pedro Antiguo to Rita, with a time of 1
+    Path: San Pedro Antiguo -> Rita
+
+685. Dulce Nombre Oeste to Cañas Dulces, with a time of 1
+    Path: Dulce Nombre Oeste -> Cañas Dulces
+
+686. Dulce Nombre Oeste to San Francisco Abajo, with a time of 1
+    Path: Dulce Nombre Oeste -> San Francisco Abajo
+
+687. Dulce Nombre Oeste to Oriental, with a time of 1
+    Path: Dulce Nombre Oeste -> Oriental
+
+688. Dulce Nombre Oeste to Savegre, with a time of 1
+    Path: Dulce Nombre Oeste -> Savegre
+
+689. Dulce Nombre Oeste to Mayorga, with a time of 1
+    Path: Dulce Nombre Oeste -> Mayorga
+
+690. Dulce Nombre Oeste to Santa Isabel, with a time of 1
+    Path: Dulce Nombre Oeste -> Santa Isabel
+
+691. Dulce Nombre Oeste to Escazú, with a time of 1
+    Path: Dulce Nombre Oeste -> Escazú
+
+692. Dulce Nombre Oeste to La Colonia, with a time of 1
+    Path: Dulce Nombre Oeste -> La Colonia
+
+693. Dulce Nombre Oeste to El Mastate, with a time of 1
+    Path: Dulce Nombre Oeste -> El Mastate
+
+694. Santa Cruz to San Juan Arriba, with a time of 1
+    Path: Santa Cruz -> San Juan Arriba
+
+695. Santa Cruz to Rancho Redondo, with a time of 1
+    Path: Santa Cruz -> Rancho Redondo
+
+696. Santa Cruz to Santiago Poás, with a time of 1
+    Path: Santa Cruz -> Santiago Poás
+
+697. Santa Cruz to Desamparados Sur, with a time of 1
+    Path: Santa Cruz -> Desamparados Sur
+
+698. Santa Cruz to Frailes, with a time of 1
+    Path: Santa Cruz -> Frailes
+
+699. Santa Cruz to Esquipulas, with a time of 1
+    Path: Santa Cruz -> Esquipulas
+
+700. Santa Cruz to San Vicente Norte, with a time of 1
+    Path: Santa Cruz -> San Vicente Norte
+
+701. Santa Cruz to Rita, with a time of 1
+    Path: Santa Cruz -> Rita
+
+702. Santa Cruz to Guadalupe Oeste, with a time of 1
+    Path: Santa Cruz -> Guadalupe Oeste
+
+703. Santa Cruz to Monte Verde, with a time of 1
+    Path: Santa Cruz -> Monte Verde
+
+704. Los Ángeles to Santa Rosa Abajo, with a time of 1
+    Path: Los Ángeles -> Santa Rosa Abajo
+
+705. Los Ángeles to Frailes, with a time of 1
+    Path: Los Ángeles -> Frailes
+
+706. Los Ángeles to Sabana Redonda, with a time of 1
+    Path: Los Ángeles -> Sabana Redonda
+
+707. Los Ángeles to Jesús María, with a time of 1
+    Path: Los Ángeles -> Jesús María
+
+708. Los Ángeles to Cinco Esquinas, with a time of 1
+    Path: Los Ángeles -> Cinco Esquinas
+
+709. Biolley to Cabeceras, with a time of 1
+    Path: Biolley -> Cabeceras
+
+710. Biolley to Desamparados Sur, with a time of 1
+    Path: Biolley -> Desamparados Sur
+
+711. Biolley to Matama, with a time of 1
+    Path: Biolley -> Matama
+
+712. Biolley to Quesada, with a time of 1
+    Path: Biolley -> Quesada
+
+713. Biolley to Jesús, with a time of 1
+    Path: Biolley -> Jesús
+
+714. Biolley to San Juan Grande, with a time of 1
+    Path: Biolley -> San Juan Grande
+
+715. Biolley to Concepción Este, with a time of 1
+    Path: Biolley -> Concepción Este
+
+716. Biolley to Tacares, with a time of 1
+    Path: Biolley -> Tacares
+
+717. Naranjo to Santiago Nuevo, with a time of 1
+    Path: Naranjo -> Santiago Nuevo
+
+718. Naranjo to Cirrí Sur, with a time of 1
+    Path: Naranjo -> Cirrí Sur
+
+719. Naranjo to Telire, with a time of 1
+    Path: Naranjo -> Telire
+
+720. Naranjo to Buenos Aires, with a time of 1
+    Path: Naranjo -> Buenos Aires
+
+721. Naranjo to San Sebastián, with a time of 1
+    Path: Naranjo -> San Sebastián
+
+722. Naranjo to Concepción Este, with a time of 1
+    Path: Naranjo -> Concepción Este
+
+723. Mata Redonda to La Suiza, with a time of 1
+    Path: Mata Redonda -> La Suiza
+
+724. Mata Redonda to Buenavista, with a time of 1
+    Path: Mata Redonda -> Buenavista
+
+725. Mata Redonda to San Francisco Abajo, with a time of 1
+    Path: Mata Redonda -> San Francisco Abajo
+
+726. Mata Redonda to San Pablo Arriba, with a time of 1
+    Path: Mata Redonda -> San Pablo Arriba
+
+727. Mata Redonda to Barranca, with a time of 1
+    Path: Mata Redonda -> Barranca
+
+728. Mata Redonda to Santa Bárbara, with a time of 1
+    Path: Mata Redonda -> Santa Bárbara
+
+729. Santa Rosa Nuevo to San Miguel Viejo, with a time of 1
+    Path: Santa Rosa Nuevo -> San Miguel Viejo
+
+730. Santa Rosa Nuevo to Cabo Velas, with a time of 1
+    Path: Santa Rosa Nuevo -> Cabo Velas
+
+731. Santa Rosa Nuevo to Lagunillas, with a time of 1
+    Path: Santa Rosa Nuevo -> Lagunillas
+
+732. Santa Rosa Nuevo to El Ángel, with a time of 1
+    Path: Santa Rosa Nuevo -> El Ángel
+
+733. Santa Rosa Nuevo to San Pedro Antiguo, with a time of 1
+    Path: Santa Rosa Nuevo -> San Pedro Antiguo
+
+734. Santa Rosa Nuevo to Ulloa, with a time of 1
+    Path: Santa Rosa Nuevo -> Ulloa
+
+735. Santa Rosa Nuevo to San Carlos, with a time of 1
+    Path: Santa Rosa Nuevo -> San Carlos
+
+736. Santa Rosa Nuevo to Monterrey Abajo, with a time of 1
+    Path: Santa Rosa Nuevo -> Monterrey Abajo
+
+737. Santa Rosa Nuevo to La Victoria, with a time of 1
+    Path: Santa Rosa Nuevo -> La Victoria
+
+738. Quepos to Río Azul, with a time of 1
+    Path: Quepos -> Río Azul
+
+739. Quepos to Lagunillas, with a time of 1
+    Path: Quepos -> Lagunillas
+
+740. Quepos to Biolley, with a time of 1
+    Path: Quepos -> Biolley
+
+741. Quepos to Oriental, with a time of 1
+    Path: Quepos -> Oriental
+
+742. Quepos to Labrador, with a time of 1
+    Path: Quepos -> Labrador
+
+743. Quepos to Santa Isabel, with a time of 1
+    Path: Quepos -> Santa Isabel
+
+744. Quepos to El Mastate, with a time of 1
+    Path: Quepos -> El Mastate
+
+745. Telire to San Rafael Viejo, with a time of 1
+    Path: Telire -> San Rafael Viejo
+
+746. Telire to Limón, with a time of 1
+    Path: Telire -> Limón
+
+747. Telire to San Pedro Sur, with a time of 1
+    Path: Telire -> San Pedro Sur
+
+748. Telire to Tures, with a time of 1
+    Path: Telire -> Tures
+
+749. Telire to Esquipulas, with a time of 1
+    Path: Telire -> Esquipulas
+
+750. Telire to San Rafael Abajo, with a time of 1
+    Path: Telire -> San Rafael Abajo
+
+751. Colorado to Pocora, with a time of 1
+    Path: Colorado -> Pocora
+
+752. Colorado to San Miguel Viejo, with a time of 1
+    Path: Colorado -> San Miguel Viejo
+
+753. Colorado to Bijagua, with a time of 1
+    Path: Colorado -> Bijagua
+
+754. Colorado to Río Cuarto, with a time of 1
+    Path: Colorado -> Río Cuarto
+
+755. Colorado to Biolley, with a time of 1
+    Path: Colorado -> Biolley
+
+756. Colorado to Mayorga, with a time of 1
+    Path: Colorado -> Mayorga
+
+757. Colorado to Jesús María, with a time of 1
+    Path: Colorado -> Jesús María
+
+758. Colorado to Puerto Jiménez, with a time of 1
+    Path: Colorado -> Puerto Jiménez
+
+759. Colorado to Dulce Nombre Este, with a time of 1
+    Path: Colorado -> Dulce Nombre Este
+
+760. Colorado to San Francisco Norte, with a time of 1
+    Path: Colorado -> San Francisco Norte
+
+761. Tirrases to Hojancha, with a time of 1
+    Path: Tirrases -> Hojancha
+
+762. Tirrases to Patarrá, with a time of 1
+    Path: Tirrases -> Patarrá
+
+763. Tirrases to Catedral, with a time of 1
+    Path: Tirrases -> Catedral
+
+764. Tirrases to Santiago Nuevo, with a time of 1
+    Path: Tirrases -> Santiago Nuevo
+
+765. Tirrases to Bolívar, with a time of 1
+    Path: Tirrases -> Bolívar
+
+766. Tirrases to San Pedro Antiguo, with a time of 1
+    Path: Tirrases -> San Pedro Antiguo
+
+767. Tirrases to San Nicolás, with a time of 1
+    Path: Tirrases -> San Nicolás
+
+768. Tirrases to Rivas, with a time of 1
+    Path: Tirrases -> Rivas
+
+769. Canalete to Piedras Negras, with a time of 1
+    Path: Canalete -> Piedras Negras
+
+770. Canalete to Quepos, with a time of 1
+    Path: Canalete -> Quepos
+
+771. Canalete to Caldera, with a time of 1
+    Path: Canalete -> Caldera
+
+772. Canalete to Santa Elena, with a time of 1
+    Path: Canalete -> Santa Elena
+
+773. Canalete to Santiago Oeste, with a time of 1
+    Path: Canalete -> Santiago Oeste
+
+774. Desamparados Sur to Naranjo, with a time of 1
+    Path: Desamparados Sur -> Naranjo
+
+775. Desamparados Sur to Savegre, with a time of 1
+    Path: Desamparados Sur -> Savegre
+
+776. Desamparados Sur to San José Abajo, with a time of 1
+    Path: Desamparados Sur -> San José Abajo
+
+777. Puntarenas to Turrúcares, with a time of 1
+    Path: Puntarenas -> Turrúcares
+
+778. Puntarenas to Tobosi, with a time of 1
+    Path: Puntarenas -> Tobosi
+
+779. Puntarenas to Caldera, with a time of 1
+    Path: Puntarenas -> Caldera
+
+780. Puntarenas to Pocosol, with a time of 1
+    Path: Puntarenas -> Pocosol
+
+781. Heredia to Llanuras del Gaspar, with a time of 1
+    Path: Heredia -> Llanuras del Gaspar
+
+782. Pilas to Río Azul, with a time of 1
+    Path: Pilas -> Río Azul
+
+783. Pilas to Capellades, with a time of 1
+    Path: Pilas -> Capellades
+
+784. Pilas to Colorado, with a time of 1
+    Path: Pilas -> Colorado
+
+785. Pilas to El Cairo, with a time of 1
+    Path: Pilas -> El Cairo
+
+786. Pilas to San Lorenzo, with a time of 1
+    Path: Pilas -> San Lorenzo
+
+787. Pilas to Río Jiménez, with a time of 1
+    Path: Pilas -> Río Jiménez
+
+788. Pilas to San José Abajo, with a time of 1
+    Path: Pilas -> San José Abajo
+
+789. Picagres to San Jerónimo Arriba, with a time of 1
+    Path: Picagres -> San Jerónimo Arriba
+
+790. Picagres to Barbacoas, with a time of 1
+    Path: Picagres -> Barbacoas
+
+791. Picagres to Jesús María, with a time of 1
+    Path: Picagres -> Jesús María
+
+792. Frailes to Quepos, with a time of 1
+    Path: Frailes -> Quepos
+
+793. Frailes to Pittier, with a time of 1
+    Path: Frailes -> Pittier
+
+794. Frailes to Aguabuena, with a time of 1
+    Path: Frailes -> Aguabuena
+
+795. Frailes to Laurel, with a time of 1
+    Path: Frailes -> Laurel
+
+796. Barranca to Lagunillas, with a time of 1
+    Path: Barranca -> Lagunillas
+
+797. Barranca to La Unión, with a time of 1
+    Path: Barranca -> La Unión
+
+798. Barranca to San Rafael Nuevo, with a time of 1
+    Path: Barranca -> San Rafael Nuevo
+
+799. Barranca to Santa Bárbara, with a time of 1
+    Path: Barranca -> Santa Bárbara
+
+800. Varablanca to Dulce Nombre de Jesús, with a time of 1
+    Path: Varablanca -> Dulce Nombre de Jesús
+
+801. Varablanca to Telire, with a time of 1
+    Path: Varablanca -> Telire
+
+802. Varablanca to Porvenir, with a time of 1
+    Path: Varablanca -> Porvenir
+
+803. Varablanca to Santiago Oeste, with a time of 1
+    Path: Varablanca -> Santiago Oeste
+
+804. San Felipe to Patio de Agua, with a time of 1
+    Path: San Felipe -> Patio de Agua
+
+805. San Felipe to Sabalito, with a time of 1
+    Path: San Felipe -> Sabalito
+
+806. San Felipe to Cirrí Sur, with a time of 1
+    Path: San Felipe -> Cirrí Sur
+
+807. San Felipe to San Vicente Norte, with a time of 1
+    Path: San Felipe -> San Vicente Norte
+
+808. San Felipe to Piedades Norte, with a time of 1
+    Path: San Felipe -> Piedades Norte
+
+809. Chira to Bijagua, with a time of 1
+    Path: Chira -> Bijagua
+
+810. Chira to Garita, with a time of 1
+    Path: Chira -> Garita
+
+811. Chira to Palmares, with a time of 1
+    Path: Chira -> Palmares
+
+812. Chira to Caldera, with a time of 1
+    Path: Chira -> Caldera
+
+813. Chira to San José Este, with a time of 1
+    Path: Chira -> San José Este
+
+814. Chira to Paracito, with a time of 1
+    Path: Chira -> Paracito
+
+815. Chira to Zapote Norte, with a time of 1
+    Path: Chira -> Zapote Norte
+
+816. Chira to Sierpe, with a time of 1
+    Path: Chira -> Sierpe
+
+817. Chira to Batán, with a time of 1
+    Path: Chira -> Batán
+
+818. Chira to Piedades Norte, with a time of 1
+    Path: Chira -> Piedades Norte
+
+819. Tucurrique to San Marcos, with a time of 1
+    Path: Tucurrique -> San Marcos
+
+820. Tucurrique to Lagunillas, with a time of 1
+    Path: Tucurrique -> Lagunillas
+
+821. Tucurrique to La Suiza, with a time of 1
+    Path: Tucurrique -> La Suiza
+
+822. Tucurrique to Quesada, with a time of 1
+    Path: Tucurrique -> Quesada
+
+823. San Pablo Este to San Rafael Viejo, with a time of 1
+    Path: San Pablo Este -> San Rafael Viejo
+
+824. San Pablo Este to Naranjo, with a time of 1
+    Path: San Pablo Este -> Naranjo
+
+825. San Pablo Este to Barranca, with a time of 1
+    Path: San Pablo Este -> Barranca
+
+826. San Pablo Este to San Gabriel, with a time of 1
+    Path: San Pablo Este -> San Gabriel
+
+827. San Pablo Este to Santo Domingo, with a time of 1
+    Path: San Pablo Este -> Santo Domingo
+
+828. San Pablo Este to San Nicolás, with a time of 1
+    Path: San Pablo Este -> San Nicolás
+
+829. San Pablo Este to Santa Bárbara, with a time of 1
+    Path: San Pablo Este -> Santa Bárbara
+
+830. San Pablo Este to Pocosol, with a time of 1
+    Path: San Pablo Este -> Pocosol
+
+831. Tures to Santiago Puriscal, with a time of 1
+    Path: Tures -> Santiago Puriscal
+
+832. Tures to San Nicolás, with a time of 1
+    Path: Tures -> San Nicolás
+
+833. Tures to Aserrí, with a time of 1
+    Path: Tures -> Aserrí
+
+834. Tures to Concepción Arriba, with a time of 1
+    Path: Tures -> Concepción Arriba
+
+835. Tures to Puerto Viejo, with a time of 1
+    Path: Tures -> Puerto Viejo
+
+836. El Roble to Patio de Agua, with a time of 1
+    Path: El Roble -> Patio de Agua
+
+837. El Roble to Santiago Poás, with a time of 1
+    Path: El Roble -> Santiago Poás
+
+838. El Roble to Varablanca, with a time of 1
+    Path: El Roble -> Varablanca
+
+839. El Roble to Escazú, with a time of 1
+    Path: El Roble -> Escazú
+
+840. El Roble to Paracito, with a time of 1
+    Path: El Roble -> Paracito
+
+841. El Roble to Brisas, with a time of 1
+    Path: El Roble -> Brisas
+
+842. Ulloa to Quebrada Honda, with a time of 1
+    Path: Ulloa -> Quebrada Honda
+
+843. Ulloa to Daniel Flores, with a time of 1
+    Path: Ulloa -> Daniel Flores
+
+844. Ulloa to Germania, with a time of 1
+    Path: Ulloa -> Germania
+
+845. Ulloa to Pitahaya, with a time of 1
+    Path: Ulloa -> Pitahaya
+
+846. Ulloa to Esquipulas, with a time of 1
+    Path: Ulloa -> Esquipulas
+
+847. Ulloa to Mayorga, with a time of 1
+    Path: Ulloa -> Mayorga
+
+848. Ulloa to Pejibayes, with a time of 1
+    Path: Ulloa -> Pejibayes
+
+849. Ulloa to Siquirres, with a time of 1
+    Path: Ulloa -> Siquirres
+
+850. Oriental to Hojancha, with a time of 1
+    Path: Oriental -> Hojancha
+
+851. Oriental to Isla del Coco, with a time of 1
+    Path: Oriental -> Isla del Coco
+
+852. Oriental to Cabo Velas, with a time of 1
+    Path: Oriental -> Cabo Velas
+
+853. Oriental to Palmiralito, with a time of 1
+    Path: Oriental -> Palmiralito
+
+854. Oriental to Los Ángeles, with a time of 1
+    Path: Oriental -> Los Ángeles
+
+855. Oriental to Biolley, with a time of 1
+    Path: Oriental -> Biolley
+
+856. Oriental to Buenos Aires, with a time of 1
+    Path: Oriental -> Buenos Aires
+
+857. Oriental to Santo Tomás, with a time of 1
+    Path: Oriental -> Santo Tomás
+
+858. Oriental to Rincón de Sabanilla, with a time of 1
+    Path: Oriental -> Rincón de Sabanilla
+
+859. San Gabriel to San Rafael Viejo, with a time of 1
+    Path: San Gabriel -> San Rafael Viejo
+
+860. San Gabriel to Río Cuarto, with a time of 1
+    Path: San Gabriel -> Río Cuarto
+
+861. San Gabriel to Picagres, with a time of 1
+    Path: San Gabriel -> Picagres
+
+862. San Gabriel to San Pablo Este, with a time of 1
+    Path: San Gabriel -> San Pablo Este
+
+863. San Gabriel to Santo Domingo, with a time of 1
+    Path: San Gabriel -> Santo Domingo
+
+864. San Gabriel to Palmar, with a time of 1
+    Path: San Gabriel -> Palmar
+
+865. San Gabriel to Aserrí, with a time of 1
+    Path: San Gabriel -> Aserrí
+
+866. Santo Domingo to Guácimo, with a time of 1
+    Path: Santo Domingo -> Guácimo
+
+867. Santo Domingo to San Pablo Arriba, with a time of 1
+    Path: Santo Domingo -> San Pablo Arriba
+
+868. Santo Domingo to Savegre, with a time of 1
+    Path: Santo Domingo -> Savegre
+
+869. Santo Domingo to San Rafael Arriba, with a time of 1
+    Path: Santo Domingo -> San Rafael Arriba
+
+870. Delicias to Piedras Negras, with a time of 1
+    Path: Delicias -> Piedras Negras
+
+871. Delicias to San Vicente, with a time of 1
+    Path: Delicias -> San Vicente
+
+872. Savegre to Los Chiles, with a time of 1
+    Path: Savegre -> Los Chiles
+
+873. Savegre to Pilas, with a time of 1
+    Path: Savegre -> Pilas
+
+874. Savegre to Concepción Este, with a time of 1
+    Path: Savegre -> Concepción Este
+
+875. Savegre to San Vicente, with a time of 1
+    Path: Savegre -> San Vicente
+
+876. Savegre to La Colonia, with a time of 1
+    Path: Savegre -> La Colonia
+
+877. El Cairo to Grifo Alto, with a time of 1
+    Path: El Cairo -> Grifo Alto
+
+878. El Cairo to Piedras Negras, with a time of 1
+    Path: El Cairo -> Piedras Negras
+
+879. El Cairo to Tempate, with a time of 1
+    Path: El Cairo -> Tempate
+
+880. El Cairo to San Isidro Abajo, with a time of 1
+    Path: El Cairo -> San Isidro Abajo
+
+881. El Cairo to Tirrases, with a time of 1
+    Path: El Cairo -> Tirrases
+
+882. El Cairo to Heredia, with a time of 1
+    Path: El Cairo -> Heredia
+
+883. Porvenir to Manzanillo, with a time of 1
+    Path: Porvenir -> Manzanillo
+
+884. Porvenir to Cabo Velas, with a time of 1
+    Path: Porvenir -> Cabo Velas
+
+885. Porvenir to Yolillal, with a time of 1
+    Path: Porvenir -> Yolillal
+
+886. Porvenir to Limoncito, with a time of 1
+    Path: Porvenir -> Limoncito
+
+887. Paquera to Isla del Coco, with a time of 1
+    Path: Paquera -> Isla del Coco
+
+888. Paquera to Duacarí, with a time of 1
+    Path: Paquera -> Duacarí
+
+889. Paquera to Florida, with a time of 1
+    Path: Paquera -> Florida
+
+890. Paquera to Guacimal, with a time of 1
+    Path: Paquera -> Guacimal
+
+891. Paquera to Bebedero, with a time of 1
+    Path: Paquera -> Bebedero
+
+892. Paquera to Capellades, with a time of 1
+    Path: Paquera -> Capellades
+
+893. Paquera to Cutris, with a time of 1
+    Path: Paquera -> Cutris
+
+894. Paquera to Buenavista, with a time of 1
+    Path: Paquera -> Buenavista
+
+895. Paquera to Tempate, with a time of 1
+    Path: Paquera -> Tempate
+
+896. Paquera to Dulce Nombre Oeste, with a time of 1
+    Path: Paquera -> Dulce Nombre Oeste
+
+897. Paquera to Desamparados Sur, with a time of 1
+    Path: Paquera -> Desamparados Sur
+
+898. Paquera to Caldera, with a time of 1
+    Path: Paquera -> Caldera
+
+899. Paquera to Escazú, with a time of 1
+    Path: Paquera -> Escazú
+
+900. Paquera to San Rafael Oeste, with a time of 1
+    Path: Paquera -> San Rafael Oeste
+
+901. Paquera to Venado, with a time of 1
+    Path: Paquera -> Venado
+
+902. Paquera to Tuis, with a time of 1
+    Path: Paquera -> Tuis
+
+903. Paquera to La Cuesta, with a time of 1
+    Path: Paquera -> La Cuesta
+
+904. San Carlos to San José Norte, with a time of 1
+    Path: San Carlos -> San José Norte
+
+905. San Carlos to Río Azul, with a time of 1
+    Path: San Carlos -> Río Azul
+
+906. San Carlos to San Francisco Abajo, with a time of 1
+    Path: San Carlos -> San Francisco Abajo
+
+907. San Carlos to Barranca, with a time of 1
+    Path: San Carlos -> Barranca
+
+908. San Carlos to Chires, with a time of 1
+    Path: San Carlos -> Chires
+
+909. San Carlos to San Juan Norte, with a time of 1
+    Path: San Carlos -> San Juan Norte
+
+910. San Carlos to Escazú, with a time of 1
+    Path: San Carlos -> Escazú
+
+911. San Carlos to Paracito, with a time of 1
+    Path: San Carlos -> Paracito
+
+912. San Carlos to La Colonia, with a time of 1
+    Path: San Carlos -> La Colonia
+
+913. Candelarita to Tambor, with a time of 1
+    Path: Candelarita -> Tambor
+
+914. Candelarita to Cañas Dulces, with a time of 1
+    Path: Candelarita -> Cañas Dulces
+
+915. Candelarita to San Isidro Labrador, with a time of 1
+    Path: Candelarita -> San Isidro Labrador
+
+916. Candelarita to Tempate, with a time of 1
+    Path: Candelarita -> Tempate
+
+917. Candelarita to Quepos, with a time of 1
+    Path: Candelarita -> Quepos
+
+918. Candelarita to Porvenir, with a time of 1
+    Path: Candelarita -> Porvenir
+
+919. San Roque to Tres Equis, with a time of 1
+    Path: San Roque -> Tres Equis
+
+920. San Roque to Santa Rosa Nuevo, with a time of 1
+    Path: San Roque -> Santa Rosa Nuevo
+
+921. San Roque to Jesús, with a time of 1
+    Path: San Roque -> Jesús
+
+922. San Roque to Venado, with a time of 1
+    Path: San Roque -> Venado
+
+923. San Roque to Siquirres, with a time of 1
+    Path: San Roque -> Siquirres
+
+924. Monterrey Abajo to Santa Rosa Abajo, with a time of 1
+    Path: Monterrey Abajo -> Santa Rosa Abajo
+
+925. Monterrey Abajo to Mata Redonda, with a time of 1
+    Path: Monterrey Abajo -> Mata Redonda
+
+926. Monterrey Abajo to Quepos, with a time of 1
+    Path: Monterrey Abajo -> Quepos
+
+927. Monterrey Abajo to Chira, with a time of 1
+    Path: Monterrey Abajo -> Chira
+
+928. Monterrey Abajo to Porvenir, with a time of 1
+    Path: Monterrey Abajo -> Porvenir
+
+929. Monterrey Abajo to Uruca, with a time of 1
+    Path: Monterrey Abajo -> Uruca
+
+930. Monterrey Abajo to Santiago Oeste, with a time of 1
+    Path: Monterrey Abajo -> Santiago Oeste
+
+931. Caldera to Rancho Redondo, with a time of 1
+    Path: Caldera -> Rancho Redondo
+
+932. Caldera to Santa Rosa Abajo, with a time of 1
+    Path: Caldera -> Santa Rosa Abajo
+
+933. Caldera to San Rafael Viejo, with a time of 1
+    Path: Caldera -> San Rafael Viejo
+
+934. Caldera to Yolillal, with a time of 1
+    Path: Caldera -> Yolillal
+
+935. Caldera to Cuajiniquil, with a time of 1
+    Path: Caldera -> Cuajiniquil
+
+936. Caldera to Pejibayes, with a time of 1
+    Path: Caldera -> Pejibayes
+
+937. Caldera to Sabanillal, with a time of 1
+    Path: Caldera -> Sabanillal
+
+938. Caldera to La Colonia, with a time of 1
+    Path: Caldera -> La Colonia
+
+939. Esquipulas to Rancho Redondo, with a time of 1
+    Path: Esquipulas -> Rancho Redondo
+
+940. Esquipulas to Garita, with a time of 1
+    Path: Esquipulas -> Garita
+
+941. Esquipulas to Puerto Carrillo, with a time of 1
+    Path: Esquipulas -> Puerto Carrillo
+
+942. Esquipulas to Cuajiniquil, with a time of 1
+    Path: Esquipulas -> Cuajiniquil
+
+943. Esquipulas to San Juan Grande, with a time of 1
+    Path: Esquipulas -> San Juan Grande
+
+944. Esquipulas to Tuis, with a time of 1
+    Path: Esquipulas -> Tuis
+
+945. Esquipulas to Monte Verde, with a time of 1
+    Path: Esquipulas -> Monte Verde
+
+946. Mayorga to Quebrada Honda, with a time of 1
+    Path: Mayorga -> Quebrada Honda
+
+947. Mayorga to Garita, with a time of 1
+    Path: Mayorga -> Garita
+
+948. Mayorga to San Pablo Arriba, with a time of 1
+    Path: Mayorga -> San Pablo Arriba
+
+949. Mayorga to Dulce Nombre Oeste, with a time of 1
+    Path: Mayorga -> Dulce Nombre Oeste
+
+950. Mayorga to Santiago Oeste, with a time of 1
+    Path: Mayorga -> Santiago Oeste
+
+951. Pavón to Grifo Alto, with a time of 1
+    Path: Pavón -> Grifo Alto
+
+952. Pavón to Chomes, with a time of 1
+    Path: Pavón -> Chomes
+
+953. Pavón to Quepos, with a time of 1
+    Path: Pavón -> Quepos
+
+954. Pavón to La Buenavista, with a time of 1
+    Path: Pavón -> La Buenavista
+
+955. Pavón to Paracito, with a time of 1
+    Path: Pavón -> Paracito
+
+956. Pavón to Santo Tomás, with a time of 1
+    Path: Pavón -> Santo Tomás
+
+957. Tabarcia to Palmares, with a time of 1
+    Path: Tabarcia -> Palmares
+
+958. Tabarcia to Capellades, with a time of 1
+    Path: Tabarcia -> Capellades
+
+959. Tabarcia to Cabeceras, with a time of 1
+    Path: Tabarcia -> Cabeceras
+
+960. Tabarcia to San Pablo Arriba, with a time of 1
+    Path: Tabarcia -> San Pablo Arriba
+
+961. Tabarcia to San Felipe, with a time of 1
+    Path: Tabarcia -> San Felipe
+
+962. Tabarcia to Mayorga, with a time of 1
+    Path: Tabarcia -> Mayorga
+
+963. Tabarcia to Pejibayes, with a time of 1
+    Path: Tabarcia -> Pejibayes
+
+964. Tabarcia to Liberia, with a time of 1
+    Path: Tabarcia -> Liberia
+
+965. Tabarcia to Dulce Nombre Este, with a time of 1
+    Path: Tabarcia -> Dulce Nombre Este
+
+966. Carrillos to Hacienda Vieja, with a time of 1
+    Path: Carrillos -> Hacienda Vieja
+
+967. Carrillos to Guácimo, with a time of 1
+    Path: Carrillos -> Guácimo
+
+968. Carrillos to Los Ángeles, with a time of 1
+    Path: Carrillos -> Los Ángeles
+
+969. Carrillos to Heredia, with a time of 1
+    Path: Carrillos -> Heredia
+
+970. Carrillos to Savegre, with a time of 1
+    Path: Carrillos -> Savegre
+
+971. Carrillos to Pittier, with a time of 1
+    Path: Carrillos -> Pittier
+
+972. Carrillos to Rivas, with a time of 1
+    Path: Carrillos -> Rivas
+
+973. Palmar to Bebedero, with a time of 1
+    Path: Palmar -> Bebedero
+
+974. Palmar to La Suiza, with a time of 1
+    Path: Palmar -> La Suiza
+
+975. Palmar to Dulce Nombre Oeste, with a time of 1
+    Path: Palmar -> Dulce Nombre Oeste
+
+976. Palmar to Santa Cruz, with a time of 1
+    Path: Palmar -> Santa Cruz
+
+977. Palmar to Chira, with a time of 1
+    Path: Palmar -> Chira
+
+978. Palmar to San Francisco de Dos Ríos, with a time of 1
+    Path: Palmar -> San Francisco de Dos Ríos
+
+979. Yolillal to Tambor, with a time of 1
+    Path: Yolillal -> Tambor
+
+980. Yolillal to San Miguel Viejo, with a time of 1
+    Path: Yolillal -> San Miguel Viejo
+
+981. Yolillal to Llanuras del Gaspar, with a time of 1
+    Path: Yolillal -> Llanuras del Gaspar
+
+982. Yolillal to Dulce Nombre Oeste, with a time of 1
+    Path: Yolillal -> Dulce Nombre Oeste
+
+983. Yolillal to Escazú, with a time of 1
+    Path: Yolillal -> Escazú
+
+984. Yolillal to Pittier, with a time of 1
+    Path: Yolillal -> Pittier
+
+985. Yolillal to Rivas, with a time of 1
+    Path: Yolillal -> Rivas
+
+986. Yolillal to Brisas, with a time of 1
+    Path: Yolillal -> Brisas
+
+987. Yolillal to Monterrey Arriba, with a time of 1
+    Path: Yolillal -> Monterrey Arriba
+
+988. Matama to Santa Rosa Viejo, with a time of 1
+    Path: Matama -> Santa Rosa Viejo
+
+989. Matama to Manzanillo, with a time of 1
+    Path: Matama -> Manzanillo
+
+990. Matama to Chira, with a time of 1
+    Path: Matama -> Chira
+
+991. Matama to Oriental, with a time of 1
+    Path: Matama -> Oriental
+
+992. Matama to Santa Cruz Sur, with a time of 1
+    Path: Matama -> Santa Cruz Sur
+
+993. Matama to San Isidro Este, with a time of 1
+    Path: Matama -> San Isidro Este
+
+994. Matama to Pocosol, with a time of 1
+    Path: Matama -> Pocosol
+
+995. Matama to Sarchí Norte, with a time of 1
+    Path: Matama -> Sarchí Norte
+
+996. Labrador to Pavón, with a time of 1
+    Path: Labrador -> Pavón
+
+997. Labrador to San Juan Grande, with a time of 1
+    Path: Labrador -> San Juan Grande
+
+998. Labrador to Concepción Arriba, with a time of 1
+    Path: Labrador -> Concepción Arriba
+
+999. Cuajiniquil to Peñas Blancas, with a time of 1
+    Path: Cuajiniquil -> Peñas Blancas
+
+1000. Cuajiniquil to Santa Rosa Nuevo, with a time of 1
+    Path: Cuajiniquil -> Santa Rosa Nuevo
+
+1001. Cuajiniquil to Monterrey Abajo, with a time of 1
+    Path: Cuajiniquil -> Monterrey Abajo
+
+1002. Cuajiniquil to Escazú, with a time of 1
+    Path: Cuajiniquil -> Escazú
+
+1003. Cuajiniquil to San Lorenzo, with a time of 1
+    Path: Cuajiniquil -> San Lorenzo
+
+1004. Cuajiniquil to Pittier, with a time of 1
+    Path: Cuajiniquil -> Pittier
+
+1005. Santa Isabel to San Rafael Viejo, with a time of 1
+    Path: Santa Isabel -> San Rafael Viejo
+
+1006. Santa Isabel to Puerto Carrillo, with a time of 1
+    Path: Santa Isabel -> Puerto Carrillo
+
+1007. Santa Isabel to El Ángel, with a time of 1
+    Path: Santa Isabel -> El Ángel
+
+1008. Santa Isabel to San Pedro Antiguo, with a time of 1
+    Path: Santa Isabel -> San Pedro Antiguo
+
+1009. Santa Isabel to La Buenavista, with a time of 1
+    Path: Santa Isabel -> La Buenavista
+
+1010. Santa Isabel to Aguabuena, with a time of 1
+    Path: Santa Isabel -> Aguabuena
+
+1011. Santa Isabel to Florencia, with a time of 1
+    Path: Santa Isabel -> Florencia
+
+1012. Santa Isabel to Sabanillal, with a time of 1
+    Path: Santa Isabel -> Sabanillal
+
+1013. Pejibayes to Jesús Piedad, with a time of 1
+    Path: Pejibayes -> Jesús Piedad
+
+1014. Pejibayes to La Trinidad, with a time of 1
+    Path: Pejibayes -> La Trinidad
+
+1015. Pejibayes to Canalete, with a time of 1
+    Path: Pejibayes -> Canalete
+
+1016. Pejibayes to Cuajiniquil, with a time of 1
+    Path: Pejibayes -> Cuajiniquil
+
+1017. Pejibayes to San Juan Grande, with a time of 1
+    Path: Pejibayes -> San Juan Grande
+
+1018. Pejibayes to Monterrey Arriba, with a time of 1
+    Path: Pejibayes -> Monterrey Arriba
+
+1019. San Rafael Nuevo to Quebrada Honda, with a time of 1
+    Path: San Rafael Nuevo -> Quebrada Honda
+
+1020. San Rafael Nuevo to Santa Rosa Viejo, with a time of 1
+    Path: San Rafael Nuevo -> Santa Rosa Viejo
+
+1021. San Rafael Nuevo to Santa Rosa Abajo, with a time of 1
+    Path: San Rafael Nuevo -> Santa Rosa Abajo
+
+1022. San Rafael Nuevo to Palmares, with a time of 1
+    Path: San Rafael Nuevo -> Palmares
+
+1023. San Rafael Nuevo to Cuajiniquil, with a time of 1
+    Path: San Rafael Nuevo -> Cuajiniquil
+
+1024. Liberia to San Miguel Viejo, with a time of 1
+    Path: Liberia -> San Miguel Viejo
+
+1025. Liberia to Limoncito, with a time of 1
+    Path: Liberia -> Limoncito
+
+1026. Liberia to San Francisco Arriba, with a time of 1
+    Path: Liberia -> San Francisco Arriba
+
+1027. Liberia to Sabanillal, with a time of 1
+    Path: Liberia -> Sabanillal
+
+1028. Barbacoas to Bahía Ballena, with a time of 1
+    Path: Barbacoas -> Bahía Ballena
+
+1029. Barbacoas to Los Guido, with a time of 1
+    Path: Barbacoas -> Los Guido
+
+1030. Barbacoas to Puerto Carrillo, with a time of 1
+    Path: Barbacoas -> Puerto Carrillo
+
+1031. Barbacoas to Palmiralito, with a time of 1
+    Path: Barbacoas -> Palmiralito
+
+1032. Barbacoas to Mercedes Abajo, with a time of 1
+    Path: Barbacoas -> Mercedes Abajo
+
+1033. Barbacoas to San José Este, with a time of 1
+    Path: Barbacoas -> San José Este
+
+1034. Barbacoas to Zapote Norte, with a time of 1
+    Path: Barbacoas -> Zapote Norte
+
+1035. Barbacoas to Puerto Jiménez, with a time of 1
+    Path: Barbacoas -> Puerto Jiménez
+
+1036. Barbacoas to Puerto Viejo, with a time of 1
+    Path: Barbacoas -> Puerto Viejo
+
+1037. San José Este to Germania, with a time of 1
+    Path: San José Este -> Germania
+
+1038. San José Este to Chira, with a time of 1
+    Path: San José Este -> Chira
+
+1039. San José Este to Tuis, with a time of 1
+    Path: San José Este -> Tuis
+
+1040. Quesada to Santa Rosa Viejo, with a time of 1
+    Path: Quesada -> Santa Rosa Viejo
+
+1041. Quesada to Esquipulas, with a time of 1
+    Path: Quesada -> Esquipulas
+
+1042. Quesada to Matama, with a time of 1
+    Path: Quesada -> Matama
+
+1043. Quesada to San Lorenzo, with a time of 1
+    Path: Quesada -> San Lorenzo
+
+1044. Legua to Cartagena, with a time of 1
+    Path: Legua -> Cartagena
+
+1045. Legua to Dulce Nombre de Jesús, with a time of 1
+    Path: Legua -> Dulce Nombre de Jesús
+
+1046. Legua to San Pablo Arriba, with a time of 1
+    Path: Legua -> San Pablo Arriba
+
+1047. Legua to Dulce Nombre Oeste, with a time of 1
+    Path: Legua -> Dulce Nombre Oeste
+
+1048. Legua to Oriental, with a time of 1
+    Path: Legua -> Oriental
+
+1049. Legua to Savegre, with a time of 1
+    Path: Legua -> Savegre
+
+1050. Buenos Aires to Garita, with a time of 1
+    Path: Buenos Aires -> Garita
+
+1051. Buenos Aires to San Jerónimo Arriba, with a time of 1
+    Path: Buenos Aires -> San Jerónimo Arriba
+
+1052. Buenos Aires to Capellades, with a time of 1
+    Path: Buenos Aires -> Capellades
+
+1053. Buenos Aires to Naranjo, with a time of 1
+    Path: Buenos Aires -> Naranjo
+
+1054. Buenos Aires to Tucurrique, with a time of 1
+    Path: Buenos Aires -> Tucurrique
+
+1055. Buenos Aires to Rivas, with a time of 1
+    Path: Buenos Aires -> Rivas
+
+1056. Buenos Aires to La Cuesta, with a time of 1
+    Path: Buenos Aires -> La Cuesta
+
+1057. Buenos Aires to La Colonia, with a time of 1
+    Path: Buenos Aires -> La Colonia
+
+1058. Turrialba to Veintisiete de Abril, with a time of 1
+    Path: Turrialba -> Veintisiete de Abril
+
+1059. Turrialba to Puerto Carrillo, with a time of 1
+    Path: Turrialba -> Puerto Carrillo
+
+1060. Turrialba to La Victoria, with a time of 1
+    Path: Turrialba -> La Victoria
+
+1061. Turrialba to Piedades Norte, with a time of 1
+    Path: Turrialba -> Piedades Norte
+
+1062. San Vicente Norte to Turrúcares, with a time of 1
+    Path: San Vicente Norte -> Turrúcares
+
+1063. San Vicente Norte to Tres Equis, with a time of 1
+    Path: San Vicente Norte -> Tres Equis
+
+1064. San Vicente Norte to Palmira, with a time of 1
+    Path: San Vicente Norte -> Palmira
+
+1065. San Vicente Norte to Roxana, with a time of 1
+    Path: San Vicente Norte -> Roxana
+
+1066. San Vicente Norte to Chira, with a time of 1
+    Path: San Vicente Norte -> Chira
+
+1067. San Vicente Norte to Tucurrique, with a time of 1
+    Path: San Vicente Norte -> Tucurrique
+
+1068. San Vicente Norte to Uruca, with a time of 1
+    Path: San Vicente Norte -> Uruca
+
+1069. San Nicolás to Santa Rosa Viejo, with a time of 1
+    Path: San Nicolás -> Santa Rosa Viejo
+
+1070. San Nicolás to Palmitos, with a time of 1
+    Path: San Nicolás -> Palmitos
+
+1071. San Nicolás to San Isidro de El General, with a time of 1
+    Path: San Nicolás -> San Isidro de El General
+
+1072. San Nicolás to Cartagena, with a time of 1
+    Path: San Nicolás -> Cartagena
+
+1073. San Nicolás to Tempate, with a time of 1
+    Path: San Nicolás -> Tempate
+
+1074. San Nicolás to Los Chiles, with a time of 1
+    Path: San Nicolás -> Los Chiles
+
+1075. San Nicolás to Dulce Nombre Oeste, with a time of 1
+    Path: San Nicolás -> Dulce Nombre Oeste
+
+1076. San Nicolás to Paquera, with a time of 1
+    Path: San Nicolás -> Paquera
+
+1077. San Nicolás to Caldera, with a time of 1
+    Path: San Nicolás -> Caldera
+
+1078. San Nicolás to San Francisco Arriba, with a time of 1
+    Path: San Nicolás -> San Francisco Arriba
+
+1079. La Buenavista to Dos Ríos, with a time of 1
+    Path: La Buenavista -> Dos Ríos
+
+1080. La Buenavista to Atenas, with a time of 1
+    Path: La Buenavista -> Atenas
+
+1081. La Buenavista to Sabalito, with a time of 1
+    Path: La Buenavista -> Sabalito
+
+1082. La Buenavista to Mayorga, with a time of 1
+    Path: La Buenavista -> Mayorga
+
+1083. La Buenavista to Sabana Redonda, with a time of 1
+    Path: La Buenavista -> Sabana Redonda
+
+1084. La Asunción to Catedral, with a time of 1
+    Path: La Asunción -> Catedral
+
+1085. La Asunción to Santa Rosa Abajo, with a time of 1
+    Path: La Asunción -> Santa Rosa Abajo
+
+1086. La Asunción to Dulce Nombre de Jesús, with a time of 1
+    Path: La Asunción -> Dulce Nombre de Jesús
+
+1087. La Asunción to Mercedes Abajo, with a time of 1
+    Path: La Asunción -> Mercedes Abajo
+
+1088. San Ignacio to Cañas Dulces, with a time of 1
+    Path: San Ignacio -> Cañas Dulces
+
+1089. San Ignacio to Lagunillas, with a time of 1
+    Path: San Ignacio -> Lagunillas
+
+1090. San Ignacio to Santiago Puriscal, with a time of 1
+    Path: San Ignacio -> Santiago Puriscal
+
+1091. San Ignacio to Pitahaya, with a time of 1
+    Path: San Ignacio -> Pitahaya
+
+1092. San Ignacio to Los Ángeles, with a time of 1
+    Path: San Ignacio -> Los Ángeles
+
+1093. San Ignacio to San Sebastián, with a time of 1
+    Path: San Ignacio -> San Sebastián
+
+1094. Guadalupe Este to Turrúcares, with a time of 1
+    Path: Guadalupe Este -> Turrúcares
+
+1095. Guadalupe Este to Rancho Redondo, with a time of 1
+    Path: Guadalupe Este -> Rancho Redondo
+
+1096. Guadalupe Este to Garita, with a time of 1
+    Path: Guadalupe Este -> Garita
+
+1097. Guadalupe Este to Santiago Nuevo, with a time of 1
+    Path: Guadalupe Este -> Santiago Nuevo
+
+1098. Guadalupe Este to Bebedero, with a time of 1
+    Path: Guadalupe Este -> Bebedero
+
+1099. Guadalupe Este to Peñas Blancas, with a time of 1
+    Path: Guadalupe Este -> Peñas Blancas
+
+1100. Guadalupe Este to La Trinidad, with a time of 1
+    Path: Guadalupe Este -> La Trinidad
+
+1101. Guadalupe Este to Telire, with a time of 1
+    Path: Guadalupe Este -> Telire
+
+1102. Guadalupe Este to Paquera, with a time of 1
+    Path: Guadalupe Este -> Paquera
+
+1103. Guadalupe Este to San Nicolás, with a time of 1
+    Path: Guadalupe Este -> San Nicolás
+
+1104. Guadalupe Este to La Cuesta, with a time of 1
+    Path: Guadalupe Este -> La Cuesta
+
+1105. Chires to Bolsón, with a time of 1
+    Path: Chires -> Bolsón
+
+1106. Chires to Garita, with a time of 1
+    Path: Chires -> Garita
+
+1107. Chires to Río Cuarto, with a time of 1
+    Path: Chires -> Río Cuarto
+
+1108. Chires to Santa Rosa Nuevo, with a time of 1
+    Path: Chires -> Santa Rosa Nuevo
+
+1109. Chires to San Pablo Este, with a time of 1
+    Path: Chires -> San Pablo Este
+
+1110. Chires to Caldera, with a time of 1
+    Path: Chires -> Caldera
+
+1111. Chires to Santa Cruz Sur, with a time of 1
+    Path: Chires -> Santa Cruz Sur
+
+1112. Pacuarito to Acapulco, with a time of 1
+    Path: Pacuarito -> Acapulco
+
+1113. Pacuarito to Santiago Poás, with a time of 1
+    Path: Pacuarito -> Santiago Poás
+
+1114. Pacuarito to Santiago Nuevo, with a time of 1
+    Path: Pacuarito -> Santiago Nuevo
+
+1115. Pacuarito to San Jerónimo Arriba, with a time of 1
+    Path: Pacuarito -> San Jerónimo Arriba
+
+1116. Pacuarito to Roxana, with a time of 1
+    Path: Pacuarito -> Roxana
+
+1117. Pacuarito to Tabarcia, with a time of 1
+    Path: Pacuarito -> Tabarcia
+
+1118. Pacuarito to Birrisito, with a time of 1
+    Path: Pacuarito -> Birrisito
+
+1119. Pacuarito to Zapote, with a time of 1
+    Path: Pacuarito -> Zapote
+
+1120. Pacuarito to Aguacaliente, with a time of 1
+    Path: Pacuarito -> Aguacaliente
+
+1121. Birrisito to Granadilla, with a time of 1
+    Path: Birrisito -> Granadilla
+
+1122. Birrisito to Los Ángeles, with a time of 1
+    Path: Birrisito -> Los Ángeles
+
+1123. Birrisito to Picagres, with a time of 1
+    Path: Birrisito -> Picagres
+
+1124. Birrisito to Savegre, with a time of 1
+    Path: Birrisito -> Savegre
+
+1125. Birrisito to Esquipulas, with a time of 1
+    Path: Birrisito -> Esquipulas
+
+1126. Birrisito to Mayorga, with a time of 1
+    Path: Birrisito -> Mayorga
+
+1127. Birrisito to Uruca, with a time of 1
+    Path: Birrisito -> Uruca
+
+1128. Birrisito to San Rafael Norte, with a time of 1
+    Path: Birrisito -> San Rafael Norte
+
+1129. Birrisito to Pocosol, with a time of 1
+    Path: Birrisito -> Pocosol
+
+1130. San Juan Norte to San José Norte, with a time of 1
+    Path: San Juan Norte -> San José Norte
+
+1131. San Juan Norte to Bebedero, with a time of 1
+    Path: San Juan Norte -> Bebedero
+
+1132. San Juan Norte to Volcán, with a time of 1
+    Path: San Juan Norte -> Volcán
+
+1133. San Juan Norte to Naranjo, with a time of 1
+    Path: San Juan Norte -> Naranjo
+
+1134. San Juan Norte to Tirrases, with a time of 1
+    Path: San Juan Norte -> Tirrases
+
+1135. San Juan Norte to Tucurrique, with a time of 1
+    Path: San Juan Norte -> Tucurrique
+
+1136. San Juan Norte to Santa Isabel, with a time of 1
+    Path: San Juan Norte -> Santa Isabel
+
+1137. Uruca to Zapotal, with a time of 1
+    Path: Uruca -> Zapotal
+
+1138. Uruca to Palmitos, with a time of 1
+    Path: Uruca -> Palmitos
+
+1139. Uruca to San Isidro Abajo, with a time of 1
+    Path: Uruca -> San Isidro Abajo
+
+1140. Uruca to Chira, with a time of 1
+    Path: Uruca -> Chira
+
+1141. Uruca to Caldera, with a time of 1
+    Path: Uruca -> Caldera
+
+1142. Uruca to Yolillal, with a time of 1
+    Path: Uruca -> Yolillal
+
+1143. Uruca to Concepción Este, with a time of 1
+    Path: Uruca -> Concepción Este
+
+1144. Uruca to Florencia, with a time of 1
+    Path: Uruca -> Florencia
+
+1145. Zapote to San Pablo Arriba, with a time of 1
+    Path: Zapote -> San Pablo Arriba
+
+1146. Zapote to Pittier, with a time of 1
+    Path: Zapote -> Pittier
+
+1147. Zapote to Río Jiménez, with a time of 1
+    Path: Zapote -> Río Jiménez
+
+1148. Zapote to Tarbaca, with a time of 1
+    Path: Zapote -> Tarbaca
+
+1149. San Francisco de Dos Ríos to Cañas Dulces, with a time of 1
+    Path: San Francisco de Dos Ríos -> Cañas Dulces
+
+1150. San Francisco de Dos Ríos to Isla del Coco, with a time of 1
+    Path: San Francisco de Dos Ríos -> Isla del Coco
+
+1151. San Francisco de Dos Ríos to Sarapiquí, with a time of 1
+    Path: San Francisco de Dos Ríos -> Sarapiquí
+
+1152. San Francisco de Dos Ríos to Bijagua, with a time of 1
+    Path: San Francisco de Dos Ríos -> Bijagua
+
+1153. San Francisco de Dos Ríos to Guácimo, with a time of 1
+    Path: San Francisco de Dos Ríos -> Guácimo
+
+1154. San Francisco de Dos Ríos to Barbacoas, with a time of 1
+    Path: San Francisco de Dos Ríos -> Barbacoas
+
+1155. San Francisco de Dos Ríos to Paracito, with a time of 1
+    Path: San Francisco de Dos Ríos -> Paracito
+
+1156. San Francisco de Dos Ríos to Laurel, with a time of 1
+    Path: San Francisco de Dos Ríos -> Laurel
+
+1157. San Francisco de Dos Ríos to Sabanillal, with a time of 1
+    Path: San Francisco de Dos Ríos -> Sabanillal
+
+1158. Escazú to Los Guido, with a time of 1
+    Path: Escazú -> Los Guido
+
+1159. Escazú to Palmitos, with a time of 1
+    Path: Escazú -> Palmitos
+
+1160. Escazú to Germania, with a time of 1
+    Path: Escazú -> Germania
+
+1161. Escazú to Pavón, with a time of 1
+    Path: Escazú -> Pavón
+
+1162. Escazú to San Nicolás, with a time of 1
+    Path: Escazú -> San Nicolás
+
+1163. Aserrí to Bahía Ballena, with a time of 1
+    Path: Aserrí -> Bahía Ballena
+
+1164. Aserrí to Jesús Piedad, with a time of 1
+    Path: Aserrí -> Jesús Piedad
+
+1165. Aserrí to Daniel Flores, with a time of 1
+    Path: Aserrí -> Daniel Flores
+
+1166. Aserrí to Guacimal, with a time of 1
+    Path: Aserrí -> Guacimal
+
+1167. Aserrí to Liberia, with a time of 1
+    Path: Aserrí -> Liberia
+
+1168. San Lorenzo to Patio de Agua, with a time of 1
+    Path: San Lorenzo -> Patio de Agua
+
+1169. San Lorenzo to Llanuras del Gaspar, with a time of 1
+    Path: San Lorenzo -> Llanuras del Gaspar
+
+1170. San Lorenzo to Manzanillo, with a time of 1
+    Path: San Lorenzo -> Manzanillo
+
+1171. San Lorenzo to Santiago Puriscal, with a time of 1
+    Path: San Lorenzo -> Santiago Puriscal
+
+1172. San Lorenzo to La Trinidad, with a time of 1
+    Path: San Lorenzo -> La Trinidad
+
+1173. San Lorenzo to Desamparados Sur, with a time of 1
+    Path: San Lorenzo -> Desamparados Sur
+
+1174. San Lorenzo to Aguabuena, with a time of 1
+    Path: San Lorenzo -> Aguabuena
+
+1175. San Lorenzo to San Rafael Sur, with a time of 1
+    Path: San Lorenzo -> San Rafael Sur
+
+1176. San Lorenzo to San Vicente, with a time of 1
+    Path: San Lorenzo -> San Vicente
+
+1177. San Lorenzo to Sarchí Norte, with a time of 1
+    Path: San Lorenzo -> Sarchí Norte
+
+1178. San Lorenzo to Tacares, with a time of 1
+    Path: San Lorenzo -> Tacares
+
+1179. Sabana Redonda to Piedras Negras, with a time of 1
+    Path: Sabana Redonda -> Piedras Negras
+
+1180. Sabana Redonda to Guacimal, with a time of 1
+    Path: Sabana Redonda -> Guacimal
+
+1181. Sabana Redonda to Tirrases, with a time of 1
+    Path: Sabana Redonda -> Tirrases
+
+1182. Sabana Redonda to Chires, with a time of 1
+    Path: Sabana Redonda -> Chires
+
+1183. Sabana Redonda to San Rafael Abajo, with a time of 1
+    Path: Sabana Redonda -> San Rafael Abajo
+
+1184. Paracito to Daniel Flores, with a time of 1
+    Path: Paracito -> Daniel Flores
+
+1185. Paracito to Palmitos, with a time of 1
+    Path: Paracito -> Palmitos
+
+1186. Paracito to La Unión, with a time of 1
+    Path: Paracito -> La Unión
+
+1187. Paracito to El Ángel, with a time of 1
+    Path: Paracito -> El Ángel
+
+1188. Paracito to Dulce Nombre Oeste, with a time of 1
+    Path: Paracito -> Dulce Nombre Oeste
+
+1189. Paracito to San Pablo Este, with a time of 1
+    Path: Paracito -> San Pablo Este
+
+1190. Paracito to El Roble, with a time of 1
+    Path: Paracito -> El Roble
+
+1191. Paracito to Monterrey Abajo, with a time of 1
+    Path: Paracito -> Monterrey Abajo
+
+1192. Paracito to Santa Bárbara, with a time of 1
+    Path: Paracito -> Santa Bárbara
+
+1193. Paracito to San Francisco Norte, with a time of 1
+    Path: Paracito -> San Francisco Norte
+
+1194. Santa Bárbara to Daniel Flores, with a time of 1
+    Path: Santa Bárbara -> Daniel Flores
+
+1195. Santa Bárbara to Las Horquetas, with a time of 1
+    Path: Santa Bárbara -> Las Horquetas
+
+1196. Santa Bárbara to Juan Viñas, with a time of 1
+    Path: Santa Bárbara -> Juan Viñas
+
+1197. Santa Bárbara to Chira, with a time of 1
+    Path: Santa Bárbara -> Chira
+
+1198. Santa Bárbara to San Juan Norte, with a time of 1
+    Path: Santa Bárbara -> San Juan Norte
+
+1199. Santa Bárbara to Zapote Norte, with a time of 1
+    Path: Santa Bárbara -> Zapote Norte
+
+1200. Santa Bárbara to Siquirres, with a time of 1
+    Path: Santa Bárbara -> Siquirres
+
+1201. Zapote Norte to Jesús María, with a time of 1
+    Path: Zapote Norte -> Jesús María
+
+1202. Zapote Norte to Concepción Este, with a time of 1
+    Path: Zapote Norte -> Concepción Este
+
+1203. Pittier to Grifo Alto, with a time of 1
+    Path: Pittier -> Grifo Alto
+
+1204. Pittier to Nosara, with a time of 1
+    Path: Pittier -> Nosara
+
+1205. Pittier to Cutris, with a time of 1
+    Path: Pittier -> Cutris
+
+1206. Pittier to San Pedro Sur, with a time of 1
+    Path: Pittier -> San Pedro Sur
+
+1207. Pittier to San Carlos, with a time of 1
+    Path: Pittier -> San Carlos
+
+1208. Pittier to San Lorenzo, with a time of 1
+    Path: Pittier -> San Lorenzo
+
+1209. Pittier to Santo Tomás, with a time of 1
+    Path: Pittier -> Santo Tomás
+
+1210. Pittier to Brisas, with a time of 1
+    Path: Pittier -> Brisas
+
+1211. Pittier to Diriá, with a time of 1
+    Path: Pittier -> Diriá
+
+1212. La Victoria to Santa Rosa Viejo, with a time of 1
+    Path: La Victoria -> Santa Rosa Viejo
+
+1213. La Victoria to Daniel Flores, with a time of 1
+    Path: La Victoria -> Daniel Flores
+
+1214. La Victoria to Puerto Carrillo, with a time of 1
+    Path: La Victoria -> Puerto Carrillo
+
+1215. La Victoria to Salitral, with a time of 1
+    Path: La Victoria -> Salitral
+
+1216. La Victoria to Aguas Zarcas, with a time of 1
+    Path: La Victoria -> Aguas Zarcas
+
+1217. La Victoria to San Vicente, with a time of 1
+    Path: La Victoria -> San Vicente
+
+1218. La Victoria to Pocosol, with a time of 1
+    Path: La Victoria -> Pocosol
+
+1219. Río Jiménez to Monte Romo, with a time of 1
+    Path: Río Jiménez -> Monte Romo
+
+1220. Río Jiménez to Guacimal, with a time of 1
+    Path: Río Jiménez -> Guacimal
+
+1221. Río Jiménez to San Marcos, with a time of 1
+    Path: Río Jiménez -> San Marcos
+
+1222. Río Jiménez to Pacuarito, with a time of 1
+    Path: Río Jiménez -> Pacuarito
+
+1223. Río Jiménez to Puerto Jiménez, with a time of 1
+    Path: Río Jiménez -> Puerto Jiménez
+
+1224. Río Jiménez to Rita, with a time of 1
+    Path: Río Jiménez -> Rita
+
+1225. Sierpe to Tobosi, with a time of 1
+    Path: Sierpe -> Tobosi
+
+1226. Sierpe to Los Chiles, with a time of 1
+    Path: Sierpe -> Los Chiles
+
+1227. Sierpe to Heredia, with a time of 1
+    Path: Sierpe -> Heredia
+
+1228. Sierpe to Barranca, with a time of 1
+    Path: Sierpe -> Barranca
+
+1229. Sierpe to Carrillos, with a time of 1
+    Path: Sierpe -> Carrillos
+
+1230. Sierpe to Barbacoas, with a time of 1
+    Path: Sierpe -> Barbacoas
+
+1231. Sierpe to Tarbaca, with a time of 1
+    Path: Sierpe -> Tarbaca
+
+1232. Sierpe to Cinco Esquinas, with a time of 1
+    Path: Sierpe -> Cinco Esquinas
+
+1233. Sierpe to Dulce Nombre Este, with a time of 1
+    Path: Sierpe -> Dulce Nombre Este
+
+1234. Sierpe to San Rafael Abajo, with a time of 1
+    Path: Sierpe -> San Rafael Abajo
+
+1235. Sierpe to Aguacaliente, with a time of 1
+    Path: Sierpe -> Aguacaliente
+
+1236. Sierpe to Piedades Norte, with a time of 1
+    Path: Sierpe -> Piedades Norte
+
+1237. San Sebastián to Río Blanco, with a time of 1
+    Path: San Sebastián -> Río Blanco
+
+1238. San Sebastián to Cirrí Sur, with a time of 1
+    Path: San Sebastián -> Cirrí Sur
+
+1239. San Sebastián to Oriental, with a time of 1
+    Path: San Sebastián -> Oriental
+
+1240. San Sebastián to Candelarita, with a time of 1
+    Path: San Sebastián -> Candelarita
+
+1241. San Sebastián to Jesús, with a time of 1
+    Path: San Sebastián -> Jesús
+
+1242. San Sebastián to Santa Cruz Sur, with a time of 1
+    Path: San Sebastián -> Santa Cruz Sur
+
+1243. San Sebastián to San Rafael Abajo, with a time of 1
+    Path: San Sebastián -> San Rafael Abajo
+
+1244. San Sebastián to Sabanillal, with a time of 1
+    Path: San Sebastián -> Sabanillal
+
+1245. San Sebastián to Pocosol, with a time of 1
+    Path: San Sebastián -> Pocosol
+
+1246. Jesús to Patio de Agua, with a time of 1
+    Path: Jesús -> Patio de Agua
+
+1247. Jesús to San Isidro Labrador, with a time of 1
+    Path: Jesús -> San Isidro Labrador
+
+1248. Jesús to Aguas Claras, with a time of 1
+    Path: Jesús -> Aguas Claras
+
+1249. Jesús to Palmar, with a time of 1
+    Path: Jesús -> Palmar
+
+1250. Jesús to San José Este, with a time of 1
+    Path: Jesús -> San José Este
+
+1251. Jesús to San Rafael Oeste, with a time of 1
+    Path: Jesús -> San Rafael Oeste
+
+1252. Jesús María to Tures, with a time of 1
+    Path: Jesús María -> Tures
+
+1253. Jesús María to Ulloa, with a time of 1
+    Path: Jesús María -> Ulloa
+
+1254. Jesús María to San Lorenzo, with a time of 1
+    Path: Jesús María -> San Lorenzo
+
+1255. Jesús María to Santiago Oeste, with a time of 1
+    Path: Jesús María -> Santiago Oeste
+
+1256. Jesús María to Monte Verde, with a time of 1
+    Path: Jesús María -> Monte Verde
+
+1257. Jesús María to Rincón de Sabanilla, with a time of 1
+    Path: Jesús María -> Rincón de Sabanilla
+
+1258. Limoncito to Quebrada Honda, with a time of 1
+    Path: Limoncito -> Quebrada Honda
+
+1259. Limoncito to Bijagua, with a time of 1
+    Path: Limoncito -> Bijagua
+
+1260. Limoncito to Veintisiete de Abril, with a time of 1
+    Path: Limoncito -> Veintisiete de Abril
+
+1261. Limoncito to Buenavista, with a time of 1
+    Path: Limoncito -> Buenavista
+
+1262. Limoncito to Juan Viñas, with a time of 1
+    Path: Limoncito -> Juan Viñas
+
+1263. Limoncito to Palmira, with a time of 1
+    Path: Limoncito -> Palmira
+
+1264. Limoncito to Barranca, with a time of 1
+    Path: Limoncito -> Barranca
+
+1265. Limoncito to San Roque, with a time of 1
+    Path: Limoncito -> San Roque
+
+1266. Limoncito to Guadalupe Oeste, with a time of 1
+    Path: Limoncito -> Guadalupe Oeste
+
+1267. Tarbaca to Hacienda Vieja, with a time of 1
+    Path: Tarbaca -> Hacienda Vieja
+
+1268. Tarbaca to San Pablo Arriba, with a time of 1
+    Path: Tarbaca -> San Pablo Arriba
+
+1269. Tarbaca to San Carlos, with a time of 1
+    Path: Tarbaca -> San Carlos
+
+1270. Tarbaca to Chires, with a time of 1
+    Path: Tarbaca -> Chires
+
+1271. Tarbaca to Rivas, with a time of 1
+    Path: Tarbaca -> Rivas
+
+1272. Tarbaca to Santiago Oeste, with a time of 1
+    Path: Tarbaca -> Santiago Oeste
+
+1273. Salitral to Monte Romo, with a time of 1
+    Path: Salitral -> Monte Romo
+
+1274. Salitral to Rancho Redondo, with a time of 1
+    Path: Salitral -> Rancho Redondo
+
+1275. Salitral to Quebrada Honda, with a time of 1
+    Path: Salitral -> Quebrada Honda
+
+1276. Salitral to Patarrá, with a time of 1
+    Path: Salitral -> Patarrá
+
+1277. Salitral to Capellades, with a time of 1
+    Path: Salitral -> Capellades
+
+1278. Salitral to San Nicolás, with a time of 1
+    Path: Salitral -> San Nicolás
+
+1279. Salitral to Pittier, with a time of 1
+    Path: Salitral -> Pittier
+
+1280. Salitral to Aguacaliente, with a time of 1
+    Path: Salitral -> Aguacaliente
+
+1281. Santa Cruz Sur to Chomes, with a time of 1
+    Path: Santa Cruz Sur -> Chomes
+
+1282. Santa Cruz Sur to Las Horquetas, with a time of 1
+    Path: Santa Cruz Sur -> Las Horquetas
+
+1283. Santa Cruz Sur to Santa Cruz, with a time of 1
+    Path: Santa Cruz Sur -> Santa Cruz
+
+1284. Santa Cruz Sur to Picagres, with a time of 1
+    Path: Santa Cruz Sur -> Picagres
+
+1285. Santa Cruz Sur to Santo Domingo, with a time of 1
+    Path: Santa Cruz Sur -> Santo Domingo
+
+1286. Santa Cruz Sur to Zaragoza, with a time of 1
+    Path: Santa Cruz Sur -> Zaragoza
+
+1287. San Rafael Oeste to San Isidro Labrador, with a time of 1
+    Path: San Rafael Oeste -> San Isidro Labrador
+
+1288. San Rafael Oeste to Volcán, with a time of 1
+    Path: San Rafael Oeste -> Volcán
+
+1289. San Rafael Oeste to Río Cuarto, with a time of 1
+    Path: San Rafael Oeste -> Río Cuarto
+
+1290. San Rafael Oeste to Picagres, with a time of 1
+    Path: San Rafael Oeste -> Picagres
+
+1291. San Rafael Oeste to Savegre, with a time of 1
+    Path: San Rafael Oeste -> Savegre
+
+1292. Santa Elena to Guacimal, with a time of 1
+    Path: Santa Elena -> Guacimal
+
+1293. Santa Elena to San Jerónimo Arriba, with a time of 1
+    Path: Santa Elena -> San Jerónimo Arriba
+
+1294. Santa Elena to San Juan Norte, with a time of 1
+    Path: Santa Elena -> San Juan Norte
+
+1295. Santa Elena to Aguas Zarcas, with a time of 1
+    Path: Santa Elena -> Aguas Zarcas
+
+1296. Santo Tomás to Patarrá, with a time of 1
+    Path: Santo Tomás -> Patarrá
+
+1297. Santo Tomás to Veintisiete de Abril, with a time of 1
+    Path: Santo Tomás -> Veintisiete de Abril
+
+1298. Santo Tomás to San Rafael Viejo, with a time of 1
+    Path: Santo Tomás -> San Rafael Viejo
+
+1299. Santo Tomás to San Marcos, with a time of 1
+    Path: Santo Tomás -> San Marcos
+
+1300. Santo Tomás to Desamparados Sur, with a time of 1
+    Path: Santo Tomás -> Desamparados Sur
+
+1301. Santo Tomás to Labrador, with a time of 1
+    Path: Santo Tomás -> Labrador
+
+1302. Santo Tomás to Aserrí, with a time of 1
+    Path: Santo Tomás -> Aserrí
+
+1303. Venado to San Rafael Piedades, with a time of 1
+    Path: Venado -> San Rafael Piedades
+
+1304. Venado to Patarrá, with a time of 1
+    Path: Venado -> Patarrá
+
+1305. Venado to Quepos, with a time of 1
+    Path: Venado -> Quepos
+
+1306. Venado to Pilas, with a time of 1
+    Path: Venado -> Pilas
+
+1307. Venado to Turrialba, with a time of 1
+    Path: Venado -> Turrialba
+
+1308. Rivas to Patarrá, with a time of 1
+    Path: Rivas -> Patarrá
+
+1309. Rivas to Pavón, with a time of 1
+    Path: Rivas -> Pavón
+
+1310. Rivas to San Vicente Norte, with a time of 1
+    Path: Rivas -> San Vicente Norte
+
+1311. Rivas to Río Jiménez, with a time of 1
+    Path: Rivas -> Río Jiménez
+
+1312. Rivas to San Rafael Sur, with a time of 1
+    Path: Rivas -> San Rafael Sur
+
+1313. San Isidro Este to Turrúcares, with a time of 1
+    Path: San Isidro Este -> Turrúcares
+
+1314. San Isidro Este to Bolsón, with a time of 1
+    Path: San Isidro Este -> Bolsón
+
+1315. San Isidro Este to Los Ángeles, with a time of 1
+    Path: San Isidro Este -> Los Ángeles
+
+1316. San Isidro Este to Canalete, with a time of 1
+    Path: San Isidro Este -> Canalete
+
+1317. San Juan Grande to San Jerónimo Arriba, with a time of 1
+    Path: San Juan Grande -> San Jerónimo Arriba
+
+1318. San Juan Grande to La Unión, with a time of 1
+    Path: San Juan Grande -> La Unión
+
+1319. San Juan Grande to Ulloa, with a time of 1
+    Path: San Juan Grande -> Ulloa
+
+1320. San Juan Grande to Santo Tomás, with a time of 1
+    Path: San Juan Grande -> Santo Tomás
+
+1321. Concepción Este to Veintisiete de Abril, with a time of 1
+    Path: Concepción Este -> Veintisiete de Abril
+
+1322. Concepción Este to Aguas Claras, with a time of 1
+    Path: Concepción Este -> Aguas Claras
+
+1323. Concepción Este to San Francisco Abajo, with a time of 1
+    Path: Concepción Este -> San Francisco Abajo
+
+1324. Concepción Este to Pará, with a time of 1
+    Path: Concepción Este -> Pará
+
+1325. Concepción Este to Tucurrique, with a time of 1
+    Path: Concepción Este -> Tucurrique
+
+1326. San Rafael Norte to Cabeceras, with a time of 1
+    Path: San Rafael Norte -> Cabeceras
+
+1327. San Rafael Norte to San Pedro Antiguo, with a time of 1
+    Path: San Rafael Norte -> San Pedro Antiguo
+
+1328. San Rafael Norte to Canalete, with a time of 1
+    Path: San Rafael Norte -> Canalete
+
+1329. Batán to Monte Romo, with a time of 1
+    Path: Batán -> Monte Romo
+
+1330. Batán to Germania, with a time of 1
+    Path: Batán -> Germania
+
+1331. Batán to Zapote, with a time of 1
+    Path: Batán -> Zapote
+
+1332. Batán to Santa Elena, with a time of 1
+    Path: Batán -> Santa Elena
+
+1333. Batán to Monte Verde, with a time of 1
+    Path: Batán -> Monte Verde
+
+1334. San Francisco Arriba to San Pablo Arriba, with a time of 1
+    Path: San Francisco Arriba -> San Pablo Arriba
+
+1335. San Francisco Arriba to Naranjo, with a time of 1
+    Path: San Francisco Arriba -> Naranjo
+
+1336. Cinco Esquinas to Patalillo, with a time of 1
+    Path: Cinco Esquinas -> Patalillo
+
+1337. Cinco Esquinas to Juan Viñas, with a time of 1
+    Path: Cinco Esquinas -> Juan Viñas
+
+1338. Cinco Esquinas to San Pablo Arriba, with a time of 1
+    Path: Cinco Esquinas -> San Pablo Arriba
+
+1339. Cinco Esquinas to Río Jiménez, with a time of 1
+    Path: Cinco Esquinas -> Río Jiménez
+
+1340. Cinco Esquinas to Aguabuena, with a time of 1
+    Path: Cinco Esquinas -> Aguabuena
+
+1341. Cinco Esquinas to Corralillo, with a time of 1
+    Path: Cinco Esquinas -> Corralillo
+
+1342. Aguas Zarcas to Chomes, with a time of 1
+    Path: Aguas Zarcas -> Chomes
+
+1343. Aguas Zarcas to Jesús Piedad, with a time of 1
+    Path: Aguas Zarcas -> Jesús Piedad
+
+1344. Aguas Zarcas to Matambú, with a time of 1
+    Path: Aguas Zarcas -> Matambú
+
+1345. Aguas Zarcas to Llanuras del Gaspar, with a time of 1
+    Path: Aguas Zarcas -> Llanuras del Gaspar
+
+1346. Aguas Zarcas to Volcán, with a time of 1
+    Path: Aguas Zarcas -> Volcán
+
+1347. Aguas Zarcas to San Pablo Este, with a time of 1
+    Path: Aguas Zarcas -> San Pablo Este
+
+1348. Aguas Zarcas to El Roble, with a time of 1
+    Path: Aguas Zarcas -> El Roble
+
+1349. Aguas Zarcas to San Francisco de Dos Ríos, with a time of 1
+    Path: Aguas Zarcas -> San Francisco de Dos Ríos
+
+1350. Aguas Zarcas to La Cuesta, with a time of 1
+    Path: Aguas Zarcas -> La Cuesta
+
+1351. Aguas Zarcas to San Rafael Arriba, with a time of 1
+    Path: Aguas Zarcas -> San Rafael Arriba
+
+1352. Puerto Jiménez to Nosara, with a time of 1
+    Path: Puerto Jiménez -> Nosara
+
+1353. Puerto Jiménez to Chirripó, with a time of 1
+    Path: Puerto Jiménez -> Chirripó
+
+1354. Puerto Jiménez to San Pablo Arriba, with a time of 1
+    Path: Puerto Jiménez -> San Pablo Arriba
+
+1355. Puerto Jiménez to San Felipe, with a time of 1
+    Path: Puerto Jiménez -> San Felipe
+
+1356. Puerto Jiménez to Zapote Norte, with a time of 1
+    Path: Puerto Jiménez -> Zapote Norte
+
+1357. Puerto Jiménez to Puerto Viejo, with a time of 1
+    Path: Puerto Jiménez -> Puerto Viejo
+
+1358. Aguabuena to Sarapiquí, with a time of 1
+    Path: Aguabuena -> Sarapiquí
+
+1359. Aguabuena to Santiago Poás, with a time of 1
+    Path: Aguabuena -> Santiago Poás
+
+1360. Aguabuena to Santa Rosa Viejo, with a time of 1
+    Path: Aguabuena -> Santa Rosa Viejo
+
+1361. Aguabuena to Matambú, with a time of 1
+    Path: Aguabuena -> Matambú
+
+1362. Aguabuena to La Suiza, with a time of 1
+    Path: Aguabuena -> La Suiza
+
+1363. Aguabuena to Cutris, with a time of 1
+    Path: Aguabuena -> Cutris
+
+1364. Aguabuena to San Pedro Antiguo, with a time of 1
+    Path: Aguabuena -> San Pedro Antiguo
+
+1365. Aguabuena to San Rafael Arriba, with a time of 1
+    Path: Aguabuena -> San Rafael Arriba
+
+1366. Laurel to San Rafael Viejo, with a time of 1
+    Path: Laurel -> San Rafael Viejo
+
+1367. Laurel to Matambú, with a time of 1
+    Path: Laurel -> Matambú
+
+1368. Laurel to Las Horquetas, with a time of 1
+    Path: Laurel -> Las Horquetas
+
+1369. Laurel to Guácimo, with a time of 1
+    Path: Laurel -> Guácimo
+
+1370. Laurel to San Rafael Nuevo, with a time of 1
+    Path: Laurel -> San Rafael Nuevo
+
+1371. Laurel to Quesada, with a time of 1
+    Path: Laurel -> Quesada
+
+1372. Laurel to Legua, with a time of 1
+    Path: Laurel -> Legua
+
+1373. Laurel to Zapote, with a time of 1
+    Path: Laurel -> Zapote
+
+1374. Laurel to Santa Cruz Sur, with a time of 1
+    Path: Laurel -> Santa Cruz Sur
+
+1375. Laurel to Venado, with a time of 1
+    Path: Laurel -> Venado
+
+1376. Laurel to Batán, with a time of 1
+    Path: Laurel -> Batán
+
+1377. Laurel to Puerto Jiménez, with a time of 1
+    Path: Laurel -> Puerto Jiménez
+
+1378. Laurel to Brisas, with a time of 1
+    Path: Laurel -> Brisas
+
+1379. Florencia to Dos Ríos, with a time of 1
+    Path: Florencia -> Dos Ríos
+
+1380. Florencia to San Pedro Sur, with a time of 1
+    Path: Florencia -> San Pedro Sur
+
+1381. Florencia to Roxana, with a time of 1
+    Path: Florencia -> Roxana
+
+1382. Florencia to Concepción Este, with a time of 1
+    Path: Florencia -> Concepción Este
+
+1383. Florencia to Monte Verde, with a time of 1
+    Path: Florencia -> Monte Verde
+
+1384. Dulce Nombre Este to Sarapiquí, with a time of 1
+    Path: Dulce Nombre Este -> Sarapiquí
+
+1385. Dulce Nombre Este to Peñas Blancas, with a time of 1
+    Path: Dulce Nombre Este -> Peñas Blancas
+
+1386. Dulce Nombre Este to Cuajiniquil, with a time of 1
+    Path: Dulce Nombre Este -> Cuajiniquil
+
+1387. Dulce Nombre Este to Puerto Viejo, with a time of 1
+    Path: Dulce Nombre Este -> Puerto Viejo
+
+1388. Dulce Nombre Este to San Francisco Norte, with a time of 1
+    Path: Dulce Nombre Este -> San Francisco Norte
+
+1389. Brisas to Cartagena, with a time of 1
+    Path: Brisas -> Cartagena
+
+1390. Brisas to San Francisco Abajo, with a time of 1
+    Path: Brisas -> San Francisco Abajo
+
+1391. Brisas to Tures, with a time of 1
+    Path: Brisas -> Tures
+
+1392. Brisas to Ulloa, with a time of 1
+    Path: Brisas -> Ulloa
+
+1393. Brisas to Liberia, with a time of 1
+    Path: Brisas -> Liberia
+
+1394. Brisas to Santo Tomás, with a time of 1
+    Path: Brisas -> Santo Tomás
+
+1395. Siquirres to Santa Rosa Abajo, with a time of 1
+    Path: Siquirres -> Santa Rosa Abajo
+
+1396. Siquirres to Bebedero, with a time of 1
+    Path: Siquirres -> Bebedero
+
+1397. Siquirres to Cutris, with a time of 1
+    Path: Siquirres -> Cutris
+
+1398. Siquirres to Aserrí, with a time of 1
+    Path: Siquirres -> Aserrí
+
+1399. Siquirres to Laurel, with a time of 1
+    Path: Siquirres -> Laurel
+
+1400. Tuis to Bahía Ballena, with a time of 1
+    Path: Tuis -> Bahía Ballena
+
+1401. Tuis to Guacimal, with a time of 1
+    Path: Tuis -> Guacimal
+
+1402. Tuis to Zapote, with a time of 1
+    Path: Tuis -> Zapote
+
+1403. Tuis to San José Abajo, with a time of 1
+    Path: Tuis -> San José Abajo
+
+1404. Rita to Santiago Poás, with a time of 1
+    Path: Rita -> Santiago Poás
+
+1405. Rita to San Jerónimo Arriba, with a time of 1
+    Path: Rita -> San Jerónimo Arriba
+
+1406. Rita to Pilas, with a time of 1
+    Path: Rita -> Pilas
+
+1407. Rita to Corralillo, with a time of 1
+    Path: Rita -> Corralillo
+
+1408. Rita to Concepción Arriba, with a time of 1
+    Path: Rita -> Concepción Arriba
+
+1409. San Rafael Abajo to Florida, with a time of 1
+    Path: San Rafael Abajo -> Florida
+
+1410. San Rafael Abajo to Palmitos, with a time of 1
+    Path: San Rafael Abajo -> Palmitos
+
+1411. San Rafael Abajo to Bolívar, with a time of 1
+    Path: San Rafael Abajo -> Bolívar
+
+1412. San Rafael Abajo to El Roble, with a time of 1
+    Path: San Rafael Abajo -> El Roble
+
+1413. San Rafael Abajo to Limoncito, with a time of 1
+    Path: San Rafael Abajo -> Limoncito
+
+1414. San Rafael Abajo to Salitral, with a time of 1
+    Path: San Rafael Abajo -> Salitral
+
+1415. San Rafael Abajo to Brisas, with a time of 1
+    Path: San Rafael Abajo -> Brisas
+
+1416. San Rafael Abajo to Tuis, with a time of 1
+    Path: San Rafael Abajo -> Tuis
+
+1417. San Rafael Abajo to Aguacaliente, with a time of 1
+    Path: San Rafael Abajo -> Aguacaliente
+
+1418. La Cuesta to San Rafael Piedades, with a time of 1
+    Path: La Cuesta -> San Rafael Piedades
+
+1419. La Cuesta to Zapotal, with a time of 1
+    Path: La Cuesta -> Zapotal
+
+1420. La Cuesta to Reventazón, with a time of 1
+    Path: La Cuesta -> Reventazón
+
+1421. La Cuesta to Heredia, with a time of 1
+    Path: La Cuesta -> Heredia
+
+1422. La Cuesta to Buenos Aires, with a time of 1
+    Path: La Cuesta -> Buenos Aires
+
+1423. La Cuesta to Concepción Este, with a time of 1
+    Path: La Cuesta -> Concepción Este
+
+1424. Corralillo to Patarrá, with a time of 1
+    Path: Corralillo -> Patarrá
+
+1425. Corralillo to Catedral, with a time of 1
+    Path: Corralillo -> Catedral
+
+1426. Corralillo to Daniel Flores, with a time of 1
+    Path: Corralillo -> Daniel Flores
+
+1427. Corralillo to Reventazón, with a time of 1
+    Path: Corralillo -> Reventazón
+
+1428. Corralillo to San Francisco Abajo, with a time of 1
+    Path: Corralillo -> San Francisco Abajo
+
+1429. Corralillo to Juan Viñas, with a time of 1
+    Path: Corralillo -> Juan Viñas
+
+1430. Corralillo to Los Ángeles, with a time of 1
+    Path: Corralillo -> Los Ángeles
+
+1431. Corralillo to Picagres, with a time of 1
+    Path: Corralillo -> Picagres
+
+1432. Corralillo to Tucurrique, with a time of 1
+    Path: Corralillo -> Tucurrique
+
+1433. Corralillo to Piedades Norte, with a time of 1
+    Path: Corralillo -> Piedades Norte
+
+1434. Concepción Arriba to San Isidro Abajo, with a time of 1
+    Path: Concepción Arriba -> San Isidro Abajo
+
+1435. Concepción Arriba to Oriental, with a time of 1
+    Path: Concepción Arriba -> Oriental
+
+1436. Concepción Arriba to San Vicente, with a time of 1
+    Path: Concepción Arriba -> San Vicente
+
+1437. Guadalupe Oeste to Patio de Agua, with a time of 1
+    Path: Guadalupe Oeste -> Patio de Agua
+
+1438. Guadalupe Oeste to Pavas, with a time of 1
+    Path: Guadalupe Oeste -> Pavas
+
+1439. Guadalupe Oeste to Garita, with a time of 1
+    Path: Guadalupe Oeste -> Garita
+
+1440. Guadalupe Oeste to Canalete, with a time of 1
+    Path: Guadalupe Oeste -> Canalete
+
+1441. Guadalupe Oeste to Monterrey Abajo, with a time of 1
+    Path: Guadalupe Oeste -> Monterrey Abajo
+
+1442. Guadalupe Oeste to Tarbaca, with a time of 1
+    Path: Guadalupe Oeste -> Tarbaca
+
+1443. Guadalupe Oeste to La Cuesta, with a time of 1
+    Path: Guadalupe Oeste -> La Cuesta
+
+1444. Guadalupe Oeste to Pocosol, with a time of 1
+    Path: Guadalupe Oeste -> Pocosol
+
+1445. Sabanillal to Santa Rosa Viejo, with a time of 1
+    Path: Sabanillal -> Santa Rosa Viejo
+
+1446. Sabanillal to San Isidro de El General, with a time of 1
+    Path: Sabanillal -> San Isidro de El General
+
+1447. Sabanillal to Pitahaya, with a time of 1
+    Path: Sabanillal -> Pitahaya
+
+1448. Sabanillal to Pilas, with a time of 1
+    Path: Sabanillal -> Pilas
+
+1449. Sabanillal to San José Este, with a time of 1
+    Path: Sabanillal -> San José Este
+
+1450. Sabanillal to Guadalupe Este, with a time of 1
+    Path: Sabanillal -> Guadalupe Este
+
+1451. Sabanillal to San Juan Grande, with a time of 1
+    Path: Sabanillal -> San Juan Grande
+
+1452. Diriá to Turrúcares, with a time of 1
+    Path: Diriá -> Turrúcares
+
+1453. Diriá to Los Chiles, with a time of 1
+    Path: Diriá -> Los Chiles
+
+1454. Diriá to San Pablo Arriba, with a time of 1
+    Path: Diriá -> San Pablo Arriba
+
+1455. Diriá to Barranca, with a time of 1
+    Path: Diriá -> Barranca
+
+1456. Diriá to Delicias, with a time of 1
+    Path: Diriá -> Delicias
+
+1457. Diriá to Cinco Esquinas, with a time of 1
+    Path: Diriá -> Cinco Esquinas
+
+1458. Diriá to Laurel, with a time of 1
+    Path: Diriá -> Laurel
+
+1459. Santiago Oeste to Bahía Ballena, with a time of 1
+    Path: Santiago Oeste -> Bahía Ballena
+
+1460. Santiago Oeste to Santiago Puriscal, with a time of 1
+    Path: Santiago Oeste -> Santiago Puriscal
+
+1461. Santiago Oeste to San Pablo Arriba, with a time of 1
+    Path: Santiago Oeste -> San Pablo Arriba
+
+1462. Santiago Oeste to Paquera, with a time of 1
+    Path: Santiago Oeste -> Paquera
+
+1463. Santiago Oeste to Mayorga, with a time of 1
+    Path: Santiago Oeste -> Mayorga
+
+1464. Santiago Oeste to Paracito, with a time of 1
+    Path: Santiago Oeste -> Paracito
+
+1465. Santiago Oeste to Río Jiménez, with a time of 1
+    Path: Santiago Oeste -> Río Jiménez
+
+1466. Santiago Oeste to Santa Elena, with a time of 1
+    Path: Santiago Oeste -> Santa Elena
+
+1467. Puerto Viejo to Patarrá, with a time of 1
+    Path: Puerto Viejo -> Patarrá
+
+1468. Puerto Viejo to Cutris, with a time of 1
+    Path: Puerto Viejo -> Cutris
+
+1469. Puerto Viejo to Carrillos, with a time of 1
+    Path: Puerto Viejo -> Carrillos
+
+1470. Puerto Viejo to Yolillal, with a time of 1
+    Path: Puerto Viejo -> Yolillal
+
+1471. Puerto Viejo to Labrador, with a time of 1
+    Path: Puerto Viejo -> Labrador
+
+1472. Puerto Viejo to Turrialba, with a time of 1
+    Path: Puerto Viejo -> Turrialba
+
+1473. Puerto Viejo to Santo Tomás, with a time of 1
+    Path: Puerto Viejo -> Santo Tomás
+
+1474. Puerto Viejo to Concepción Arriba, with a time of 1
+    Path: Puerto Viejo -> Concepción Arriba
+
+1475. Aguacaliente to Tirrases, with a time of 1
+    Path: Aguacaliente -> Tirrases
+
+1476. Aguacaliente to Santo Domingo, with a time of 1
+    Path: Aguacaliente -> Santo Domingo
+
+1477. Aguacaliente to Porvenir, with a time of 1
+    Path: Aguacaliente -> Porvenir
+
+1478. Aguacaliente to Santo Tomás, with a time of 1
+    Path: Aguacaliente -> Santo Tomás
+
+1479. Aguacaliente to Tacares, with a time of 1
+    Path: Aguacaliente -> Tacares
+
+1480. San Rafael Sur to Monte Romo, with a time of 1
+    Path: San Rafael Sur -> Monte Romo
+
+1481. San Rafael Sur to San Nicolás, with a time of 1
+    Path: San Rafael Sur -> San Nicolás
+
+1482. Piedades Norte to San Francisco Abajo, with a time of 1
+    Path: Piedades Norte -> San Francisco Abajo
+
+1483. Piedades Norte to San Pedro Sur, with a time of 1
+    Path: Piedades Norte -> San Pedro Sur
+
+1484. Piedades Norte to La Trinidad, with a time of 1
+    Path: Piedades Norte -> La Trinidad
+
+1485. Piedades Norte to La Asunción, with a time of 1
+    Path: Piedades Norte -> La Asunción
+
+1486. Piedades Norte to San Juan Norte, with a time of 1
+    Path: Piedades Norte -> San Juan Norte
+
+1487. Piedades Norte to Aserrí, with a time of 1
+    Path: Piedades Norte -> Aserrí
+
+1488. Piedades Norte to Santa Bárbara, with a time of 1
+    Path: Piedades Norte -> Santa Bárbara
+
+1489. Piedades Norte to San Isidro Este, with a time of 1
+    Path: Piedades Norte -> San Isidro Este
+
+1490. San Vicente to Puerto Carrillo, with a time of 1
+    Path: San Vicente -> Puerto Carrillo
+
+1491. San Vicente to Cutris, with a time of 1
+    Path: San Vicente -> Cutris
+
+1492. San Vicente to Reventazón, with a time of 1
+    Path: San Vicente -> Reventazón
+
+1493. San Vicente to Santo Tomás, with a time of 1
+    Path: San Vicente -> Santo Tomás
+
+1494. San Vicente to Rivas, with a time of 1
+    Path: San Vicente -> Rivas
+
+1495. San Vicente to Diriá, with a time of 1
+    Path: San Vicente -> Diriá
+
+1496. Zaragoza to San Pedro Sur, with a time of 1
+    Path: Zaragoza -> San Pedro Sur
+
+1497. Zaragoza to Monterrey Abajo, with a time of 1
+    Path: Zaragoza -> Monterrey Abajo
+
+1498. Pocosol to Pavas, with a time of 1
+    Path: Pocosol -> Pavas
+
+1499. Pocosol to Cartagena, with a time of 1
+    Path: Pocosol -> Cartagena
+
+1500. Pocosol to Buenavista, with a time of 1
+    Path: Pocosol -> Buenavista
+
+1501. Pocosol to Tempate, with a time of 1
+    Path: Pocosol -> Tempate
+
+1502. Pocosol to San Isidro Abajo, with a time of 1
+    Path: Pocosol -> San Isidro Abajo
+
+1503. Pocosol to Cuajiniquil, with a time of 1
+    Path: Pocosol -> Cuajiniquil
+
+1504. Pocosol to San Vicente, with a time of 1
+    Path: Pocosol -> San Vicente
+
+1505. Sarchí Norte to Veintisiete de Abril, with a time of 1
+    Path: Sarchí Norte -> Veintisiete de Abril
+
+1506. Sarchí Norte to Bebedero, with a time of 1
+    Path: Sarchí Norte -> Bebedero
+
+1507. Sarchí Norte to Candelarita, with a time of 1
+    Path: Sarchí Norte -> Candelarita
+
+1508. Sarchí Norte to Diriá, with a time of 1
+    Path: Sarchí Norte -> Diriá
+
+1509. Sarchí Norte to San Rafael Sur, with a time of 1
+    Path: Sarchí Norte -> San Rafael Sur
+
+1510. San Rafael Arriba to San Miguel Viejo, with a time of 1
+    Path: San Rafael Arriba -> San Miguel Viejo
+
+1511. San Rafael Arriba to Dos Ríos, with a time of 1
+    Path: San Rafael Arriba -> Dos Ríos
+
+1512. San Rafael Arriba to Limón, with a time of 1
+    Path: San Rafael Arriba -> Limón
+
+1513. San Rafael Arriba to Santiago, with a time of 1
+    Path: San Rafael Arriba -> Santiago
+
+1514. San Rafael Arriba to La Suiza, with a time of 1
+    Path: San Rafael Arriba -> La Suiza
+
+1515. San Rafael Arriba to Tres Equis, with a time of 1
+    Path: San Rafael Arriba -> Tres Equis
+
+1516. San Rafael Arriba to San Vicente Norte, with a time of 1
+    Path: San Rafael Arriba -> San Vicente Norte
+
+1517. Monte Verde to Bahía Ballena, with a time of 1
+    Path: Monte Verde -> Bahía Ballena
+
+1518. Monte Verde to Santa Rosa Abajo, with a time of 1
+    Path: Monte Verde -> Santa Rosa Abajo
+
+1519. Monte Verde to Matambú, with a time of 1
+    Path: Monte Verde -> Matambú
+
+1520. Monte Verde to Cabo Velas, with a time of 1
+    Path: Monte Verde -> Cabo Velas
+
+1521. Monte Verde to Laguna, with a time of 1
+    Path: Monte Verde -> Laguna
+
+1522. Monte Verde to Tirrases, with a time of 1
+    Path: Monte Verde -> Tirrases
+
+1523. Monte Verde to San Pablo Este, with a time of 1
+    Path: Monte Verde -> San Pablo Este
+
+1524. Monte Verde to Liberia, with a time of 1
+    Path: Monte Verde -> Liberia
+
+1525. Monte Verde to San Nicolás, with a time of 1
+    Path: Monte Verde -> San Nicolás
+
+1526. Monte Verde to San Rafael Oeste, with a time of 1
+    Path: Monte Verde -> San Rafael Oeste
+
+1527. Monte Verde to El Mastate, with a time of 1
+    Path: Monte Verde -> El Mastate
+
+1528. Monte Verde to Tacares, with a time of 1
+    Path: Monte Verde -> Tacares
+
+1529. La Colonia to Nosara, with a time of 1
+    Path: La Colonia -> Nosara
+
+1530. La Colonia to Llanuras del Gaspar, with a time of 1
+    Path: La Colonia -> Llanuras del Gaspar
+
+1531. La Colonia to Santiago Nuevo, with a time of 1
+    Path: La Colonia -> Santiago Nuevo
+
+1532. La Colonia to Río Azul, with a time of 1
+    Path: La Colonia -> Río Azul
+
+1533. La Colonia to Telire, with a time of 1
+    Path: La Colonia -> Telire
+
+1534. San Francisco Norte to Patio de Agua, with a time of 1
+    Path: San Francisco Norte -> Patio de Agua
+
+1535. San Francisco Norte to La Unión, with a time of 1
+    Path: San Francisco Norte -> La Unión
+
+1536. San Francisco Norte to Dulce Nombre Oeste, with a time of 1
+    Path: San Francisco Norte -> Dulce Nombre Oeste
+
+1537. San Francisco Norte to Varablanca, with a time of 1
+    Path: San Francisco Norte -> Varablanca
+
+1538. San Francisco Norte to Birrisito, with a time of 1
+    Path: San Francisco Norte -> Birrisito
+
+1539. El Mastate to Patalillo, with a time of 1
+    Path: El Mastate -> Patalillo
+
+1540. El Mastate to La Trinidad, with a time of 1
+    Path: El Mastate -> La Trinidad
+
+1541. El Mastate to San Pedro Antiguo, with a time of 1
+    Path: El Mastate -> San Pedro Antiguo
+
+1542. El Mastate to Savegre, with a time of 1
+    Path: El Mastate -> Savegre
+
+1543. El Mastate to Santa Isabel, with a time of 1
+    Path: El Mastate -> Santa Isabel
+
+1544. El Mastate to Aserrí, with a time of 1
+    Path: El Mastate -> Aserrí
+
+1545. El Mastate to San Lorenzo, with a time of 1
+    Path: El Mastate -> San Lorenzo
+
+1546. El Mastate to Santa Elena, with a time of 1
+    Path: El Mastate -> Santa Elena
+
+1547. Rincón de Sabanilla to Dos Ríos, with a time of 1
+    Path: Rincón de Sabanilla -> Dos Ríos
+
+1548. Rincón de Sabanilla to San Isidro de El General, with a time of 1
+    Path: Rincón de Sabanilla -> San Isidro de El General
+
+1549. Rincón de Sabanilla to San Francisco Abajo, with a time of 1
+    Path: Rincón de Sabanilla -> San Francisco Abajo
+
+1550. Rincón de Sabanilla to Los Chiles, with a time of 1
+    Path: Rincón de Sabanilla -> Los Chiles
+
+1551. Rincón de Sabanilla to La Trinidad, with a time of 1
+    Path: Rincón de Sabanilla -> La Trinidad
+
+1552. Rincón de Sabanilla to Picagres, with a time of 1
+    Path: Rincón de Sabanilla -> Picagres
+
+1553. Rincón de Sabanilla to Pavón, with a time of 1
+    Path: Rincón de Sabanilla -> Pavón
+
+1554. Rincón de Sabanilla to San Vicente Norte, with a time of 1
+    Path: Rincón de Sabanilla -> San Vicente Norte
+
+1555. Rincón de Sabanilla to Salitral, with a time of 1
+    Path: Rincón de Sabanilla -> Salitral
+
+1556. Monterrey Arriba to Hacienda Vieja, with a time of 1
+    Path: Monterrey Arriba -> Hacienda Vieja
+
+1557. Monterrey Arriba to Guacimal, with a time of 1
+    Path: Monterrey Arriba -> Guacimal
+
+1558. Monterrey Arriba to Río Azul, with a time of 1
+    Path: Monterrey Arriba -> Río Azul
+
+1559. Monterrey Arriba to Cutris, with a time of 1
+    Path: Monterrey Arriba -> Cutris
+
+1560. Monterrey Arriba to San Gabriel, with a time of 1
+    Path: Monterrey Arriba -> San Gabriel
+
+1561. Monterrey Arriba to San Vicente Norte, with a time of 1
+    Path: Monterrey Arriba -> San Vicente Norte
+
+1562. San José Abajo to Granadilla, with a time of 1
+    Path: San José Abajo -> Granadilla
+
+1563. San José Abajo to Daniel Flores, with a time of 1
+    Path: San José Abajo -> Daniel Flores
+
+1564. San José Abajo to Llanuras del Gaspar, with a time of 1
+    Path: San José Abajo -> Llanuras del Gaspar
+
+1565. San José Abajo to Buenavista, with a time of 1
+    Path: San José Abajo -> Buenavista
+
+1566. San José Abajo to Pilas, with a time of 1
+    Path: San José Abajo -> Pilas
+
+1567. Tacares to Chomes, with a time of 1
+    Path: Tacares -> Chomes
+
+1568. Tacares to Liberia, with a time of 1
+    Path: Tacares -> Liberia
+
+1569. Tacares to San Rafael Abajo, with a time of 1
+    Path: Tacares -> San Rafael Abajo
+
+1570. Tacares to Santiago Oeste, with a time of 1
+    Path: Tacares -> Santiago Oeste
+0. Exit
+1. Find Hub City
+2. Find Helper City
+3. Find Most Distant Pair
+4. Find Closest Pair
+5. List Cities by Average Distance
+5
+
+Cities ordered by average travel time:
+Paquera: 2.5144
+Río Azul: 2.63374
+San Isidro Labrador: 2.63786
+Monte Verde: 2.67901
+Santa Rosa Abajo: 2.68724
+Cabeceras: 2.68724
+Duacarí: 2.69547
+Aguas Zarcas: 2.69959
+Guadalupe Este: 2.7037
+San Sebastián: 2.7037
+Llanuras del Gaspar: 2.70782
+La Trinidad: 2.72016
+San Francisco de Dos Ríos: 2.72016
+Sierpe: 2.72016
+Turrúcares: 2.72428
+Laurel: 2.73251
+Santa Cruz: 2.74074
+San Nicolás: 2.74486
+Buenavista: 2.74486
+Oriental: 2.74897
+San Jerónimo Arriba: 2.7572
+Colorado: 2.7572
+Sarapiquí: 2.76132
+Guacimal: 2.76132
+Nosara: 2.76543
+Santa Rosa Viejo: 2.77778
+San Carlos: 2.78601
+Chira: 2.79012
+San Lorenzo: 2.79012
+Pittier: 2.79012
+Cutris: 2.79424
+San Rafael Parrita: 2.79424
+Santa Rosa Nuevo: 2.79424
+Rincón de Sabanilla: 2.79835
+Yolillal: 2.80247
+Matama: 2.80658
+Volcán: 2.80658
+Pilas: 2.8107
+Limoncito: 2.8107
+San Francisco Abajo: 2.8107
+San Miguel Viejo: 2.82305
+San Juan Arriba: 2.82305
+Hojancha: 2.83128
+Tabarcia: 2.83128
+Río Blanco: 2.83539
+San Marcos: 2.83951
+Aguabuena: 2.84362
+Santiago Poás: 2.84362
+Dulce Nombre Oeste: 2.84362
+Florida: 2.84774
+Corralillo: 2.85185
+El Mastate: 2.85185
+Santiago Nuevo: 2.85185
+Pacuarito: 2.86008
+Caldera: 2.86008
+San Rafael Abajo: 2.86008
+Paracito: 2.8642
+Sabanillal: 2.86831
+Diriá: 2.86831
+La Victoria: 2.87243
+Monterrey Arriba: 2.87243
+Monterrey Abajo: 2.87654
+Candelaria: 2.87654
+Santiago Oeste: 2.87654
+Santa Isabel: 2.87654
+Guácimo: 2.88066
+Dos Ríos: 2.88477
+Salitral: 2.88889
+Mercedes Abajo: 2.893
+Palmiralito: 2.893
+Pocora: 2.89712
+San Vicente Norte: 2.89712
+Río Jiménez: 2.90123
+Uruca: 2.90123
+Cirrí Sur: 2.90123
+San José Norte: 2.90535
+Barbacoas: 2.90947
+El Ángel: 2.90947
+Quepos: 2.90947
+San Pedro Antiguo: 2.90947
+Puerto Viejo: 2.90947
+Buenos Aires: 2.90947
+Zapotal: 2.90947
+Biolley: 2.91358
+Tirrases: 2.91358
+Limón: 2.91358
+Birrisito: 2.91358
+Cañas Dulces: 2.9177
+San Pablo Arriba: 2.9177
+Monte Romo: 2.9177
+Bijagua: 2.9177
+Palmira: 2.92181
+Jesús María: 2.92593
+La Colonia: 2.92593
+Capellades: 2.93004
+Esquipulas: 2.93416
+Hacienda Vieja: 2.93827
+Carrillos: 2.94239
+San Isidro de El General: 2.94239
+Piedades Norte: 2.9465
+Pocosol: 2.9465
+Ulloa: 2.9465
+Los Chiles: 2.95473
+Chirripó: 2.95473
+San Rafael Arriba: 2.95473
+Palmar: 2.95885
+Chires: 2.95885
+Santiago: 2.96296
+Patalillo: 2.96296
+Mata Redonda: 2.96296
+Bahía Ballena: 2.96708
+Aguas Claras: 2.97119
+Naranjo: 2.97119
+Río Cuarto: 2.97119
+San Rafael Piedades: 2.97119
+Cuajiniquil: 2.97531
+San Pablo Este: 2.97531
+Santa Bárbara: 2.97531
+San Juan Norte: 2.97531
+Guadalupe Oeste: 2.97942
+Veintisiete de Abril: 2.98354
+Cinco Esquinas: 2.98354
+Tambor: 2.98354
+Chomes: 2.99177
+Rita: 2.99177
+Tres Equis: 2.99588
+Tarbaca: 3
+Aserrí: 3.00412
+Santo Tomás: 3.00412
+Siquirres: 3.00823
+Santa Elena: 3.01235
+San Rafael Oeste: 3.01235
+Pejibayes: 3.01235
+Pitahaya: 3.01646
+Concepción Este: 3.01646
+Candelarita: 3.01646
+Puerto Jiménez: 3.02058
+Brisas: 3.02469
+San Ignacio: 3.02881
+La Unión: 3.02881
+Sabana Redonda: 3.03704
+San José Abajo: 3.03704
+San Gabriel: 3.03704
+Pavón: 3.03704
+Bolívar: 3.04115
+San Rafael Viejo: 3.04115
+San Vicente: 3.04527
+Laguna: 3.04527
+Isla del Coco: 3.04527
+Los Ángeles: 3.04527
+Aguacaliente: 3.04938
+Cartagena: 3.04938
+Daniel Flores: 3.0535
+Peñas Blancas: 3.0535
+Juan Viñas: 3.0535
+El Roble: 3.0535
+La Cuesta: 3.05761
+Batán: 3.05761
+Santiago Puriscal: 3.06173
+Legua: 3.06173
+Pará: 3.06584
+Matambú: 3.06584
+Telire: 3.06584
+San Francisco Norte: 3.06584
+Piedras Negras: 3.06996
+Savegre: 3.06996
+Santa Cruz Sur: 3.06996
+Florencia: 3.07407
+Frailes: 3.07819
+Canalete: 3.0823
+Quesada: 3.0823
+San Isidro Abajo: 3.08642
+Dulce Nombre Este: 3.08642
+San Rafael Nuevo: 3.09053
+Escazú: 3.09053
+Jesús: 3.09053
+Rancho Redondo: 3.09465
+Garita: 3.09877
+Germania: 3.09877
+San Roque: 3.09877
+Bolsón: 3.09877
+Tures: 3.09877
+San Juan Grande: 3.107
+Liberia: 3.11111
+Venado: 3.11111
+Los Guido: 3.11111
+La Suiza: 3.11523
+San Felipe: 3.11523
+Rivas: 3.11523
+Tobosi: 3.11934
+Mayorga: 3.11934
+Tuis: 3.11934
+Sabalito: 3.12346
+Las Horquetas: 3.12757
+Porvenir: 3.12757
+Sarchí Norte: 3.13169
+Varablanca: 3.13992
+Picagres: 3.14403
+Puntarenas: 3.14815
+Tempate: 3.14815
+Turrialba: 3.16049
+Zapote: 3.16461
+Atenas: 3.16461
+Reventazón: 3.16461
+Tacares: 3.17284
+La Asunción: 3.17284
+Roxana: 3.18107
+Cabo Velas: 3.18107
+Puerto Carrillo: 3.18107
+El Cairo: 3.18519
+Catedral: 3.20165
+Barranca: 3.20576
+Jesús Piedad: 3.20988
+Pavas: 3.21399
+San Isidro Este: 3.21399
+Grifo Alto: 3.21399
+Golfito: 3.21811
+Concepción Arriba: 3.22222
+Santo Domingo: 3.22634
+Acapulco: 3.23457
+La Buenavista: 3.23457
+Tucurrique: 3.2428
+Granadilla: 3.26749
+Patarrá: 3.2716
+San Rafael Norte: 3.2716
+Bebedero: 3.27572
+Lagunillas: 3.27984
+Palmares: 3.30453
+Dulce Nombre de Jesús: 3.30864
+Manzanillo: 3.32922
+Palmitos: 3.34568
+San José Este: 3.37037
+Desamparados Sur: 3.3786
+Zapote Norte: 3.41975
+Heredia: 3.41975
+Patio de Agua: 3.42798
+Zaragoza: 3.45267
+San Rafael Sur: 3.45679
+Delicias: 3.47325
+San Francisco Arriba: 3.49383
+San Pedro Sur: 3.49383
+Labrador: 3.51029
+Quebrada Honda: 3.6749
+Matina: 10.8066
+0. Exit
+1. Find Hub City
+2. Find Helper City
+3. Find Most Distant Pair
+4. Find Closest Pair
+5. List Cities by Average Distance
+0
