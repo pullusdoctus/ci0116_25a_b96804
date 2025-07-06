@@ -1,6 +1,7 @@
 #include "pathfinder.hpp"
 #include "files.hpp"
 #include <iostream>
+#include <vector>
 
 #define INPUT_DIR "input"
 
@@ -34,14 +35,9 @@ int main() {
   csvToMatrix(csv, matrix, cities);
 
   Pathfinder pf = Pathfinder(cities, matrix);
-  std::cout << "\nBefore Floyd-Warshall:" << std::endl;
-  pf.printDistances();
-  pf.printParents();
-
   pf.floydWarshall();
-  std::cout << "\nAfter Floyd-Warshall:" << std::endl;
-  pf.printDistances();
-  pf.printParents();
+
+  pf.printData();
 
   return 0;
 }

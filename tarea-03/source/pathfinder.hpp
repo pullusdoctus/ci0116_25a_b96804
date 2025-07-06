@@ -29,10 +29,29 @@ class Pathfinder {
   /// TODO: Runs the Dijkstra algorithm for a specific node
   void dijkstra();
 
+  /// Finds the best city to assign as a distribution hub
+  int bestHub();
+  /// Find the closest city to send help to another, target city
+  int bestCityToHelp(int target);
+  /// Finds the pair of cities which are the furthest from each other
+  std::vector<int> mostDistantPair(int& origin, int& destiny, int& time);
+  /// Finds the pair of cities which are the closest from each other
+  std::vector<int> closestPair(int& origin, int& destiny, int& time);
+
+  /// Reconstructs a path from an origin city to a destiny city
+  std::vector<int> reconstructPath(int origin, int destiny);
+
+  /// Prints all data related to the functionalities needed
+  /// Underneath, calls every other print method in this class
+  void printData();
   /// Prints the distances matrix labeled with the city names
   void printDistances();
   /// Prints the parents matrix labeled with the city names
   void printParents();
+  /// Prints all cities in order of their average travel distance to other cities
+  void printByAverage();
+  /// Prints a path from an origin city to a destiny city
+  void printPath(const std::vector<int>& path);
 
   // Getters
   std::vector<std::string>& getCities() { return this->cities; }
