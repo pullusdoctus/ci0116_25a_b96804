@@ -27,6 +27,7 @@ class Pathfinder {
   /// Runs the Floyd-Warshall algorithm against the distances and parents matrices
   void floydWarshall();
   /// TODO: Runs the Dijkstra algorithm for a specific node
+  /// NOTE: was not needed; is not implemented
   void dijkstra();
 
   /// Finds the best city to assign as a distribution hub
