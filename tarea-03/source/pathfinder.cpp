@@ -168,39 +168,6 @@ int Pathfinder::findClosest(int origin) {
   return closest;
 }
 
-void Pathfinder::printData() {
-  this->printDistances();
-  this->printParents();
-
-  int hub = this->bestHub();
-  std::cout << "\nThe best city to use as a hub is " << this->cities[hub]
-    << std::endl;
-
-  int origin = -1, destiny = -1, time = 0;
-  std::vector<int> distantPairPath
-    = this->mostDistantPair(origin, destiny, time);
-  std::cout << "\nThe two cities with the greatest distance between them are "
-    << this->cities[origin] << " and " << this->cities[destiny]
-    << ", with a time of " << time << std::endl;
-  std::cout << "To go from " << this->cities[origin] << " to "
-    << this->cities[destiny] << ", you must follow this path:" << std::endl;
-  this->printPath(distantPairPath);
-
-  origin = -1;
-  destiny = -1;
-  time = 0;
-  std::vector<int> closestPairPath
-    = this->closestPair(origin, destiny, time);
-  std::cout << "\nThe two cities with the shortest distance between them are "
-    << this->cities[origin] << " and " << this->cities[destiny]
-    << ", with a time of " << time << std::endl;
-  std::cout << "To go from " << this->cities[origin] << " to "
-    << this->cities[destiny] << ", you must follow this path:" << std::endl;
-  this->printPath(closestPairPath);
-
-  this->printByAverage();
-}
-
 void Pathfinder::printDistances() {
   int n = this->distances.size();
   int fieldWidth = this->cityNameMaxLength + 4;
@@ -249,6 +216,36 @@ void Pathfinder::printParents() {
     std::cout << std::endl;
   }
   std::cout << std::endl;
+}
+
+void Pathfinder::printHub() {
+  int hub = this->bestHub();
+  std::cout << "\nThe best city to use as a hub is " << this->cities[hub]
+    << std::endl;
+}
+
+void Pathfinder::printMostDistantPair() {
+  int origin = -1, destiny = -1, time = 0;
+  std::vector<int> distantPairPath
+    = this->mostDistantPair(origin, destiny, time);
+  std::cout << "\nThe two cities with the greatest distance between them are "
+    << this->cities[origin] << " and " << this->cities[destiny]
+    << ", with a time of " << time << std::endl;
+  std::cout << "To go from " << this->cities[origin] << " to "
+    << this->cities[destiny] << ", you must follow this path:" << std::endl;
+  this->printPath(distantPairPath);
+}
+
+void Pathfinder::printClosestPair() {
+  int origin = -1, destiny = -1, time = 0;
+  std::vector<int> closestPairPath
+    = this->closestPair(origin, destiny, time);
+  std::cout << "\nThe two cities with the shortest distance between them are "
+    << this->cities[origin] << " and " << this->cities[destiny]
+    << ", with a time of " << time << std::endl;
+  std::cout << "To go from " << this->cities[origin] << " to "
+    << this->cities[destiny] << ", you must follow this path:" << std::endl;
+  this->printPath(closestPairPath);
 }
 
 void Pathfinder::printByAverage() {

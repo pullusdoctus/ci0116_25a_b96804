@@ -42,13 +42,16 @@ class Pathfinder {
   /// Finds the closest city from the origin city
   int findClosest(int origin);
 
-  /// Prints all data related to the functionalities needed
-  /// Underneath, calls every other print method in this class
-  void printData();
   /// Prints the distances matrix labeled with the city names
   void printDistances();
   /// Prints the parents matrix labeled with the city names
   void printParents();
+  /// Finds and prints the Hub City's name
+  void printHub();
+  /// Finds and prints the pair of cities which are the furthest from each other
+  void printMostDistantPair();
+  /// Finds and prints the pair of cities which are the closest from each other
+  void printClosestPair();
   /// Prints all cities in order of their average travel distance to other cities
   void printByAverage();
   /// Prints a path from an origin city to a destiny city
